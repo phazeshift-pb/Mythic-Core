@@ -1,0 +1,15 @@
+{
+  "gravity": {
+    "base": 1.0,
+    "penalties": [
+      { "gravity": "0.5 / 2.0", "agility_penalty": -10 },
+      { "gravity": "0.3 / 2.2", "agility_penalty": -20 },
+      { "gravity": "0.1 / 2.4", "agility_penalty": -30 }
+    ],
+    "ultra_high": {
+      "rule": "For every 0.2 above 2.4, Agility penalty increases by 10.",
+      "strength_penalty": "Half of Agility penalty"
+    },
+    "citation": "Gravity penalties table."
+  }
+}

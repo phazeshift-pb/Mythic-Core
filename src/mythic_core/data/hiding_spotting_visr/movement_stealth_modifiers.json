@@ -1,0 +1,13 @@
+{
+  "movement_stealth_modifiers": [
+    { "action": "Prone", "bonus": 20 },
+    { "action": "Crawling", "bonus": 15 },
+    { "action": "Crawl Walking", "bonus": 10 },
+    { "action": "Crouching", "bonus": 5 },
+    { "action": "Crouch Walking", "bonus": 0 },
+    { "action": "Standing", "bonus": 0 },
+    { "action": "Walking", "penalty": -20 },
+    { "action": "Running", "penalty": -40 },
+    { "action": "Sprinting", "penalty": -60 }
+  ]
+}

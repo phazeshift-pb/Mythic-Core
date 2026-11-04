@@ -1,0 +1,506 @@
+{
+  "armor_perks": [
+    {
+      "name": "Player's Choice",
+      "description": "Choose from any Armor Perk on this table."
+    },
+    {
+      "name": "EOD Layering",
+      "description": "-20 Agility. Ignores Kill Radius damage increase from explosives. Ignores 10 Pierce from explosives. Cannot be concealed."
+    },
+    {
+      "name": "Flak Layering",
+      "description": "-10 Agility. Halves Pierce from explosives. Cannot be concealed."
+    },
+    {
+      "name": "Fire Rescue",
+      "description": "-10 Agility, Cannot catch fire. Vacuum Sealed for 10 Minutes of Oxygen. Half Damage from any Fire. Cannot be concealed."
+    },
+    {
+      "name": "Vacuum Sealed",
+      "description": "The suit is vacuum sealed. 60 Minutes of Oxygen. Cannot be concealed."
+    },
+    {
+      "name": "Stab Vest",
+      "description": "Halves Pierce from bladed weapons."
+    },
+    {
+      "name": "Padded Lining",
+      "description": "Reduces Damage Roll by one Damage Dice from blunt, non-bladed melee Attacks."
+    },
+    {
+      "name": "Ballistics Layering",
+      "description": "+2 Armor on all Locations against firearms."
+    },
+    {
+      "name": "Force Converter",
+      "description": "When the User kills an Enemy with Explosive damage (must have Blast or Kill radius), the User will be given +3 Mythic Agility for 3 Turns. This may stack twice, for a total of +6."
+    },
+    {
+      "name": "Reactive Booster",
+      "description": "If the User is affected by any temporary effect that debuffs them, they will gain +1 Mythic Agility for the duration of the debuff. This may stack up to 3 times for a total of +3 Mythic Agility from suffering 3 debuffs. A debuff is any effect that reduces a Characteristic or gives a Penalty of 10 or more for Tests."
+    },
+    {
+      "name": "Force Absorption",
+      "description": "When the User kills an Enemy with Explosive Damage (must have Blast or Kill radius), the User will gain +4 Damage Resistance against Explosive Damage (Blast or Kill radius) for 4 Turns."
+    },
+    {
+      "name": "Laido",
+      "description": "If the User Kills an Enemy the Turn after reloading a weapon, they will be healed for 3D10 Wounds."
+    },
+    {
+      "name": "Unfaltering Focus",
+      "description": "When the User Kills an Enemy, they will gain +2 Damage Resistance for 4 Turns."
+    },
+    {
+      "name": "Absolution",
+      "description": "Every time the User picks up an Orb of Light, they will gain an additional +5 Energy for that type."
+    },
+    {
+      "name": "Absorption Cells",
+      "description": "While the User's Super Energy is full, Melee Weapons used with this Armor gain +1D10 Damage."
+    },
+    {
+      "name": "Grappler's Focus",
+      "description": "When the User is in a Grapple, they will gain a temporary +4 Damage Resistance, which is ignored if the User is struck in the head. The Damage Resistance is lost when the User leaves the Grapple."
+    },
+    {
+      "name": "Adamantine Brace",
+      "description": "Attacks with Charge (x) can be held indefinitely, allowing them to be fired at any time after the Charge Action."
+    },
+    {
+      "name": "Ascendant Protector",
+      "description": "Gives the User +1 Disposition towards Guardian NPCs."
+    },
+    {
+      "name": "Ashes To Ashes",
+      "description": "When the User kills an Enemy with a Grenade, they gain +10 Super Energy."
+    },
+    {
+      "name": "Rifle Dexterity",
+      "description": "All Rifles carried by the User can be Quickdrawn, even if the User does not have the Ability or if the weapons are not in slings or holsters."
+    },
+    {
+      "name": "Shotgun Dexterity",
+      "description": "All Shotguns carried by the User can be Quickdrawn, even if the User does not have the Ability or if the weapons are not in slings or holsters."
+    },
+    {
+      "name": "Melee Dexterity",
+      "description": "All Melee Weapons carried by the User can be Quickdrawn, even if the User does not have the Ability or if the weapons are not in slings or holsters."
+    },
+    {
+      "name": "Launcher Dexterity",
+      "description": "All Launchers carried by the User can be Quickdrawn, even if the User does not have the Ability or if the weapons are not in slings or holsters."
+    },
+    {
+      "name": "Fusion Dexterity",
+      "description": "All Fusion Rifles and Linear Fusion Rifles carried by the User can be Quickdrawn, even if the User does not have the Ability or if the weapons are not in slings or holsters."
+    },
+    {
+      "name": "Pistol Dexterity",
+      "description": "All Hand Cannons, Sidearms, and SMGs carried by the User can be Quickdrawn, even if the User does not have the Ability or if the weapons are not in slings or holsters."
+    },
+    {
+      "name": "Auto-Reserves",
+      "description": "This Armor allows the User to carry 1 additional Dust Ammunition of each kind."
+    },
+    {
+      "name": "Auto-Targeting",
+      "description": "When the User makes an Aim Action, they will gain an additional +5 Bonus To Hit."
+    },
+    {
+      "name": "Battle-Hearth",
+      "description": "If an Enemy that the User Damaged is killed by an Ally, the User gains +5 Super Energy."
+    },
+    {
+      "name": "Biotic Enhancement",
+      "description": "The User gains +1 Melee Reach to Unarmed Melee Attacks."
+    },
+    {
+      "name": "Bomber",
+      "description": "Explosives from the User's Light Abilities and weapons gain +1 to their Blast radius."
+    },
+    {
+      "name": "Bring the Heat",
+      "description": "Light Ability Grenades will gain Flame (1). If they already have Flame (X), it gains +1."
+    },
+    {
+      "name": "Cryo King",
+      "description": "Light Ability Grenades will gain Cryo (1). If they already have Cryo (X), it gains +1."
+    },
+    {
+      "name": "Cauterizing Flame",
+      "description": "When the User's Wounds first go under 25% in Combat, create a 2 meter radius pillar of flame. Any Enemy that walks into the Pillar will take Flame (2) Special Rule."
+    },
+    {
+      "name": "Chaotic Exchanger",
+      "description": "While the User's Light Energy is half or lower, the Armor gains +2 on all Locations."
+    },
+    {
+      "name": "Clenched Fist",
+      "description": "Successfully Parrying a Melee Attack will heal the User 1D5 Wounds."
+    },
+    {
+      "name": "Hefty",
+      "description": "The Armor gains +1 Armor on the Chest and Leg Locations."
+    },
+    {
+      "name": "Hard-Hat",
+      "description": "The Armor gains +1 Armor on the Head Location."
+    },
+    {
+      "name": "Concussive Dampener",
+      "description": "The Armor reduces Damage taken by explosives (Blast and Kill) by ignoring the last Damage Dice rolled for its Damage."
+    },
+    {
+      "name": "Cross Counter",
+      "description": "When the User uses a Light Ability, their next Melee Attack will gain +1D10 Damage."
+    },
+    {
+      "name": "Dire Artillery",
+      "description": "When the User's Grenade kills an Enemy, the User will regain 5 Super Energy."
+    },
+    {
+      "name": "Distribution",
+      "description": "When the User picks up an Orb of Light, they will regain 5 of the other type of Energy. Light will give Super Energy , and Super will give Light Energy."
+    },
+    {
+      "name": "Double Dodge",
+      "description": "The User's first Evasion Test does not give Penalties to later Reactions each Turn."
+    },
+    {
+      "name": "Fastball",
+      "description": "The User's Throw Distance is increased by 10 meters."
+    },
+    {
+      "name": "Font of Light",
+      "description": "Killing an Enemy will spawn an Orb of Light that offers no initial effects, but will activate Perks that make use of them."
+    },
+    {
+      "name": "Primary Ammo Finder",
+      "description": "When a Primary Dust Ammunition drops, an additional one will drop for the User."
+    },
+    {
+      "name": "Special Ammo Finder",
+      "description": "When a Special Dust Ammunition drops, an additional one will drop for the User."
+    },
+    {
+      "name": "Heavy Ammo Finder",
+      "description": "When a Heavy Dust Ammunition drops, an additional one will drop for the User."
+    },
+    {
+      "name": "Heavy Lifting",
+      "description": "Every successful Melee Attack made regains 1 Super Energy."
+    },
+    {
+      "name": "Impact Induction",
+      "description": "Every successful Melee Attack made regains 1 Light Energy."
+    },
+    {
+      "name": "Innervation",
+      "description": "When the User picks up an Orb of Light, they will regain 5 Light Energy."
+    },
+    {
+      "name": "Primary Arms Reserves",
+      "description": "The User can carry 2 additional Primary Dust Ammunitions."
+    },
+    {
+      "name": "Special Arms Reserves",
+      "description": "The User can carry 2 additional Special Dust Ammunitions."
+    },
+    {
+      "name": "Heavy Arms Reserves",
+      "description": "The User can carry 2 additional Heavy Dust Ammunitions."
+    },
+    {
+      "name": "Light Reactor",
+      "description": "Killed Enemies will regain 1 Super Energy."
+    },
+    {
+      "name": "Major Resist",
+      "description": "If an Attack would leave the User unconscious, it will instead leave them at 1 Wound. This can only happen once per Combat."
+    },
+    {
+      "name": "Minor Resist",
+      "description": "Attacks from Enemies will do 1 less Damage."
+    },
+    {
+      "name": "Outreach",
+      "description": "Melee Attacks gain +1 Melee Reach."
+    },
+    {
+      "name": "Pistoleer",
+      "description": "Kills made with Sidearms and Hand Cannons regain 2 Super Energy."
+    },
+    {
+      "name": "Plasteel Reinforcement",
+      "description": "The Armor gains +1 on each Location."
+    },
+    {
+      "name": "Pump Action",
+      "description": "Kills made with Shotguns regain 2 Super Energy."
+    },
+    {
+      "name": "Recuperation",
+      "description": "Any time the User picks up an Orb of Light, they are healed 1 Wound."
+    },
+    {
+      "name": "Restitution",
+      "description": "Any time the User is healed, they generate an Orb of Light that only allies can interact with. These Orbs of Light will heal the Allies 1 Wound when picked up."
+    },
+    {
+      "name": "Remote Connection",
+      "description": "Kills made with Sniper Rifles regain 2 Super Energy."
+    },
+    {
+      "name": "Rifleman",
+      "description": "Kills made with Rifles and SMGs (Sniper Rifles excluded) regain 2 Super Energy."
+    },
+    {
+      "name": "Roughneck",
+      "description": "Kills made with Launcher weapons regain 2 Super Energy."
+    },
+    {
+      "name": "Scatter Projectile Targeting",
+      "description": "Weapons with Auto, Burst, and Spread Special Rule gain a +5 Bonus To Hit."
+    },
+    {
+      "name": "Snapmare",
+      "description": "Weapons with the Semi-Auto and Sustained Rate of Fire gain a +5 Bonus To Hit."
+    },
+    {
+      "name": "Serenity",
+      "description": "The Close Range of all weapons used is increased by 10 meters."
+    },
+    {
+      "name": "Storm of Lead",
+      "description": "Ranged Weapons of the User gain +50% Magazine when Reloaded. This is lost on the next Reload."
+    },
+    {
+      "name": "The Dance",
+      "description": "When making a successful Evasion Test, the next Evasion Test is only at a -5 Penalty instead of the normal -10 Penalty."
+    },
+    {
+      "name": "The Whispers",
+      "description": "Successful Melee Attacks will give the next Melee Attack made a +4 to Damage."
+    },
+    {
+      "name": "Tight Fit",
+      "description": "When the User successfully Evades an Attack, their active Weapon's Reload is reduced by 1. This does not stack."
+    },
+    {
+      "name": "Traction",
+      "description": "The User increases their Agility Modifier by 2 when figuring Run and Sprint Speeds."
+    },
+    {
+      "name": "Transfusion Matrix",
+      "description": "Successful Kills from Unarmed Melee Attacks will heal the User 2D10 Wounds."
+    },
+    {
+      "name": "Unflinching",
+      "description": "The User won't be knocked out of Aim Actions when taking Damage, unless they are thrown from Explosives."
+    }
+  ],
+  "exotic_armor_perks": [
+    {
+      "name": "players_choice",
+      "description": "Choose from any Armor Perk on this table."
+    },
+    {
+      "name": "bring_the_heat",
+      "description": "Grenades thrown will explode on impact and the User's Throw distance is doubled. Kills with Grenades will give the User +10 Light Energy."
+    },
+    {
+      "name": "aeon_energy",
+      "description": "When a Grenade Light Ability is used, all allies within 10 meters will gain the following benefit based on their Class. These effects can't stack from multiple uses and does not effect the User. Warlocks: +2D10 Damage for their next Grenade Light Ability used. Titans: +1D10 Damage to the next Half Action of Melee Attacks. Hunters: +20 Bonus to Evasion Tests."
+    },
+    {
+      "name": "alchemical_etchings",
+      "description": "Any Rift or Void spawned through the User's Light Abilities will have an additional effect: You and any Ally who enters or passes through the Rift will have all Reload Speeds on all weapons halved, rounding down, for 2 Turns."
+    },
+    {
+      "name": "and_another_thing",
+      "description": "When the User of this Armor uses a Grenade Light Ability, they will gain access to a second Grenade that can be used within 4 Turns or until the Grenade Light Ability is activated again."
+    },
+    {
+      "name": "scavenging_synthesis",
+      "description": "Any time the User would pick up an Dust Ammunition, they will gain a second of that kind."
+    },
+    {
+      "name": "better_already",
+      "description": "When the User picks up an Orb of Light, they will be healed 2D10 Wounds."
+    },
+    {
+      "name": "beyond_the_veil",
+      "description": "Every 6 Turns, the User will gain a Smoke Grenade. This Smoke Grenade can be thrown down as a Half Action,"
+    },
+    {
+      "name": "blastwave_striders",
+      "description": "The User halves the Damage taken from their own Explosives (Blast and Kill radius Attacks) before Damage Resistance is figured. By propelling themselves with one of their own Explosives, the User will multiply their Jump or Leap Action based on the amount of D1Os the explosive's Damage."
+    },
+    {
+      "name": "blessing_of_order",
+      "description": "Whenever the User is healed by a Light Ability, they create a Shard. This Shard will strike the nearest Enemy within 40 meters, dealing 1D10 Damage ignoring Damage Resistance. Only one is created per Half Action."
+    },
+    {
+      "name": "cerebral_uplink",
+      "description": "The first instance of something regenerating or adding to the User's Light Energy will be doubled. At the end of the User's Turn, the Armor will give +5 Light Energy."
+    },
+    {
+      "name": "dreaded_visage",
+      "description": "Any time the User of this Armor takes Damage to their Wounds, they will regain Light Energy equal to the amount of Damage they took."
+    },
+    {
+      "name": "dynamo",
+      "description": "The User's Super Light Ability takes 10 less Super Energy to use."
+    },
+    {
+      "name": "embers_of_light",
+      "description": "When the User casts a Light Ability, they are healed 2 Wounds and the next Light Ability they Cast within 3 Turns will gain +50% to all numerical stats, such as Damage, Duration, And Special Rule (X)."
+    },
+    {
+      "name": "feast_of_light",
+      "description": "If the User's Super Energy is at its max of 100 and they pick up an Orb of Light, the Armor will regenerate 10 Shield Integrity."
+    },
+    {
+      "name": "firewalker",
+      "description": "When the User kills an Enemy, their weapon will gain the Flame (1) Special Rule for the next Half Action of Attacks."
+    },
+    {
+      "name": "fervid_coldsnap",
+      "description": "When the User kills an Enemy, their weapon will gain the Cryo (1) Special Rule for the next Half Action of Attacks."
+    },
+    {
+      "name": "force_multiplier",
+      "description": "Weapons with the Spread Special Rule will gain an additional +1D10 Damage in Close Range. Kills with Shotguns will give the User +5 Light Energy."
+    },
+    {
+      "name": "fury_conductors",
+      "description": "Successful Melee Attacks will regain 5 Light Energy. When the User is struck by a Melee Attack that deals Damage to their Wounds, they will gain +5 Damage Resistance for 1 Turn. Once every 5 Turns, when the User is struck by a Melee Attack, they will create a Blast (4) effect that deals 1D10 Damage to all Enemies, ignoring Damage Resistance."
+    },
+    {
+      "name": "grenade_harness",
+      "description": "All Grenades gain +1D10 Damage when thrown by the User. When the thrown Grenade kills an Enemy, it will regenerate 10 Light Energy for the User."
+    },
+    {
+      "name": "glacial_fortification",
+      "description": "When the User creates any type of Barrier that has a Shield Integrity or stops incoming Damage that strikes it, a radius effect will emanate outward from the barrier. All enemies within 3 meters of these barriers will have their Movement Speeds halved."
+    },
+    {
+      "name": "glorious_charge",
+      "description": "This Armor increases the Damage of Charge Melee Attacks by +2D10. If this Kills an Enemy, the Armor regenerates 10 Shield Integrity."
+    },
+    {
+      "name": "halberdiers_reach",
+      "description": "When the User is outnumbered in Melee Combat, the User gains +2 Melee Reach and +1D10 Damage."
+    },
+    {
+      "name": "hammer_of_the_gods",
+      "description": "When the User makes a Melee Attack with a weapon and strikes a Target, all Enemies within a 4 meter radius of that Targeted Enemy will be struck by a bolt of lightning. This will deal 1D10 Damage, ignoring Damage Resistance."
+    },
+    {
+      "name": "hearts_of_ice",
+      "description": "Any type of shockwave, blast, or radius Damaging effect created by a Light Ability gains the Cryo (1D10) Special Rule."
+    },
+    {
+      "name": "helium_spirals",
+      "description": "Any Grenade Ability that has a duration that its effects, Damage, or Special Rules last will last an additional Half Action."
+    },
+    {
+      "name": "high_priority",
+      "description": "When a weapon is holstered, it will automatically reload after 3 Turns."
+    },
+    {
+      "name": "hydraulic_boosters",
+      "description": "The User gains +2 Mythic Agility."
+    },
+    {
+      "name": "illegally_modded_holster",
+      "description": "When a weapon is used alongside a Quickdraw and is then fired, the first Attack made by the weapon gains +1D10 Damage, gains the Kinetic Special Rule, and will strike on the lowest Armor of the Target."
+    },
+    {
+      "name": "insulation",
+      "description": "Whenever the User casts a Super Light Ability, they are healed for 2D5 Wounds."
+    },
+    {
+      "name": "jump_jets",
+      "description": "The User's Jump and Leap distances are doubled, including the distances traveled with Jump-based Light Abilities."
+    },
+    {
+      "name": "kintsugi",
+      "description": "Once per Turn when the User kills an Enemy, a healing Rift will be created around them with a 2 meter radius. This Rift will last for 2 Turns and will heal everyone standing inside 1D5 Wounds per Half Action."
+    },
+    {
+      "name": "light_shift",
+      "description": "Whenever the User makes a successful Evasion Test, they can choose to move 1 meter in any direction they can normally travel to on foot. This will not stop all of the incoming Attacks within the same Half Action of being fired from striking, even if this is used to move behind Cover."
+    },
+    {
+      "name": "linear_actuators",
+      "description": "The User increases their Agility Modifier by 3 when figuring Run and Sprint Movement Speeds."
+    },
+    {
+      "name": "move_to_survive",
+      "description": "All Universal Movement Abilities will travel 50% farther, rounding down, to a minimum of +1 meter."
+    },
+    {
+      "name": "myrmidons_reach",
+      "description": "Thrown Melee Weapons will gain the Kinetic Special Rule."
+    },
+    {
+      "name": "nightmare_fuel",
+      "description": "Dealing 10 or more Melee Damage with a single Attack will reload the User's most recently used, holstered weapon."
+    },
+    {
+      "name": "null_factor",
+      "description": "When a Light Ability is used that creates a Melee Weapon or modifies a Melee Attack of any kind, the Light Energy used to create this is halved."
+    },
+    {
+      "name": "parting_gift",
+      "description": "A successful Evade Into Cover will leave behind an explosion with a 2 meter radius. Any Enemy within that explosion will take 3D10 Damage."
+    },
+    {
+      "name": "percussive_flames",
+      "description": "If a Light Ability or Weapon being used has the Flame Special Rule, it will be increased by 3."
+    },
+    {
+      "name": "peregrine_strike",
+      "description": "When the User makes a Charge Melee Attack, it gains the Kinetic Special Rule."
+    },
+    {
+      "name": "rapid_cooldown",
+      "description": "At the end of the User's Turn, they will regain 10 Light Energy if a Movement Action of any kind was made."
+    },
+    {
+      "name": "reflective_vents",
+      "description": "When a Universal Movement Ability is used, the next Attack that strikes the User will be deflected. This can't be used to deflect Damage from radius Attacks, such as the Blast and Kill radius, shockwaves, and Rifts."
+    },
+    {
+      "name": "relentless_tracker",
+      "description": "When the User views an Enemy while making an Aim Action, they will be Marked for 3 Turns. The User gains a +30 Bonus to Oppose a Marked Enemy's Camouflage. Marked Enemies who are at half or less total Wounds will take 4 extra Damage from all sources of Damage."
+    },
+    {
+      "name": "resolute",
+      "description": "When the User makes use of any Light Ability that creates a Melee Weapon or increases Melee Damage, their Armor's Shield Integrity will be increased by 20 for 2 Turns. This can't stack with other instances of Resolute."
+    },
+    {
+      "name": "see_me_feel_me",
+      "description": "After using a Light Ability that makes the User invisible, the next Attack made by the User gains +2D10 Damage."
+    },
+    {
+      "name": "seriously_watch_out",
+      "description": "When the User makes a Run or Sprint Movement Action, the Armor's Shield Integrity regenerates up to 20 missing Integrity."
+    },
+    {
+      "name": "sharp_edges",
+      "description": "If the User's Super Light Ability strikes and Damages any Enemy, 10 Super Energy will be refunded at the end of the Turn."
+    },
+    {
+      "name": "vengeance",
+      "description": "Any Enemy who Damages the User will glow yellow for 2 Turns. If they are killed while glowing, the User or Ally who kills them will regenerate up to 50 of their Shield Integrity."
+    },
+    {
+      "name": "wraithmetal_mail",
+      "description": "When the User successfully Evades an Attack, any empty magazine weapons on the User will be instantly reloaded."
+    }
+  ]
+}

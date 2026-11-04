@@ -1,0 +1,14 @@
+{
+  "lockout": {
+    "trigger": "Failed Cryptography Test",
+    "levels": {
+      "increase_per_degree_of_failure": 1,
+      "remove_one_level_action": "Full"
+    },
+    "rules": {
+      "cannot_increase_unless_specified": true,
+      "firewalls_can_be_repaired_during_lockout": true
+    },
+    "citation": "Lockout rules."
+  }
+}

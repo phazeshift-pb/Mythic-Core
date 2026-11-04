@@ -1,0 +1,8 @@
+{
+  "combined_actions": {
+    "description": "Actions performed by multiple characters together.",
+    "initiative_rule": "Group acts at the lowest initiative among participants.",
+    "declaration_rule": "Must be declared during the highest-initiative character's turn.",
+    "citation": "“Combined Actions allow Characters to do more precise Actions in groups of two or more.”"
+  }
+}

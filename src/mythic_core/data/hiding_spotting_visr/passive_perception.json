@@ -1,0 +1,28 @@
+{
+  "passive_perception": {
+    "rules": {
+      "range": "Within Perception Characteristic in meters",
+      "modifier_minimum": 1,
+      "rounding": "Round down"
+    },
+    "table": [
+      {
+        "investigation": "None",
+        "result": "Success with 0 Degrees; loses ties"
+      },
+      {
+        "investigation": "Trained",
+        "result": "Perception Modifier * 0.25"
+      },
+      {
+        "investigation": "+10",
+        "result": "Perception Modifier * 0.33"
+      },
+      {
+        "investigation": "+20",
+        "result": "Perception Modifier * 0.5"
+      }
+    ],
+    "citation": "Passive Perception table based on Investigation Skill."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ai": {
+    "types": ["Smart AI", "Dumb AI", "Huragok"],
+    "action_speed": {
+      "smart_ai": "Cyber Warfare actions as Half Action",
+      "huragok": "Cyber Warfare actions as Half Action",
+      "dumb_ai": "Two Cyber Warfare actions per Half Action"
+    },
+    "time_reduction": {
+      "smart_ai": "Half time for encryption, upgrades, and improvements",
+      "huragok": "Half time for encryption, upgrades, and improvements"
+    },
+    "multi_actions": {
+      "smart_ai": {
+        "actions_per_half": "Agility Modifier / 2",
+        "max": 4
+      },
+      "dumb_ai": {
+        "actions_per_half": 2
+      }
+    },
+    "copying": {
+      "action": "Half",
+      "remove_action": "Free",
+      "max_copies": "Leadership Modifier",
+      "stat_penalty_per_copy": -10,
+      "disconnected_copy_penalty": "Permanent unless luck burned"
+    },
+    "citation": "Smart AI, Dumb AI, and Huragok rules."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "light_aspects": {
+    "rules": {
+      "description": "Light Aspects are passive powers created from the Character's Connection to the Light and activated by applying them to an Aspect Slot.",
+      "aspect_slots": {
+        "starting_slots": 1,
+        "maximum_slots": 4,
+        "additional_slot_costs": [
+          {
+            "slot": 2,
+            "experience_cost": 200
+          },
+          {
+            "slot": 3,
+            "experience_cost": 400
+          },
+          {
+            "slot": 4,
+            "experience_cost": 800
+          }
+        ],
+        "installation": "An empty Aspect Slot can install a single owned Light Aspect at a time.",
+        "between_missions": "Once a Character purchases a Light Aspect, they keep it and can freely switch it in and out of Aspect Slots between missions."
+      },
+      "purchasing": {
+        "connection_requirement": "Each Light Aspect is listed under a Connection.",
+        "matching_connection_required": false,
+        "different_connection_cost": "When purchasing a Light Aspect from a different Connection, the Character must pay double the listed Experience Cost."
+      }
+    }
+  }
+}

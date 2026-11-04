@@ -1,0 +1,52 @@
+{
+  "name": "Human and Awoken",
+  "experience_cost": 0,
+  "training": ["Any"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 25,
+    "TOU": 25,
+    "AGI": 25,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 25,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {},
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": null,
+    "PER": null,
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [45, 117],
+    "size": "Normal"
+  },
+
+  "traits": [],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {},
+
+  "special_rules": {},
+
+  "subclasses": {},
+
+  "equipment_sets": {}
+}

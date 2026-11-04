@@ -1,0 +1,616 @@
+{
+  "general_education": [
+    {
+      "name": "Aeronautics",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Stunting",
+        "Pilot",
+        "Evasion",
+        "Technology"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Agriculture",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology",
+        "Survival"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Architecture",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Technology",
+        "Security"
+      ],
+      "cost": {
+        "+5": 75,
+        "+10": 125
+      }
+    },
+    {
+      "name": "Armor Smithing",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Astronautics",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Pilot",
+        "Technology",
+        "Stunting",
+        "Evasion"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Astrophysics",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Pilot",
+        "Technology"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Bartering",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Investigation",
+        "Deception"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Brewing",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Survival"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Carpentry",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Computer Security",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Security",
+        "Cryptography"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Construction",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology",
+        "Demolition"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Culinary",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Survival"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Demolitions Assembly",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Demolition"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Economics",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Command",
+        "Deception",
+        "Interrogation",
+        "Intimidation",
+        "Negotiation"
+      ],
+      "cost": {
+        "+5": 75,
+        "+10": 125
+      }
+    },
+    {
+      "name": "Etiquette",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Deception"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Faction Culture",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Investigation"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Faction History",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Command",
+        "Investigation"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Faction Law",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Command",
+        "Investigation",
+        "Deception",
+        "Negotiation"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Faction Linguistics",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Cryptography",
+        "Technology"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Faction Literature",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Command",
+        "Investigation"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Faction Medical Science",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Medication",
+        "Survival",
+        "Interrogation"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Faction Military",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Command",
+        "Appeal",
+        "Investigation",
+        "Deception",
+        "Interrogation",
+        "Security"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Faction Psychology",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Command",
+        "Deception",
+        "Interrogation",
+        "Intimidation",
+        "Negotiation"
+      ],
+      "cost": {
+        "+5": 150,
+        "+10": 200
+      }
+    },
+    {
+      "name": "Faction Religion",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Command",
+        "Deception",
+        "Interrogation",
+        "Intimidation",
+        "Negotiation"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Faction Vehicle Maintenance",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Faction Weaponry",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Flood Biology*",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Medication"
+      ],
+      "cost": {
+        "+5": 200,
+        "+10": 250
+      }
+    },
+    {
+      "name": "Forerunner Artifacts*",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 250,
+        "+10": 300
+      }
+    },
+    {
+      "name": "Forerunner Linguistics*",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Technology",
+        "Cryptography",
+        "Investigation"
+      ],
+      "cost": {
+        "+5": 150,
+        "+10": 200
+      }
+    },
+    {
+      "name": "Forerunner Weaponry*",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 200,
+        "+10": 250
+      }
+    },
+    {
+      "name": "Ground Vehicle Dynamics",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Pilot",
+        "Technology",
+        "Stunting",
+        "Evasion"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Hunting and Fishing",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Investigation",
+        "Deception",
+        "Athletics",
+        "Technology",
+        "Security",
+        "Survival"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Locksmith",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology",
+        "Security"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Martial Arts",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Evasion",
+        "Athletics"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Mathematics",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Security",
+        "Cryptography",
+        "Gambling"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Merchant",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Negotiation",
+        "Deception"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Military Command",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Command",
+        "Appeal",
+        "Interrogation",
+        "Negotiation",
+        "Deception"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Mount Training",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal",
+        "Command",
+        "Deception",
+        "Intimidation",
+        "Investigation",
+        "Stunting"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Musical Training (Chosen Instrument)",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Appeal"
+      ],
+      "cost": {
+        "+5": 25,
+        "+10": 50
+      }
+    },
+    {
+      "name": "Planetary Science",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Survival",
+        "Camouflage"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Slipspace Travel",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Pilot (Space)",
+        "Navigation",
+        "Technology",
+        "Stunting"
+      ],
+      "cost": {
+        "+5": 250,
+        "+10": 300
+      }
+    },
+    {
+      "name": "Tailor",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Survival",
+        "Technology"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Tanning (Leather)",
+      "difficulty": "Basic",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    },
+    {
+      "name": "Weapon Smithing",
+      "difficulty": "Advanced",
+      "characteristics_or_skills": [
+        "Technology"
+      ],
+      "cost": {
+        "+5": 75,
+        "+10": 125
+      }
+    }
+  ],
+  "street_smarts": [
+    {
+      "name": "Black Market*",
+      "difficulty": "Advanced",
+      "description": "Knowledge of underground markets.",
+      "characteristics_or_skills": [
+        "Investigation",
+        "Appeal",
+        "Negotiation"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Crime Organizations",
+      "difficulty": "Advanced",
+      "description": "Knowledge of gangs, mafia families, and other crime orgs.",
+      "characteristics_or_skills": [
+        "All Social Skills"
+      ],
+      "cost": {
+        "+5": 100,
+        "+10": 150
+      }
+    },
+    {
+      "name": "Streetwise",
+      "difficulty": "Basic",
+      "description": "Knowledge of general urban layouts and locations.",
+      "characteristics_or_skills": [
+        "Investigation",
+        "Charisma"
+      ],
+      "cost": {
+        "+5": 25,
+        "+10": 50
+      }
+    },
+    {
+      "name": "Subculture",
+      "difficulty": "Basic",
+      "description": "Knowledge of how cultural differences based on location.",
+      "characteristics_or_skills": [
+        "All Social Skills"
+      ],
+      "cost": {
+        "+5": 50,
+        "+10": 100
+      }
+    }
+  ]
+}

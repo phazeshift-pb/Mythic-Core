@@ -1,0 +1,14 @@
+{
+  "crouch_prone": {
+    "rules": {
+      "crouch_free": "Standing to crouch or crouch to stand is a Free Action once per turn.",
+      "crouch_half": "Additional crouch/stand changes cost a Half Action.",
+      "prone_speed": "Prone characters move at half their movement speeds.",
+      "combat_modifiers": {
+        "crouch": { "ranged": -5, "melee": 5 },
+        "prone": { "ranged": -10, "melee": 10 }
+      }
+    },
+    "citation": "“While Crouching… -5 to be hit by Ranged Attacks… While Prone… -10 to be hit…”"
+  }
+}

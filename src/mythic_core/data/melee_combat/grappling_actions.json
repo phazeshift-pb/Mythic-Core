@@ -1,0 +1,94 @@
+{
+  "grappling_actions": [
+    {
+      "name": "Break Free",
+      "action": "Half",
+      "perform": "Any",
+      "rules": {
+        "controller": "Break free automatically",
+        "non_controller": "Opposed Strength, Agility, or Warfare Melee"
+      }
+    },
+    {
+      "name": "Drop Down",
+      "action": ["Half", "Full"],
+      "perform": "Any",
+      "rules": {
+        "controller": "Half Action",
+        "non_controller": "Full Action at -10"
+      }
+    },
+    {
+      "name": "Climb",
+      "action": "Full",
+      "perform": "Controller",
+      "effects": {
+        "attacker_bonus": 10,
+        "defender_penalty": -20
+      }
+    },
+    {
+      "name": "Grapple Disarm",
+      "action": ["Half", "Full"],
+      "perform": "Any",
+      "rules": {
+        "controller": "Half Action",
+        "non_controller": "Full Action"
+      }
+    },
+    {
+      "name": "Hold",
+      "action": "Full",
+      "perform": "Controller",
+      "rules": {
+        "opposed_test": true,
+        "armor_ignored": true
+      }
+    },
+    {
+      "name": "Melee Attack",
+      "action": "Half",
+      "perform": "Any",
+      "rules": {
+        "controller_penalty": -10,
+        "non_controller_penalty": -20,
+        "non_controller_attack_cost_multiplier": 2
+      }
+    },
+    {
+      "name": "Move",
+      "action": ["Half", "Full"],
+      "perform": "Any",
+      "rules": {
+        "controller": "Half or Full Move",
+        "non_controller": "Half Move only as Full Action"
+      }
+    },
+    {
+      "name": "Push Opponent",
+      "action": ["Half", "Full"],
+      "perform": "Any",
+      "rules": {
+        "controller": "Half Action",
+        "non_controller": "Full Action at -10"
+      }
+    },
+    {
+      "name": "Range Attack",
+      "action": "Half",
+      "perform": "Any",
+      "rules": {
+        "non_controller_penalty": -30,
+        "weapon_requirement": "[DW]"
+      }
+    },
+    {
+      "name": "Stand",
+      "action": ["Half", "Full"],
+      "perform": "Any",
+      "rules": {
+        "opposed": "Full Action if opposed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lighting": {
+    "conditions": [
+      { "type": "Blinding", "test_penalty": -50, "perceptive_multiplier": 0.5 },
+      { "type": "Bright", "test_penalty": -20, "perceptive_multiplier": 1 },
+      { "type": "Normal", "test_penalty": 0, "perceptive_multiplier": 2 },
+      { "type": "Low-Light", "test_penalty": -20, "perceptive_multiplier": 1 },
+      { "type": "Darkness", "test_penalty": -50, "perceptive_multiplier": 0.5 },
+      { "type": "Black", "test_penalty": "Blind", "perceptive_multiplier": 0 }
+    ],
+    "citation": "Lighting penalties and perceptive range modifiers."
+  }
+}

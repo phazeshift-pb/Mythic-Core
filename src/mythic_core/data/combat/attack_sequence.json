@@ -1,0 +1,31 @@
+{
+  "attack_sequence": {
+    "steps": [
+      "Apply modifiers",
+      "Make To Hit Test",
+      "Determine Hit Location",
+      "Opponent Opposes",
+      "Roll Damage",
+      "Determine Damage Resistance"
+    ],
+    "apply_modifiers": {
+      "sources": [
+        "Weapon modifications",
+        "Surprise Round",
+        "Difficulty modifiers",
+        "Environmental effects"
+      ],
+      "citation": "“Each Warfare Characteristic can be modified by Bonuses and Penalties…”"
+    },
+    "to_hit": {
+      "rule": "Roll <= modified characteristic to hit",
+      "critical": "Natural 01 is critical success",
+      "hit_location": "Reverse digits of roll",
+      "citation": "To Hit Test rules."
+    },
+    "opposed": {
+      "options": ["Evasion", "Parry"],
+      "citation": "“Opponent may attempt to Oppose the Test…”"
+    }
+  }
+}

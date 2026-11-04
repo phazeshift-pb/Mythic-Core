@@ -1,0 +1,64 @@
+{
+  "upbringing": [
+    {
+      "name": "Aristocracy",
+      "bonuses": [{"choose_one": ["+5 Intellect", "+5 Charisma"]}],
+      "penalties": [{"choose_one": ["-5 Leadership", "-5 Agility"]}],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Commoner",
+      "bonuses": [],
+      "penalties": [],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Farmer",
+      "bonuses": [{"choose_one": ["+3 Strength", "+3 Agility"]}],
+      "penalties": [{"choose_one": ["-3 Charisma", "-3 Courage"]}],
+      "environment_available": ["Town", "Country"]
+    },
+    {
+      "name": "Fugitive",
+      "bonuses": ["+3 Strength", "+3 Toughness"],
+      "penalties": ["-3 Leadership", "-3 Charisma"],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Laborer",
+      "bonuses": [{"choose_one": [["+2 Strength", "+1 Toughness"], ["+1 Strength", "+2 Toughness"]]}],
+      "penalties": [{"choose_one": ["-3 Courage", "-3 Leadership"]}],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Military",
+      "bonuses": [{"choose_one": ["+3 Leadership", "+3 Courage"]}],
+      "penalties": [{"choose_one": ["-3 Charisma", "-3 Intellect"]}],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Nobility",
+      "bonuses": ["+5 Charisma", "+5 Leadership"],
+      "penalties": ["-5 Perception", "-5 Toughness"],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Street Urchin",
+      "bonuses": ["+2 Wounds"],
+      "penalties": [{"choose_one": ["-1 Intellect", "-1 Strength"]}],
+      "environment_available": ["Town", "City"]
+    },
+    {
+      "name": "War Orphan",
+      "bonuses": [{"choose_one": ["+5 Courage", "+5 Strength"]}],
+      "penalties": [{"choose_one": ["-5 Leadership", "-5 Charisma"]}],
+      "environment_available": ["Any"]
+    },
+    {
+      "name": "Wastelander",
+      "bonuses": [{"choose_one": ["+5 Toughness", "+5 Perception"]}],
+      "penalties": [{"choose_one": ["-5 Leadership", "-5 Intellect"]}],
+      "environment_available": ["Forest/Jungle", "Wasteland"]
+    }
+  ]
+}

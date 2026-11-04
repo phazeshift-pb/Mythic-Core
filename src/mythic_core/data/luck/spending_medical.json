@@ -1,0 +1,15 @@
+{
+  "spending_medical": {
+    "options": [
+      { "effect": "Recover from Stunned, temporary Blindness, Deafness, or Unaware" },
+      { "effect": "Recover 10 Wounds and 4 Fatigue" },
+      { "effect": "Reduce Bleedout to 3" },
+      { "effect": "Double current Looming Death duration" },
+      { "effect": "Remove one Special Damage effect as the Attack happens" },
+      { "effect": "Halve Damage and duration from Spike, Cryo, Acid, Electricity, Needle, Flame" },
+      { "effect": "Halve Radiation Poisoning effects" },
+      { "effect": "Recover a lowered Characteristic by 5" }
+    ],
+    "citation": "Medical Spending Options."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "encumbrance": {
+    "carry_weight": "Half of Strength + Toughness",
+    "lift_weight": "Carry Weight * 3",
+    "push_weight": "Carry Weight * 5",
+    "over_encumbered": {
+      "penalty": -20,
+      "affected_tests": ["Jumping", "Climbing", "Swimming", "Evading"]
+    },
+    "heavy_encumbered": {
+      "threshold": "200% of Carry Weight",
+      "penalty": -40,
+      "movement_halved": true,
+      "fatigue_rate": "1 per (Toughness Mod) minutes"
+    },
+    "immobile": {
+      "threshold": "300% of Carry Weight",
+      "rules": "Cannot move."
+    },
+    "citation": "Carry, Lift, Push, and Encumbrance rules."
+  }
+}

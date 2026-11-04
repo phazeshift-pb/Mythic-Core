@@ -1,0 +1,616 @@
+{
+  "abilities": [
+    {
+      "name": "Action Figure Hands",
+      "cost": 800,
+      "prerequisite": "Strength: 50",
+      "description": "Reduces the Penalty To Drop while Dual Wielding and One-Handed Wielding by up to 15. If the Character were to drop a weapon from Special Damage Effects, roll Strength Test to keep ahold of the weapon."
+    },
+    {
+      "name": "Adept Marksman",
+      "cost": 800,
+      "prerequisite": "Warfare Range: 40; Perception: 45",
+      "description": "When a character makes any Aiming actions, that character may roll a Perception Test to allow the next single Attack to ignore half armor against an Opponent. If the Perception Test is failed, the attack is fired normally. This does not stack with any other Ability or Action that would already ignore Armor in any way."
+    },
+    {
+      "name": "Aggressive Advance",
+      "cost": 300,
+      "prerequisite": "Warfare Range: 40; Warfare Melee: 35",
+      "description": "The character is able to fire one shot from any weapon that does not have the Heavy Weapon trait when making a Charge attack, without Penalty. Any shot following the first is at the standard Penalty for firing while charging."
+    },
+    {
+      "name": "Air Time",
+      "cost": 250,
+      "prerequisite": "Perception: 35",
+      "description": "Air Time gives a +10 Bonus to any Stunting Test involving ramping and landing in any vehicle."
+    },
+    {
+      "name": "Akimbo",
+      "cost": 750,
+      "prerequisite": "Warfare Range: 40; Warfare Melee: 40",
+      "description": "Reduces the To Hit Penalties from Dual Wielding weapons by half. Heavy Weapons must first be Braced to gain these benefits."
+    },
+    {
+      "name": "Alien Tech",
+      "cost": 250,
+      "prerequisite": "Intellect: 45",
+      "description": "Alien Tech halves any Penalties given by the GM when a Character is attempting to use foreign Technology. This includes unknown Technology that shares the Character's Faction Training and technology that is alien in origin."
+    },
+    {
+      "name": "Always Ready",
+      "cost": 500,
+      "prerequisite": "Perception: 35",
+      "description": "Always Ready allows a Character to ignore any Unaware conditions, even if they would not have normally been allowed to, like when asleep. During Opposed Tests for being caught Unaware, such as Opposing a sneaking Opponent, the Character gains a +10 Bonus."
+    },
+    {
+      "name": "Ask Nicely",
+      "cost": 500,
+      "prerequisite": "Charisma: 40",
+      "description": "If spending 2 or more Support Points on a single call-in, the Character may make a -10 Charisma Test. If Successful, the Support Point cost is reduced by 1."
+    },
+    {
+      "name": "Aviator",
+      "cost": 500,
+      "prerequisite": "Pilot (Air): +10 Skill",
+      "description": "All Pilot Air Skill Tests gain a +10 for Maneuver and Evasion Tests."
+    },
+    {
+      "name": "Battle mind",
+      "cost": 250,
+      "prerequisite": "Intellect: 40",
+      "description": "The character rolls initiative and adds the character's Intellect Modifier instead of the Agility Modifier. This is to show the character's ability to access the situation and to handle it with intelligence and not speed. The character may choose which Characteristic Modifier is used, Agility or Intellect."
+    },
+    {
+      "name": "Barnstormer",
+      "cost": 300,
+      "prerequisite": "Agility: 30; Intellect: 30",
+      "description": "Any Vehicle the Character is Piloting gains a +10 to its Maneuver. The Character also has the choice to use their Intellect Characteristic when making Maneuver Actions, instead of using Agility."
+    },
+    {
+      "name": "Blind Fight",
+      "cost": 250,
+      "prerequisite": "Exceptional Hearing Ability",
+      "description": "When a Character is blinded during Melee or Point Blank Combat, the Character halves the Penalty To Hit. When dealing with any Eyesight- based Penalties, the Character takes half the Penalties To Hit with any Melee or Ranged Combat at any Range, not including Blindness."
+    },
+    {
+      "name": "Blur",
+      "cost": 750,
+      "prerequisite": "Toughness: 45; Agility: 45",
+      "description": "The Character gains the Sprint Movement Action, giving them Agility Modifier *8 in Meters. The Character must make a +40 Toughness Test after each use or gain 1 level of Fatigue. If Blur is used more than 10 times in 30 minutes, the Character gains a stacking -10 Penalty for each use until the Character rests for a minimum of 2 hours. If this Toughness Test is failed, the Character takes 8D10 Special Damage for each shin Sublocation."
+    },
+    {
+      "name": "Bound Back",
+      "cost": 400,
+      "prerequisite": "Agility: 45",
+      "description": "Bound Back is a character's prowess to instantly jump back up after being knocked to the ground by performing a kip-up. This can be taken on anyone's turn or round as a Reaction. This does not remove the Reaction. Instead, anything that shares this Reaction with takes a 10 to the Test."
+    },
+    {
+      "name": "Break Shot",
+      "cost": 400,
+      "prerequisite": "Warfare Range: 40",
+      "description": "When making Ranged Attacks, natural Damage Rolls of 10 will give the Attack an extra +1D10 Special Damage, each."
+    },
+    {
+      "name": "Calculated Pilot",
+      "cost": 500,
+      "prerequisite": "Perception: 40; Agility: 40",
+      "description": "Calculated Pilot halves Penalties for any Air Vehicle-based Stunting and Maneuvering Tests."
+    },
+    {
+      "name": "Clear Target",
+      "cost": 450,
+      "prerequisite": "Warfare Range: 55",
+      "description": "Reduces the base Penalty for Called Shots in Ranged Combat by Half."
+    },
+    {
+      "name": "Coordinate",
+      "cost": 250,
+      "prerequisite": "Charisma: 25",
+      "description": "Gives the Character the Squad Up Trait that an allied Character has. This Trait can't stack with existing Squad Up Traits. This can be taken multiple times."
+    },
+    {
+      "name": "Cynical",
+      "cost": 250,
+      "prerequisite": "Courage: 40",
+      "description": "Reduces the Penalty given to Fear Tests by half."
+    },
+    {
+      "name": "Decapitating Strike",
+      "cost": 750,
+      "prerequisite": "Guillotine Strike Ability",
+      "description": "Decapitating Strike is a powerful horizontal Melee Attack that strikes all Characters within 180 degree arc in front of the Character, within Melee Reach. One Warfare Melee Attack is made, which takes up half of the Character's available Melee Attacks, as a Half Action. Parrying this Strike is at a -30 Penalty, but if Successful, the Strike is stopped. Those that Fail the Opposed Test are hit by the Attack. Each Character struck takes an extra set of Strength Modifier to Damage."
+    },
+    {
+      "name": "Denial",
+      "cost": 500,
+      "prerequisite": "Agility: 45",
+      "description": "Character can attempt stop an Opponent from leaving Melee Combat with a Warfare Melee Opposed Test. If successful, the Opponent must stay within the Character's Melee Reach until the beginning of the Opponent's next Turn. Can be used outside of the Character's Turn and includes moving with Evasion."
+    },
+    {
+      "name": "Disarm",
+      "cost": 250,
+      "prerequisite": "Warfare Melee: 40",
+      "description": "The character is able to roll Strength, Agility, or Warfare Melee to disarm the Opponent as a Full Action, who is able to Oppose the Test with their Strength, Agility, or Warfare Melee Characteristics. If the disarming character succeeds and the opposing character fails, the weapon is disarmed and in the control of the disarming character. If the character fails and the defender succeeds, the attempt fails. If both succeed, but the disarmer has more Degrees of Success, the weapon is knocked to the ground using the Scatter Table, based on the highest Strength of the characters. If both succeed, but the Opposing character has more degrees of Success, the character keeps their weapon."
+    },
+    {
+      "name": "Disarm (Improved)",
+      "cost": 500,
+      "prerequisite": "Agility: 40; Disarm Ability",
+      "description": "If the character making a Disarm Action is successful, the Disarming Action only counts as a Half Action. If the Disarm is a failure, the Disarm is still considered to take a Full Action."
+    },
+    {
+      "name": "Double Time",
+      "cost": 700,
+      "prerequisite": "Leadership: 40",
+      "description": "The Character will make a +10 Leadership Test as a Half Action and give a command to those within earshot to rush to do an objective or to an important location. All Characters who hear this will gain +(X) Added to their Agility Modifier when figuring their Movement Speeds. (X) is equal to half of the User's Leadership Modifier, rounding down, to a maximum of +3. This additional Movement Speed can only be used during their next Turn."
+    },
+    {
+      "name": "Eagle Eye",
+      "cost": 250,
+      "prerequisite": "Perception: 40",
+      "description": "The character with Eagle Eye gains a +10 Bonus to all Visual Investigation and Perception Tests."
+    },
+    {
+      "name": "Emergency Procedure",
+      "cost": 500,
+      "prerequisite": "Intellect: 45",
+      "description": "Reduces Extended Medical Tests to only need 1 hour maximum to perform. Any Medical Test that would take less time will not be limited to 1 hour."
+    },
+    {
+      "name": "Emotionally Broken",
+      "cost": 500,
+      "prerequisite": "Cynical Ability",
+      "description": "Characters, while in the heat of battle, feel little-to-no emotion and gain an additional +20 to all Fear Tests. The character also gains a -30 Bonus when rolling on the Shock Chart, the character will gain less of a shock when dealing with horrors and fears of the Battlefield."
+    },
+    {
+      "name": "Evasive Maneuvers",
+      "cost": 650,
+      "prerequisite": "Agility: 45",
+      "description": "The character may begin their Turn declaring Evasive Maneuvers as a Free Action. When declared, the Character gains a -20 Penalty to attacks made and a +20 Bonus to Evasion until the beginning of their next turn. The Character halves all Penalties gained to Reactions when making Evasion Tests. These effects may be stacked with Guarded Attack action."
+    },
+    {
+      "name": "Even Out",
+      "cost": 250,
+      "prerequisite": "Any Pilot (TYPE): +10 Skill",
+      "description": "Anyone that is riding in the character's vehicle that are firing any sort of weapon take only half Penalties for terrain and speed. This shows the operator's proper usage of the vehicle and a good eye for what their allies would need for a better shot."
+    },
+    {
+      "name": "Exceptional Hearing",
+      "cost": 250,
+      "prerequisite": "Perception: 30",
+      "description": "A character using the Exceptional Hearing Ability gains a +10 Bonus to any hearing-based Investigation and Perception Tests."
+    },
+    {
+      "name": "Far-Sight",
+      "cost": 250,
+      "prerequisite": "Perception: 30",
+      "description": "At the beginning of the Character's Turn, the Character's Perceptive Range multiplier is increased by 1 until the beginning of their next Turn. The Character must then wait a minimum of 5 Turns before using Far-Sight again."
+    },
+    {
+      "name": "Fast Foot",
+      "cost": 250,
+      "prerequisite": "Agility or Intellect: 40",
+      "description": "The character uses incredible Agility or quick thinking to get an advantage on the battlefield. The character rolls twice when figuring the Initiative Test and takes the highest roll."
+    },
+    {
+      "name": "Faster Than Reloading",
+      "cost": 250,
+      "prerequisite": "Warfare Melee: 35",
+      "description": "The character no longer takes the -30 Penalty when throwing a Firearm and deals the amount of Damage they would have dealt if using it as a Melee Weapon, instead of the reduced Damage."
+    },
+    {
+      "name": "Fellowship",
+      "cost": 650,
+      "prerequisite": "Charisma: 30",
+      "description": "While using Combined Actions with an ally from the party, the Character will gain a +5 Bonus to Tests made. If any other ally has this Ability, it is increased to +10."
+    },
+    {
+      "name": "Field Medic",
+      "cost": 600,
+      "prerequisite": "Intellect: 55",
+      "description": "Allows the Character to make Medical Tests when lacking the proper tools. The Character must first make or find makeshift tools, which takes 3D10 - Intellect Modifier in minutes, to a minimum of 5. The Character also halves any Penalties given by poor environments for Medical Tests."
+    },
+    {
+      "name": "Flame Spray",
+      "cost": 250,
+      "prerequisite": "Intellect: 25",
+      "description": "A character using Flame Spray with any flame-based weaponry gives any opponent within the fire a -10 Penalty to any Evasion Test."
+    },
+    {
+      "name": "Focused Warrior",
+      "cost": 400,
+      "prerequisite": "Perception: 45",
+      "description": "Focused Warrior allows the Character to make a Half Move and Full Move while taking Aim Actions."
+    },
+    {
+      "name": "Frenzy",
+      "cost": 250,
+      "prerequisite": "Courage: 30; Berserker or Adrenaline Rush Trait",
+      "description": "Characters using the Frenzy Ability no longer take Penalties to Evasion from Berserker and Adrenaline Rush."
+    },
+    {
+      "name": "Gather Senses",
+      "cost": 500,
+      "prerequisite": "Courage: 40",
+      "description": "A character with the Gather Senses Ability is allowed to reroll one Failed Pinning Test and Fear Test, each, per Round."
+    },
+    {
+      "name": "Guarded",
+      "cost": 400,
+      "prerequisite": "Agility: 40",
+      "description": "The Character gains a +10 Bonus when moving a Physical Shield to block incoming Attacks. The Character also gains a +10 To Hit when Attacking with a Physical Shield."
+    },
+    {
+      "name": "Grand Entrance",
+      "cost": 600,
+      "prerequisite": "Leadership: 50",
+      "description": "The Character is able to give orders before a battle begins, which will allow allies and the User to use the Character's Leadership Modifier when figuring Initiative. The Character must first give orders before the battle and will only work if the battle was initiated within 2 hours of the given orders."
+    },
+    {
+      "name": "Guillotine Strike",
+      "cost": 500,
+      "prerequisite": "Strength: 45",
+      "description": "A downward strike Attack that boosts Damage and Pierce. Guillotine Strike takes half of the Character's Melee Attacks to perform and takes a Half Action. This Attack adds another set of the Character's Strength Modifier to the Attack's Damage and Pierce. Parrying the Guillotine Strike is at a -20 Penalty and a -10 Penalty to Evasion."
+    },
+    {
+      "name": "Gunboat Diplomacy",
+      "cost": 600,
+      "prerequisite": "Courage: 45 or Leadership: 45",
+      "description": "The Character attempts to change the course of a discussion by using a weapon. Depending on the weapon used, the Character makes a Warfare Melee or Warfare Range Test that opposes the Opponent's Courage. If Successful, the Character can either gain a +10 Bonus to a Appeal, Negotiation, Intimidation, or Interrogation Test, or be used to reroll the test once if the Test Fails."
+    },
+    {
+      "name": "Hand-To-Hand Basic",
+      "cost": 250,
+      "prerequisite": "Warfare Melee: 35",
+      "description": "This Ability shows the character is proficient with the standard Hand- to-Hand Martial Arts, giving the Character a +5 To Hit with all Melee Attacks and a +5 to Parry with Melee Weapons."
+    },
+    {
+      "name": "Handler",
+      "cost": 250,
+      "prerequisite": "Charisma: 30 or Leadership: 30",
+      "description": "When the Character gives a command to a trained Animal, such as a War Dog, the Animal gains a +10 to those Actions. GM discretion may be applied to what Actions can gain these benefits."
+    },
+    {
+      "name": "Handyman",
+      "cost": 550,
+      "prerequisite": "Intellect: 35",
+      "description": "Handyman allows the Character to double the amount of Breakpoints they repair and reduce the time by half that it takes."
+    },
+    {
+      "name": "Heavy Preparation",
+      "cost": 600,
+      "prerequisite": "Strength: 40",
+      "description": "The Character no longer has a chance of dropping Heavy Weapons when not braced. The Penalties taken for firing a Heavy Weapon while not braced are also reduced by 10, to a minimum of 1. This does not work when using [HW] Heavy Weapons one- handed."
+    },
+    {
+      "name": "Heroic Sacrifice",
+      "cost": 1000,
+      "prerequisite": "Luck: 0 or 1; Courage: 45",
+      "description": "This Ability may only be used in dire situations. When the Character dies, they are able to perform one more Action, even if the Character was Unconscious or in a Coma. The Character makes one final Action that gains an automatic Critical Success and can't be countered by Luck or other Actions taken. If this Action is an Attack, it deals its maximum damage, ignoring Half Armor. This Action is to be the turning point of a battle in favor of the Players. If the dying player wishes to Burn Luck to survive after this Ability, they can do so, but their Coma time will be doubled."
+    },
+    {
+      "name": "Improvised Mastery",
+      "cost": 250,
+      "prerequisite": "Hand-To-Hand Basic Ability",
+      "description": "Characters with Improvised Mastery are able to make double the number of Attacks with Improvised Melee weapons."
+    },
+    {
+      "name": "Inspired",
+      "cost": 250,
+      "prerequisite": "Charisma: 50 or Leadership: 50",
+      "description": "Once per turn using either Charisma or Leadership, the Character inspires another to improve a designated Characteristic Test by the User. The chosen Character gains a +10 Bonus to the Test to perform that Action. The chosen Character is the only one who gains the Bonus, and only for the chosen Test, else, the Bonus is lost. Inspired must come with a small speech or something inspirational to be used. If Inspiration was purchased, but the Character does not have enough Charisma, then this Ability can't be used through the Charisma Characteristic. The same goes for Leadership."
+    },
+    {
+      "name": "Iron Fist",
+      "cost": 500,
+      "prerequisite": "Strength: 55",
+      "description": "The Character makes a Strength Test. If Successful, the first Unarmed Melee Attack made of the Turn gains the Stun (1D5+Strength Modifier) Special Rule."
+    },
+    {
+      "name": "Lucky Shot",
+      "cost": 750,
+      "prerequisite": "Luck: 1+",
+      "description": "To Hit Tests that roll 10 or under will give the Attack +1D10 Damage Dice."
+    },
+    {
+      "name": "Manslaughter",
+      "cost": 250,
+      "prerequisite": "Pilot (TYPE): +20 Skill of choice",
+      "description": "With superior driving capabilities and a good eye, the characteris able to easily run-down enemies on the battlefield with a vehicle of the chosen type. Any opponent attempting to dodge a character with Manslaughter gains a -10 Penalty to the Evasion. This can be taken once for every Pilot type."
+    },
+    {
+      "name": "Marksman",
+      "cost": 400,
+      "prerequisite": "Perception: 55",
+      "description": "The Marksman Ability allows characters to only take half Penalties for long and extreme ranged attacks with Sniper Optics."
+    },
+    {
+      "name": "Medical Insight",
+      "cost": 750,
+      "prerequisite": "Medication: +20 Skill",
+      "description": "Medical Insight shows true ability in the Medical field. Those with Medical Insight double what they rolled on a Medical Test to heal wounds. For example, a Medical Test that increased healing by +3 wounds per day now heals +6 wounds per day."
+    },
+    {
+      "name": "Medical Prowess",
+      "cost": 400,
+      "prerequisite": "Intellect: 50",
+      "description": "Any character with Medical Prowess only takes half Penalties when using medical skills and abilities towards characters of other races."
+    },
+    {
+      "name": "Mighty Mobility",
+      "cost": 750,
+      "prerequisite": "Heavy Preparation Ability",
+      "description": "When Bracing a weapon, the Character is able to move up to a Half Move per Half Action and still be considered Braced."
+    },
+    {
+      "name": "Mind Timer",
+      "cost": 450,
+      "prerequisite": "Intellect: 40",
+      "description": "When cooking Grenades, the character gains a +10 Bonus to the Test to throw the Grenade in time before it detonates."
+    },
+    {
+      "name": "Mobile Fire",
+      "cost": 500,
+      "prerequisite": "Warfare Range: 50",
+      "description": "When the character is moving while firing a weapon, the Penalty To Hit is reduced by 10, to a minimum of 1."
+    },
+    {
+      "name": "Modern Army Combative",
+      "cost": 800,
+      "prerequisite": "Hand-To-Hand Basic Ability",
+      "description": "The Character is trained under special hand-to-hand combat, giving the Character access to one extra Melee Attack with a Full Action Melee Attack, the Advanced Melee Combat section, and a +5 Bonus To Hit with any Melee Attack. This becomes +10 alongside Hand-To- Hand Basic. This also allows the Character to surpass the usual preset amount of Melee Attacks that can be made per Round by 1 but gives them a -20 Penalty to Reactions until the beginning of their next Turn."
+    },
+    {
+      "name": "Not Enough",
+      "cost": 750,
+      "prerequisite": "Courage: 55",
+      "description": "If the Character is Conscious, and receives an Attack that would render them Unconscious, the Character may take the first Half Action of their next Turn before falling Unconscious. If the Character would die before or during this, they can't take the Half Action."
+    },
+    {
+      "name": "One Eye Open",
+      "cost": 250,
+      "prerequisite": "Perception: 40",
+      "description": "A character with the One Eye Open Ability always counts as awake' while sleeping. The One Eye Open Ability means any character sleeping with this ability does not count as helpless."
+    },
+    {
+      "name": "Order of Things",
+      "cost": 250,
+      "prerequisite": "Leadership: 40",
+      "description": "When a character has 'Order of Things' Ability, the character gains a +10 to any Social Skills pertaining to characters of lesser rank. These only account for Social Opposed Tests and orders given."
+    },
+    {
+      "name": "Outstanding Olfactory",
+      "cost": 250,
+      "prerequisite": "Perception: 40",
+      "description": "A character with the Outstanding Olfactory Ability gains a +10 to any smell-based Investigation and Perception Tests."
+    },
+    {
+      "name": "Peer",
+      "cost": 250,
+      "prerequisite": "Charisma: 40",
+      "description": "Can be taken multiple times with different groups. The Peer Ability allows the character to have good standings with a selected group, giving the character a +20 to any social Skill Test. Peer works with subgroups such a battalion or 'Medical Teams.' A large Peer, such as an entire Country, can't be chosen."
+    },
+    {
+      "name": "Practiced Fighter",
+      "cost": 500,
+      "prerequisite": "Warfare Melee: 45",
+      "description": "When making Melee Attacks, the Character will make a -10 Investigation Test at the beginning of the Turn as a Free Action. If Successful, the next Attack will strike the lowest Body Location Armor on the Target with an extra +1D5 Pierce. For every Degree of Success, an additional Attack will gain this benefit for that Turn only."
+    },
+    {
+      "name": "Precision Strike",
+      "cost": 350,
+      "prerequisite": "Warfare Melee: 55",
+      "description": "Reduces the base Penalty for Called Shots for Melee Combat by Half before any Equipment is figured in."
+    },
+    {
+      "name": "Predictable",
+      "cost": 750,
+      "prerequisite": "Warfare Melee: 60",
+      "description": "If the Character uses a Delay Action or have not taken their Action yet, they're able to take a Half Action to counter an Opponent's Charge Attack or Grapple. A Countered Opponent can't make any further Melee Attacks that Round. The Counter takes an Opposed Warfare Melee Test against the Attack being made. If Successful, the Attack is countered. Countered Grapples deal a Melee Punch Attack with an additional Strength Modifier in Damage that leaves the Opponent Prone on the ground. The countered Charge Attack deals a Melee Punch Attack or the Melee Attack of the weapon being held and deals additional Pierce equal to the amount of Meters the Opponent Charged."
+    },
+    {
+      "name": "Protector",
+      "cost": 250,
+      "prerequisite": "Agility: 35",
+      "description": "A Character with this Ability is able to move in front of a nearby Ally. The Character must make a Successful Agility Test as a Reaction. The Character is able to move up to their Full Move in Meters, or up to as many Meters they have left in their Movement for the Turn, whichever is lower. This uses up the Character's next Half Action. The Character may also shove or move the Ally away during this Action. To do this, the Character must make a Strength Test. If Successful, the Ally is moved up to the Character's Strength Modifier away, or up to the amount of Meters the Character moved, whichever is lower. The Ally may Oppose this with a Strength or Agility Test."
+    },
+    {
+      "name": "Pull It Together!",
+      "cost": 400,
+      "prerequisite": "Leadership: 35",
+      "description": "If another Character has failed a Fear Test or a Shock Test and is panicking, attempting to flee, or gaining a PTSD, the User may make a Full Action -10 Leadership Test. If successful, the Characters this is targeted to get to reroll Fear Tests with a +20 Bonus and Shock Tests with a -20 Bonus. Regardless of the outcome of these Fear and Shock Tests, the Character will not flee anymore."
+    },
+    {
+      "name": "Quick Toss",
+      "cost": 300,
+      "prerequisite": "Warfare Melee: 55",
+      "description": "The character gains the ability to use a Reaction to throw one-handed weaponry at a -10 Penalty. This attack does not use up the Reaction, but any other Reactions are at a -20 while Evasions gain only an extra -10, instead. It is considered that both actions are happening at the same time, such as Evading and throwing an Explosive."
+    },
+    {
+      "name": "Quickdraw",
+      "cost": 250,
+      "prerequisite": "Agility: 40",
+      "description": "Quickdraw allows a Character to holster or draw an item as a Free Action. The Character can also ready two pieces of equipment with both hands. Quickdraw only works with equipment in holsters, rigs, or Permutations that store specified items, like grenades and shotgun shells. Quickdraw can only be used once per Turn."
+    },
+    {
+      "name": "Quickscope",
+      "cost": 750,
+      "prerequisite": "Perception: 45",
+      "description": "Quickscope allows the Character to halve To Hit Penalties gained by the Long Barrel Special Rule, as well as reducing the Evasion Bonus the Targeted Opponent gains to +10."
+    },
+    {
+      "name": "Rapid Reload",
+      "cost": 500,
+      "prerequisite": "Agility: 45",
+      "description": "Any character using Rapid Reload halves the Reload Time of any weapons reload after applying the Character's Agility and Warfare Range Modifiers, to a minimum of 1. Rapid Reload increases Pump Action and Single Load Weapon reload counts by 1 per Half Action. Rapid Reload does not affect a weapon's recharge rate."
+    },
+    {
+      "name": "Reliable Reputation",
+      "cost": 250,
+      "prerequisite": "Charisma: 45",
+      "description": "Any Character with this Ability is able to make Social Skill Tests against higher ranking individuals and will halve the Rank Bonus the higher ranking Character gains. This Ability can be lost if any respect or likeness towards the others within the group is lost. This also does not work against Characters that are under a chosen Revulsion Ability. This Ability can stack with Peer. This Ability does not remove the Bonuses given to the higher rank when dealing with lower levels."
+    },
+    {
+      "name": "Resilient",
+      "cost": 500,
+      "prerequisite": "Toughness: 35",
+      "description": "If a Character would have a bone Broken or a body location Lost, the Character will make a -10 Toughness Test. If Successful, the Body Location is not Broken or Lost. All other effects will be taken from the attack."
+    },
+    {
+      "name": "Resourceful",
+      "cost": 500,
+      "prerequisite": "Leadership: 45",
+      "description": "After completing a mission, the character gains 1 extra Support Point that does not refresh between missions or after it is used."
+    },
+    {
+      "name": "Revulsion",
+      "cost": 250,
+      "prerequisite": "Charisma: 35",
+      "description": "Can be taken multiple times with different groups. A character may select a group that they despise. When dealing against this group, the Character gains a +10 to Intimidation, Interrogation, and other Social Actions that would negatively affect that Group. Revulsion works with subgroups such a battalion or 'Medical Teams.' A large group, such as an entire Country or faction, can't be chosen."
+    },
+    {
+      "name": "Rush",
+      "cost": 500,
+      "prerequisite": "Agility: 40",
+      "description": "Rush allows the Character to increase the Agility Modifier multiplier for figuring their Charge Movement distance by 1."
+    },
+    {
+      "name": "Second Chance",
+      "cost": 750,
+      "prerequisite": "Toughness: 55",
+      "description": "The character is able to roll a Toughness Test when going under 0 Wounds from 1 or more Wounds. If the Toughness Test passes, the character stays at 1 Wound from the attack and takes no Special Damage. This can only be done once per day."
+    },
+    {
+      "name": "Shotgun",
+      "cost": 500,
+      "prerequisite": "Warfare Range: 30",
+      "description": "Opponents attempting to Evade the character's shotgun attacks gain a -10 Penalty."
+    },
+    {
+      "name": "Smooth Talker",
+      "cost": 500,
+      "prerequisite": "Charisma: 45",
+      "description": "The Character may attempt to change another Character's Disposition towards them or another Character. In doing so, the Character must smooth-talk them and roll a Charisma Test. If Successful, the Target's Disposition will move up or down by one. Smooth Talker can only be used once on a Character per day."
+    },
+    {
+      "name": "Snapshot",
+      "cost": 750,
+      "prerequisite": "Perception: 45",
+      "description": "If using a Scope or Sight under 6x Magnification, Snapshot allows for a Half Aim Action to be taken as a Reaction. This gives a -10 Penalty to all following Reactions during the Round."
+    },
+    {
+      "name": "Soldier of Fortune",
+      "cost": 1500,
+      "prerequisite": "Luck: 1",
+      "description": "The Soldier of Fortune Ability allows for a Character to gain a second reroll on failed Tests if Luck was Spent or Burnt. For example, if a Character missed an Attack and then Spent a Luck to Reroll that Test, and then failed the Reroll, they get one last chance. This can only be used once per encounter."
+    },
+    {
+      "name": "Stabilization",
+      "cost": 750,
+      "prerequisite": "Medication: +10 Skill",
+      "description": "Medics with the Stabilization Ability are able to automatically recover one Wound with a First Aid Medical Test, even if the Test failed. The Character also stabilizes Characters who are suffering from Bleedout. A Character can only receive this once before they need to receive an Extended Medical Test."
+    },
+    {
+      "name": "Steady Aim",
+      "cost": 500,
+      "prerequisite": "Perception: 40",
+      "description": "The Character gains a +10 To Hit when using Aim Actions that are not taken as a Reaction."
+    },
+    {
+      "name": "Sticky Fingers",
+      "cost": 450,
+      "prerequisite": "Athletics: +10 Skill",
+      "description": "The character gains +10 to all Climb Tests."
+    },
+    {
+      "name": "Strafing Run",
+      "cost": 500,
+      "prerequisite": "Agility: 40",
+      "description": "When moving, the Character is able to Strafe to dodge incoming fire. Any Attacks made against the Character are at a Penalty based on the Movement type being used. Charge is a -20 Penalty, Run is a -25 Penalty, and Sprint is a -30 Penalty. The Character using Strafing Run will gain an additional -10 Penalty To Hit when making Attacks while using Strafing Run."
+    },
+    {
+      "name": "Strong Back",
+      "cost": 400,
+      "prerequisite": "Strength: 40",
+      "description": "The Character doubles their Toughness Characteristic for figuring Lift and Push weights. Does not apply to figuring Carry Weights."
+    },
+    {
+      "name": "Sure Strike",
+      "cost": 400,
+      "prerequisite": "Warfare Melee: 40",
+      "description": "When making Melee Attacks, natural Damage Rolls of 10 will give the Attack an extra +1D10 Special Damage."
+    },
+    {
+      "name": "Swift Shot",
+      "cost": 500,
+      "prerequisite": "Warfare Range: 35; Quickdraw Ability",
+      "description": "When the character is making a Quickdraw using a [OH] weapon, the character is allowed to take a quick single shot at a -20 Penalty as a Reaction, that does not take up the Reaction completely, it just adds a -10 Penalty to anything else sharing the Action."
+    },
+    {
+      "name": "Take The Bait",
+      "cost": 350,
+      "prerequisite": "Courage: 40",
+      "description": "The Character will taunt an Opponent by making a +20 Courage Test that Opposes the Opponent's Intellect. If Successful, the Opponent Character for 1 Half Action per Degree of Success over the Opponent's Test. This will be further increased by 1 Half Action for each Degree of Failure the Opponent may have. An Opponent can only be affected by Take the Bait once per encounter."
+    },
+    {
+      "name": "Trample",
+      "cost": 500,
+      "prerequisite": "Hand-To-Hand Basic Ability",
+      "description": "The Character gains a Charge Trample. Trample is like Tackle, but the User is not knocked Prone alongside the Target. Trample also gains +2 Damage for each Size Category larger than the Target."
+    },
+    {
+      "name": "Triangulation",
+      "cost": 250,
+      "prerequisite": "Intellect: 35",
+      "description": "A character with the Triangulation Ability is able to remember previously traveled to locations. The Triangulation Ability gives the character the capability to not need to take any Navigation Tests when in a location they were previously in."
+    },
+    {
+      "name": "True Inspiration",
+      "cost": 500,
+      "prerequisite": "Leadership: 35",
+      "description": "The Character is able to give a small speech and spend a Luck Point. Spending this Luck Point gives another Character a free Critical Success (Counts as rolling a 1 on the Test) on their next Test. The User may choose what Test gains the Critical Success, and if not used, the User does not spend that Luck Point."
+    },
+    {
+      "name": "Unarmed Combatant",
+      "cost": 250,
+      "prerequisite": "Warfare Melee: 35",
+      "description": "When using the Unarmed Combatant Ability, the character gains half of the character's Warfare Melee Modifier (Rounding Down) to Piercing with Unarmed Melee Attacks."
+    },
+    {
+      "name": "Unbreakable Bonds",
+      "cost": 300,
+      "prerequisite": "Courage: 45",
+      "description": "When two or more characters of a group have this Ability, the characters take only half Penalties from Suppression, and a -30 on the Fear Charts when fighting together. These characters must be Party Members and be within 100 Meters of each other or have line of sight of the others."
+    },
+    {
+      "name": "Under Control",
+      "cost": 250,
+      "prerequisite": "Courage: 45",
+      "description": "Characters under Suppressing Fire or taking Fear Tests gain a +15 to the Courage Test. This also counts for rerolls of the Tests given by other Abilities."
+    },
+    {
+      "name": "Unrestrained Reflexes",
+      "cost": 750,
+      "prerequisite": "Agility: 45",
+      "description": "The Character, if aware of an Opponent who is in Point Blank Range, causes that Opponent to lose their Point-Blank Range Bonuses against the Character. Unrestrained Reflexes also gives the Character a +10 to spotting Lasers from Opponent weaponry."
+    },
+    {
+      "name": "Valorous",
+      "cost": 850,
+      "prerequisite": "Leadership: 50; True Inspiration Ability",
+      "description": "In a dire situation, the Character makes a Valorous speech and Burns a Luck Point. This Character inspires all allied Characters who can hear this speech. These Players all gain a single chosen free Critical Success and Special Damage usable for the next two Rounds."
+    },
+    {
+      "name": "Vault",
+      "cost": 500,
+      "prerequisite": "Agility: 45",
+      "description": "The character uses incredible agility to use surroundings to double Jumping and Leaping ranges. For example, a character with Vault can use a wall or fence to jump higher to reach a specific location."
+    },
+    {
+      "name": "Wheelman",
+      "cost": 500,
+      "prerequisite": "Pilot (Ground): +20 Skill",
+      "description": "When piloting ground vehicles, the operator only takes half Penalties when it comes to Difficult and Dangerous Terrain . Any Penalties originating from terrain are halved. This shows that the operator of the vehicle is trained and experienced in dealing with difficult driving situations."
+    }
+  ]
+}

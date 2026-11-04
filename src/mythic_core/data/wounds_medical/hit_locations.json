@@ -1,0 +1,55 @@
+{
+  "hit_locations": {
+    "rules": {
+      "reverse_to_hit": true,
+      "100_is_failure": true,
+      "sublocations_used_for_special_damage": true
+    },
+    "locations": [
+      { "range": "01-02", "location": "Neck" },
+      { "range": "03-04", "location": "Mouth" },
+      { "range": "05-06", "location": "Nose" },
+      { "range": "07", "location": "Eyes" },
+      { "range": "08", "location": "Ear" },
+      { "range": "09-10", "location": "Forehead" },
+
+      { "range": "11-12", "location": "Left Hand" },
+      { "range": "13-15", "location": "Left Forearm" },
+      { "range": "16", "location": "Left Elbow" },
+      { "range": "17-19", "location": "Left Bicep" },
+      { "range": "20", "location": "Left Shoulder" },
+
+      { "range": "21-22", "location": "Right Hand" },
+      { "range": "23-25", "location": "Right Forearm" },
+      { "range": "26", "location": "Right Elbow" },
+      { "range": "27-29", "location": "Right Bicep" },
+      { "range": "30", "location": "Right Shoulder" },
+
+      { "range": "31-32", "location": "Left Foot" },
+      { "range": "33-37", "location": "Left Shin" },
+      { "range": "38", "location": "Left Knee" },
+      { "range": "39-43", "location": "Left Thigh" },
+      { "range": "44-45", "location": "Left Hip" },
+
+      { "range": "46-47", "location": "Right Foot" },
+      { "range": "48-53", "location": "Right Shin" },
+      { "range": "54", "location": "Right Knee" },
+      { "range": "55-58", "location": "Right Thigh" },
+      { "range": "59-60", "location": "Right Hip" },
+
+      { "range": "61-65", "location": "Pelvis" },
+      { "range": "66-72", "location": "Intestines" },
+      { "range": "73-78", "location": "Spine" },
+      { "range": "79-84", "location": "Stomach/Kidney/Liver" },
+      { "range": "85-89", "location": "Heart" },
+      { "range": "90-96", "location": "Lungs" },
+      { "range": "97-100", "location": "Ribcage / No Organ" }
+    ],
+    "side_chart": {
+      "roll_1_3": "Left",
+      "roll_4_7": "Center",
+      "roll_8_10": "Right"
+    },
+    "citation": "Hit Location table and GM side chart."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "close_range": {
+    "bonus": 5,
+    "description": "Attacks within or under weapon's close range gain +5 To Hit.",
+    "citation": "Close Range rules."
+  }
+}

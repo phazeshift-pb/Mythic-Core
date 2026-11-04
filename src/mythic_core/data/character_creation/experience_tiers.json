@@ -1,0 +1,16 @@
+{
+  "experience_tiers": {
+    "tiers": [
+      { "tier": 0, "xp": "0–500", "credits": 50, "luck": 6 },
+      { "tier": 1, "xp": "501–1,000", "credits": 100, "luck": 6 },
+      { "tier": 2, "xp": "1,001–2,000", "credits": 200, "luck": 6 },
+      { "tier": 3, "xp": "2,001–4,000", "credits": 350, "luck": 6 },
+      { "tier": 4, "xp": "4,001–8,000", "credits": 550, "luck": 6 },
+      { "tier": 5, "xp": "8,001–16,000", "credits": 800, "luck": 6 },
+      { "tier": 6, "xp": "16,001–32,000", "credits": 1100, "luck": 6 },
+      { "tier": 7, "xp": "32,001–64,000", "credits": 1450, "luck": 6 },
+      { "tier": 8, "xp": "64,001+", "credits": 1450, "luck": 6 }
+    ],
+    "notes": "GM may assign any XP amount; credits scale by tier."
+  }
+}

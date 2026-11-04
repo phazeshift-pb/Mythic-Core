@@ -1,0 +1,49 @@
+{
+  "light_abilities": {
+    "rules": {
+      "description": "Light Abilities are special Abilities that take Energy to use and are based on Connection type.",
+      "connection_requirement": "A Character can only gain a Light Ability if they have a matching Connection. Universal Connections can be taken by any Character regardless of their Connections.",
+      "categories": ["Standard", "Grenade", "Movement"],
+      "category_selection": "A Character can take any amount of each Light Ability category to fill their Light Ability Slots.",
+      "default_action": "All Light Abilities are a Half Action to use unless specified otherwise.",
+      "ability_slots": {
+        "starting_slots": 2,
+        "additional_slots": 3,
+        "cost_per_additional_slot": 500,
+        "installation": "An empty Ability Slot can install a single owned Light Ability at a time.",
+        "between_missions": "Once a Character purchases a Light Ability, they keep it and can freely switch it in and out of Ability Slots between missions."
+      }
+    },
+    "supers": {
+      "description": "Supers are powerful versions of Light Abilities that gain extra benefits such as more Damage, a larger radius of effect, or additional effects.",
+      "energy_cost": "All Super Abilities cost double the Energy to perform and use Super Energy instead of Light Energy.",
+      "energy_cost_multiplier": 2,
+      "experience_cost": "The Experience Cost of a Super is increased by 50%.",
+      "experience_cost_multiplier": 1.5,
+      "availability": "A Character can only have a single Super at a time.",
+      "ability_slots": "Supers do not take up Light Ability Slots.",
+      "purchase": "A Super is purchased separately from its base Light Ability.",
+      "between_missions": "All purchased Supers can be kept and changed out between missions."
+    },
+    "grenade_supers": {
+      "rule": "Grenades have a uniform Super outcome. When a Grenade Light Ability is selected as a Super, the Character can use 2 Grenades during the same Half Action."
+    },
+    "energy": {
+      "light_energy": "Light Energy is used to cast normal Light Abilities.",
+      "super_energy": "Super Energy is used only to cast Supers.",
+      "maximum_light_energy": 100,
+      "maximum_super_energy": 100,
+      "turn_regeneration": "At the beginning of each Turn, the Character regains 5 Light Energy and 5 Super Energy.",
+      "normal_defeat_regeneration": "Each time the Character defeats an enemy using normal means, such as standard combat and weapons, they regain 5 Light Energy and 5 Super Energy.",
+      "light_ability_defeat_regeneration": "Each time the Character defeats an enemy using Light Abilities, they regain 10 Super Energy per Turn.",
+      "ally_support_regeneration": "Each time the Character uses a Light Ability to buff, assist, or heal an ally, they regain 5 Super Energy per Turn."
+    },
+    "double_jump": {
+      "availability": "All Guardians can perform a Double Jump.",
+      "description": "A Double Jump allows a Character to perform a Jump or Leap while already midair.",
+      "limitations": "Unless specified otherwise, a Double Jump can only be used once while in the air and cannot be used until the Character makes full contact with a surface they can stand on.",
+      "action": "A Double Jump is a Half Action and works as a normal Jump or Leap unless performed using a Light Ability.",
+      "falling_damage": "The Character takes no Falling Damage from the height gained from Double Jumps, including Double Jumps boosted by Light Abilities and Supers."
+    }
+  }
+}

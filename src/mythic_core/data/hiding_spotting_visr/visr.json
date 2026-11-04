@@ -1,0 +1,18 @@
+{
+  "visr": {
+    "description": "UNSC battlefield visual intelligence system.",
+    "effects": {
+      "daylight_penalty": -10,
+      "bright_light_penalty": -20,
+      "polarize": {
+        "removes_penalties": true,
+        "loses_low_light_bonus": true
+      }
+    },
+    "covenant_variant": {
+      "rules": "Same functionality; connects to Covenant Battle Network",
+      "purchase": "Ranks 0–1 may buy at half cost"
+    },
+    "citation": "VISR rules including penalties and Covenant variants."
+  }
+}

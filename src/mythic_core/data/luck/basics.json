@@ -1,0 +1,17 @@
+{
+  "luck": {
+    "types": ["Encounter", "Narrative", "Medical"],
+    "uses": ["Spend", "Burn"],
+    "rules": {
+      "spend": "Temporary use; regenerates at GM checkpoints.",
+      "burn": "Permanent loss; does not regenerate.",
+      "cannot_counteract_self_harm": true,
+      "gm_disallowed_examples": ["Nuclear blast", "Ship detonation in space"]
+    },
+    "earning": {
+      "sources": ["Milestones", "Roleplaying", "Bravery"],
+      "gm_limit": "Should not exceed starting or purchased Luck unless justified."
+    },
+    "citation": "Luck introduction and rules."
+  }
+}

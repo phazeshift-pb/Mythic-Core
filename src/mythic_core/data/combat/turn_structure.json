@@ -1,0 +1,17 @@
+{
+  "turn_structure": {
+    "actions": {
+      "half_actions": 2,
+      "full_actions": 1,
+      "free_actions": "Unlimited within reason",
+      "citation": "“A Character is only able to make up to two Half Actions, or a Full Action…”"
+    },
+    "round_flow": [
+      "Check Surprise Round",
+      "Roll Initiative",
+      "Characters act in Initiative order",
+      "End of Round",
+      "Repeat"
+    ]
+  }
+}

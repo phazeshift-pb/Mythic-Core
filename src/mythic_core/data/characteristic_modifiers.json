@@ -1,0 +1,7 @@
+{
+  "modifier_rules": {
+    "below_100": "floor(value / 10)",
+    "above_100": "floor(value / 10)",
+    "citation": "“Characteristics have an accompanying Characteristic Modifier that is the tens digit…”"
+  }
+}

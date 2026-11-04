@@ -1,0 +1,14 @@
+{
+  "zero_characteristics": {
+    "str": "Cannot lift, carry, push, or deal melee damage; drops weapons after attacking.",
+    "tou": "Character enters a coma until Toughness is restored.",
+    "agi": "Cannot perform any Movement Actions.",
+    "wfr": "Cannot attack unless target is Helpless and Point Blank.",
+    "wfm": "Cannot attack unless target is Helpless and Point Blank.",
+    "int": "Cannot make Actions; must be led; cannot respond or perform basic tasks.",
+    "per": "Cannot understand surroundings; suffers -40 to Attacks.",
+    "crg": "Always panics; always last in Initiative; loses all Opposed Tests.",
+    "cha": "Cannot speak; struggles to understand speech.",
+    "ldr": "Cannot give or understand orders."
+  }
+}

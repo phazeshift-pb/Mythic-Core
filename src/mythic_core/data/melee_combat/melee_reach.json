@@ -1,0 +1,23 @@
+{
+  "melee_reach": {
+    "base_reach": {
+      "normal": 1,
+      "mini": 0
+    },
+    "size_modifiers": {
+      "large": 2,
+      "huge": 3,
+      "hulking": 3,
+      "giant": 4,
+      "immense": 4,
+      "massive": 5,
+      "great": 6,
+      "monumental": 7,
+      "colossal": 10,
+      "vast": 25
+    },
+    "weapon_reach": "Weapons may add reach based on their profile.",
+    "vehicle_reach": "Vehicles add reach based on size points.",
+    "citation": "Melee Reach rules."
+  }
+}

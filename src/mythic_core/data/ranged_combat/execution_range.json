@@ -1,0 +1,13 @@
+{
+  "execution_range": {
+    "conditions": ["Helpless", "Unaware", "Unconscious"],
+    "range": "Point Blank",
+    "action": "Half",
+    "effects": {
+      "auto_hit": true,
+      "damage": "Double maximum damage",
+      "special_damage": "All dice treated as maximum"
+    },
+    "citation": "Execution Attack rules."
+  }
+}

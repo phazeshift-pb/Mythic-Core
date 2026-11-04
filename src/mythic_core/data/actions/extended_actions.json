@@ -1,0 +1,7 @@
+{
+  "extended_actions": {
+    "description": "Actions requiring longer than a Full Action.",
+    "timing": "May require multiple Half Actions, Full Actions, or Turns.",
+    "citation": "“Extended Actions are Actions that need longer than a Full Action to perform.”"
+  }
+}

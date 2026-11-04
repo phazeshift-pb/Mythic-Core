@@ -1,0 +1,14 @@
+{
+  "low_characteristics": {
+    "str": "Struggles to lift, push, oppose Strength Tests; unopposed Strength Tests take twice as long; gains Fatigue on failed opposed Strength Tests.",
+    "tou": "Staggers when making Toughness Tests against negative effects.",
+    "agi": "Must pass +15 Agility Test to Run or Sprint or fall Prone; cannot use Agility for Stunt.",
+    "wfr": "Cannot make Called Shots or Aim Actions with ranged weapons.",
+    "wfm": "Cannot make Called Shots or Aim Actions with melee weapons.",
+    "int": "Takes twice as long to solve problems even on successful Tests.",
+    "per": "Cannot judge direction or distance of sounds; struggles to see beyond Perceptive Range.",
+    "crg": "Flees for first Half Action when scared.",
+    "cha": "Takes double time to speak or respond; struggles to understand speech.",
+    "ldr": "Takes twice as long to give orders; takes a Full Action to understand orders."
+  }
+}

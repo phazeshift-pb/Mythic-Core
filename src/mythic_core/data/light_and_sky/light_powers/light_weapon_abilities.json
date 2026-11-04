@@ -1,0 +1,201 @@
+{
+  "light_weapon_abilities": {
+    "base_ability": {
+      "name": "Light Weapon",
+      "connection": "Universal",
+      "experience_cost": 500,
+      "light_cost": "X",
+      "description": "Forms a weapon of pure Light energy. The color is the color of the chosen Connection. The weapon can be based on any Melee Weapon or Physical Shield listed in the book, or any Ranged Weapon from the Emblem system. Light Cost equals the credit cost of the chosen weapon, rounded up to the nearest 5. The weapon can be changed between missions if allowed by the GM; the original should be refunded and a new cost made. The Light Weapon uses its listed Light cost per Turn while active and dissipates if the Character runs out of Light Energy. Damage Dice increase by +1D10 and Special Damage is dealt on rolls of 9 or 10. Base Damage and Pierce increase by the Character's Warfare Characteristic Modifier based on the Warfare Characteristic used to make Attacks. Ranged Weapons require no ammunition but dissipate if the weapon runs out of ammunition.",
+      "super_description": "Damage Dice increase by +2D10 instead of +1D10. The weapon gains up to 4 additional effects of the User's choice, which add to the Super Energy used per Turn. The same effects can be used on a non-Super Light Ability at double the listed additional Energy cost.",
+      "weapon_scope": ["Ranged Weapons", "Melee Weapons", "Physical Shields"]
+    },
+    "effects": {
+      "universal": [
+        {
+          "description": "The Character can hover up to their Agility Modifier in meters above the ground.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "The Character can throw the weapon once per Half Action and form a new one in their hand.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Attacks made detonate with a Blast (3) radius.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Movement Speed increases by 50%, rounding down, while holding the weapon.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Struck enemies are Blinded until the beginning of the User's next Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Thrown Melee Weapons duplicate up to 5 times.",
+          "additional_light_energy": 5,
+          "cost_modifier": "Per duplicate"
+        },
+        {
+          "description": "Striking the Ground with a Melee Weapon as a Full Action deals its Damage in Blast (6).",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "The Character gains +30 to Camouflage while holding the weapon.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "The Character gains an additional Attack per Half Action that the weapon can make.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Defeated enemies drop Orbs of Light that replenish 10 Light Energy for any ally that collects them.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Thrown Melee Weapons bounce to strike an additional Target.",
+          "additional_light_energy": 10,
+          "cost_modifier": "Per bounce to target"
+        }
+      ],
+      "arc": [
+        {
+          "description": "The weapon can Parry projectiles, sending them back to the Attacker.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Melee Attacks that strike a Target arc the Damage dealt to another Target within 5 meters.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Successfully thrown Melee Weapons allow the User to teleport to the struck Target as a Half Action.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Defeating an enemy with the weapon gives +1D10 Damage to the next Grenade Ability used.",
+          "additional_light_energy": 10
+        }
+      ],
+      "solar": [
+        {
+          "description": "Allies struck by the weapon are healed for 1D10 + Strength Modifier Wounds, once per Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "The weapon gives off a 3 meter aura when held that halves enemy Movement Speeds.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Thrown Melee Weapons cause the Target to take Flame (5).",
+          "additional_light_energy": 5
+        }
+      ],
+      "void": [
+        {
+          "description": "The Target takes an additional +5 Damage from the next source of Damage.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Defeated enemies give the User a temporary Energy Shield with +10 Shield Integrity.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "A successful Attack gives the User +10 To Hit for the next Attack made.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Successfully thrown Melee Weapons allow the User to teleport to the struck Target as a Half Action.",
+          "additional_light_energy": 10
+        }
+      ],
+      "strand": [
+        {
+          "description": "The weapon's Base Damage is halved, and the removed Base Damage is multiplied by 5 and made into Pierce.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Successful Attacks give +5 To Hit for the next Attack and +1D10 Damage.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "The weapon can only be used 3 times, but each use increases Damage by +3D10.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Making 3 successful Attacks in a row refunds half of the Energy used to cast this.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "The weapon is overcharged as a Half Action to deal 2 sets of Damage for the following Half Action.",
+          "additional_light_energy": 10
+        }
+      ],
+      "stasis": [
+        {
+          "description": "Thrown Melee Weapons cause the Target to take Cryo (5).",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Characters struck have their Movement Speeds halved during their next Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Attacks with 2 or more Degrees of Success give the enemy a -10 Penalty to Evading that Attack.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Defeated enemies freeze into crystals and explode, dealing that Attack's Damage in a Blast (5) radius.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Defeated enemies detonate in Blast (4), halving the Movement Speeds of enemies within for their next Turn.",
+          "additional_light_energy": 5
+        },
+        {
+          "description": "Defeated enemies detonate in Blast (3), stopping all Movement of enemies for their next Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Characters struck have a stacking -5 Penalty to all Evasions until the beginning of the User's next Turn.",
+          "additional_light_energy": 15
+        }
+      ],
+      "terraform": [
+        {
+          "description": "Struck enemies gain -2 to their Damage Resistance once per Half Action.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Successful Attacks give the User +5 to their next Evasion, once per Half Action.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Once per Turn, Attacks that deal Damage to Wounds give the User +1 Mythic Strength for their next Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Struck enemies are marked for 2 Turns, making them visible through Cover within 25 meters.",
+          "additional_light_energy": 10
+        }
+      ],
+      "resurrection": [
+        {
+          "description": "Struck enemies cannot use any type of Light or Darkness during their next Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Struck enemies cannot heal until the beginning of the User's next Turn.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Once per Half Action, the User regains +1D5 Wounds and +1D5 Light Energy when an enemy is defeated.",
+          "additional_light_energy": 10
+        },
+        {
+          "description": "Once per Half Action, the User regains +1D10 Super Energy when an enemy is defeated.",
+          "additional_light_energy": 10
+        }
+      ]
+    }
+  }
+}

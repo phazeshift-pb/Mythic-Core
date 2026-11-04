@@ -1,0 +1,1006 @@
+{
+  "perks": [
+    {
+      "id": "players_choice",
+      "name": "Player's Choice",
+      "description": "Choose from any Weapon Perk on this table."
+    },
+    {
+      "id": "adagio",
+      "name": "Adagio",
+      "description": "On Kill, the next Attack the weapon would make gains +2D10 Damage. This buff is lost after 2 Turns."
+    },
+    {
+      "id": "adaptive_burst",
+      "name": "Adaptive Burst",
+      "description": "The weapon gains an additional Burst Firing Type. Weapons that are Semi-Auto or Pump will gain Burst (X) equal to Semi-Auto (X) or Pump (X). Automatic weapons will gain Burst (X), where (X) is half of Auto (X), and then reduced by an additional 1. For example, Auto (7) will become Burst (3). If the weapon is a Melee Weapon, a Sustained Firing Type Weapon, a Burst Firing Type weapon, or only has a Magazine of 2 or less, this Perk may be rerolled."
+    },
+    {
+      "id": "adrenaline",
+      "name": "Adrenaline",
+      "description": "If the Character's light-based Grenade deals Damage to an enemy, the next Turn of Attacks made by this weapon gain +5 Pierce. This is lost at the beginning of the following Turn."
+    },
+    {
+      "id": "aerodynamics",
+      "name": "Aerodynamics",
+      "description": "Attacks from this weapon are at a -10 Penalty to Evade."
+    },
+    {
+      "id": "alloy_mag",
+      "name": "Alloy Mag",
+      "description": "Whenever the weapon is at 50% or lower Magazine, the weapon's Close Range is doubled. The doubled Close Range can't surpass the weapon's Optimal Range."
+    },
+    {
+      "id": "ambitious",
+      "name": "Ambitious",
+      "description": "When the Character reloads this weapon, the weapon's Magazine will be doubled if the Character had successfully killed 2 enemies between this and the previous reload of the weapon. This doubled Magazine is lost if the weapon is reloaded."
+    },
+    {
+      "id": "ambush",
+      "name": "Ambush",
+      "description": "This weapon gains a +30 To Hit, deals +3D10 Damage, and gains +30 Pierce for the first Attack made during a Surprise Round being made by the User."
+    },
+    {
+      "id": "amplification",
+      "name": "Amplification",
+      "description": "While this weapon is held, the User gains +1 Mythic Agility."
+    },
+    {
+      "id": "anti_flinch",
+      "name": "Anti-Flinch",
+      "description": "The User makes a Toughness Test if Attacked while using Aim Actions. If successful, the Aim Action will stay active."
+    },
+    {
+      "id": "archers_gambit",
+      "name": "Archer's Gambit",
+      "description": "This weapon's Reload is halved, rounding up, if an enemy has been struck in the Head or equivalent weak spot. This benefit will be available to the Character for 2 Turns. As long as the Reload has been initiated in those Turns, it will continue even if the reduced reload would take longer than that to perform."
+    },
+    {
+      "id": "armor_piercer",
+      "name": "Armor Piercer",
+      "description": "When making Attacks against Characters who are wearing Armor or have any type of Natural Armor Trait, this weapon will deal +5 Pierce on Attacks against them."
+    },
+    {
+      "id": "attrition_orbs",
+      "name": "Attrition Orbs",
+      "description": "If the Character makes 3 Successful Attacks in a row that are not Evaded, an Orb of Light will spawn that grant 10 Energy on contact. These orbs fade away when touched. Can be grabbed as a Free Action while moving past an orb."
+    },
+    {
+      "id": "autoloader",
+      "name": "Autoloader",
+      "description": "While this weapon is holstered and unused for at least 2 Turns, it will reload itself at the listed Reload Speed, unaffected by Characteristics."
+    },
+    {
+      "id": "bandolier",
+      "name": "Bandolier",
+      "description": "Once per minute while out of combat, the weapon will regenerate 1 ammo in its Magazine."
+    },
+    {
+      "id": "barrel_constrictor",
+      "name": "Barrel Constrictor",
+      "description": "If the weapon has the Spread Special Rule, it will gain a +10 Bonus To Hit for the next Attack made on a successful kill. If the weapon does not have the Spread Special Rule, it will gain +2 Base Damage and +3 Pierce, instead."
+    },
+    {
+      "id": "beacon_round",
+      "name": "Beacon Round",
+      "description": "On a successful kill with this weapon, it will stack buffs that last for 6 Turns, each, to a total of 4 buffs. Each buff will decrease the weapon's Reload by 1 and increase the Base Damage by +2."
+    },
+    {
+      "id": "bewildering_burst",
+      "name": "Bewildering Burst",
+      "description": "Within 4 Turns of Reloading this weapon, the first successful Attack made that strikes a Character will create a Flashbang (10) surrounding the Target."
+    },
+    {
+      "id": "bigger_bombs",
+      "name": "Bigger Bombs",
+      "description": "If the weapon has a Blast and Kill Radius, both Radius are increased by +50%, rounding down, to a minimum of 1. If the weapon doesn't have a Blast Radius, reroll this Perk."
+    },
+    {
+      "id": "bittersweet",
+      "name": "Bittersweet",
+      "description": "For every 10 Damage to Wounds the User of this weapon takes, this weapon gains 1 stack of Bittersweet, to a maximum of 5 total stacks. Once out of combat or when the weapon is reloaded, all stacks are lost. Each stack will give the weapon the following: -2 Reload, to a minimum of 1. +5 Base Damage. +2 Pierce. Ignore 1 Armor on a successful shot against the Head Location of a Target."
+    },
+    {
+      "id": "blast_distributor",
+      "name": "Blast Distributor",
+      "description": "If the weapon has Blast (X), it's increased by 1. If the weapon doesn't have Blast, it gains Blast (1)."
+    },
+    {
+      "id": "blunt_execution",
+      "name": "Blunt Execution",
+      "description": "Each successful Melee Attack made by the User will give this weapon +2D10 Damage on a following Attack. This can be stacked up to 4 times. If this Perk is placed on a Melee Weapon, only a separate Melee weapon can activate the effect. Each stack of this Perk will last for 4 Turns before being lost if unused."
+    },
+    {
+      "id": "bottomless_grief",
+      "name": "Bottomless Grief",
+      "description": "The weapon's Magazine is permanently increased by +50%, to a minimum of +1."
+    },
+    {
+      "id": "box_breathing",
+      "name": "Box Breathing",
+      "description": "When making an Aim Action, the weapon will gain the Headshot Special Rule. If the weapon already has the Headshot Special Rule, it will ignore an additional 5 Armor."
+    },
+    {
+      "id": "burning_ambition",
+      "name": "Burning Ambition",
+      "description": "When a successful Attack is landed that deals Damage to anyone's Wounds, the next Attack made will gain the Flame (1) Special Rule. The Flame (1) Special Rule effect will last for 5 Turns before fading from not being used."
+    },
+    {
+      "id": "butterfly",
+      "name": "Butterfly",
+      "description": "After the Character makes an Aim Action, they will gain an additional Turn of the Aim Action's effects and benefits while still being able to move and make any other types of Actions. This lingering Aim Action can't be stacked or be turned into another type of Aim Action, such as a Half Aim being turned into a Full Aim during the additional Turn."
+    },
+    {
+      "id": "calm_amidst_chaos",
+      "name": "Calm Amidst Chaos",
+      "description": "When the User takes 10 or more Damage in a Turn, they will add their Courage Modifier to Damage for all Attacks they made during their next Turn. The Courage Modifier Damage maxes out at +10."
+    },
+    {
+      "id": "celerity",
+      "name": "Celerity",
+      "description": "The Weapon's Reload is permanently reduced by 2, to a minimum of 3."
+    },
+    {
+      "id": "chain_reaction",
+      "name": "Chain Reaction",
+      "description": "When a Target is killed by this weapon, they will explode with a Blast (2) radius dealing the Damage they were inflicted by."
+    },
+    {
+      "id": "chill_clip",
+      "name": "Chill Clip",
+      "description": "Attacks made by this weapon while it has more than 50% of its Magazine left will deal Cryo (1)."
+    },
+    {
+      "id": "closing_time",
+      "name": "Closing Time",
+      "description": "Attacks made by this weapon while it has less than 50% of its Magazine left will halve the Penalties gained from making Called Shots."
+    },
+    {
+      "id": "clown_cartridge",
+      "name": "Clown Cartridge",
+      "description": "After reloading, roll a 1D10. Rolls of 1 - 3 will give the weapon +50% Magazine size until next Reload. Rolls of 4 - 6 will give the weapon +100% Magazine size until next reload. Rolls of 7 - 10 will give the weapon +200% Magazine size until next reload."
+    },
+    {
+      "id": "collective_action",
+      "name": "Collective Action",
+      "description": "When this weapon is used in Combined Actions, the User will gain +10 Super Energy at the beginning of their next Turn."
+    },
+    {
+      "id": "complex_optics",
+      "name": "Complex Optics",
+      "description": "While using this weapon, the User's Perceptive Range is doubled."
+    },
+    {
+      "id": "danger_zone",
+      "name": "Danger Zone",
+      "description": "While the User is within 15 meters of the point of impact of this weapon, it will gain +50% Blast (X) radius, to a minimum of +1. If the weapon does not have a Blast Radius, reroll this Perk."
+    },
+    {
+      "id": "detector",
+      "name": "Detector",
+      "description": "Every Target successfully struck by this weapon will gain a -30 Penalty to Camouflage and Athletics Tests when attempting to hide or to Oppose Investigation Tests."
+    },
+    {
+      "id": "dragonfly",
+      "name": "Dragonfly",
+      "description": "On successful kill, the Target detonates, dealing Flame (1D5) in a Blast (2) radius."
+    },
+    {
+      "id": "drop_mag",
+      "name": "Drop Mag",
+      "description": "The weapon's Magazine and Reload are permanently halved, to a minimum of 1."
+    },
+    {
+      "id": "dynamic_sway_reduction",
+      "name": "Dynamic Sway Reduction",
+      "description": "The weapon gains a permanent +5 Bonus To Hit."
+    },
+    {
+      "id": "energy_transfer",
+      "name": "Energy Transfer",
+      "description": "When this weapon is used to block or Parry incoming Damage, the next Attack made will deal +2D10 Damage. The GM should generally allow this Perk to be rerolled if the weapon isn't a Melee Weapon."
+    },
+    {
+      "id": "enhanced_accuracy",
+      "name": "Enhanced Accuracy",
+      "description": "The weapon gains a +10 Bonus To Hit."
+    },
+    {
+      "id": "enlightened_action",
+      "name": "Enlightened Action",
+      "description": "The weapon's base Reload is doubled, permanently. Every successful Attack made with the weapon will reduce the Reload by 1, to a minimum of 1. For explosives, every Character struck by the weapon will reduce it by 1, each. If the explosive has a Magazine of 2 or less, each Character struck by the weapon will reduce it by 2, each. The reduced Reload is reset between every reload that is performed."
+    },
+    {
+      "id": "explosive_head",
+      "name": "Explosive Head",
+      "description": "Attacks made by this weapon gain Blast (1) if they strike the Head Location or Armor weak spot and will deal additional Pierce equal to the Bonus the weapon is currently gaining from Aim Actions (+5 for Half, +10 for Full)."
+    },
+    {
+      "id": "explosive_payload",
+      "name": "Explosive Payload",
+      "description": "Attacks made by this weapon gain Blast (1) if they do not strike the Head Location or Armor weak spot. Attacks that strike the Head or Armor weak spot will instead gain Blast (2)."
+    },
+    {
+      "id": "eye_of_the_storm",
+      "name": "Eye of the Storm",
+      "description": "When the User's Energy Shields are less than half, this weapon gains +4 Damage on all Attacks. This is increased to +8 Damage on all Attacks when the User's Energy Shields have been reduced to 0."
+    },
+    {
+      "id": "faster_than_light",
+      "name": "Faster Than Light",
+      "description": "The weapon's Optimal Range is doubled."
+    },
+    {
+      "id": "field_prep",
+      "name": "Field Prep",
+      "description": "The weapon will passively regenerate (X) Magazine once every 4 Turns. (X) is equal to 25% of the weapon's total Magazine, to a minimum of 1."
+    },
+    {
+      "id": "fill_up",
+      "name": "Fill Up",
+      "description": "The weapon's Reload is reduced by 1. If the User recently dealt Damage to an Enemy's Wounds within the last Turn, the Reload is reduced by an additional 4, to a minimum of 1."
+    },
+    {
+      "id": "fourth_times_the_charm",
+      "name": "Fourth Time's The Charm",
+      "description": "When the weapon is used to make 4 back-to-back successful Attacks in a row, the 4th Attack made will ignore worn Armor and halve any type of Armor gained from Traits."
+    },
+    {
+      "id": "fragile_focus",
+      "name": "Fragile Focus",
+      "description": "While the User's Shield Integrity is greater than 10, this weapon's Close Range is increased by 50%."
+    },
+    {
+      "id": "full_auto_trigger_system",
+      "name": "Full Auto Trigger System",
+      "description": "The weapon gains an additional Automatic Firing Type. Weapons that are Semi-Auto, Pump, or Burst will multiply the current Rate of Fire of (X) by 2 and gain an additional +1. If the weapon is a Melee Weapon, a Sustained Firing Type Weapon, an Automatic Firing Type weapon, or only has a Magazine of 2 or less, this Perk may be rerolled."
+    },
+    {
+      "id": "headseeker",
+      "name": "Headseeker",
+      "description": "When this weapon deals Damage against a Target's Wounds, the next Attack will gain the Homing Special Rule if a Called Shot to the Head Location or any Head Sublocation is made. If the weapon already has the Homing Special Rule, it will gain a +10 Bonus on the first Attack rolled. If that misses, the extra Test gained from the Homing Special Rule will not gain the +10."
+    },
+    {
+      "id": "headstone",
+      "name": "Headstone",
+      "description": "If this weapon kills a Target, a crystal will be formed at the position where they died. All other enemies within 5 meters of this crystal will be slowed, making it so they can only take a Half Action during their Turn. This crystal lasts for 3 Turns."
+    },
+    {
+      "id": "heal_clip",
+      "name": "Heal Clip",
+      "description": "Every successful kill made with this weapon will heal the User 2D5 Damage from their Wounds."
+    },
+    {
+      "id": "high_impact_piercer",
+      "name": "High-Impact Piercer",
+      "description": "The weapon permanently gains a +10 to its Pierce and a -3 to its Base Damage."
+    },
+    {
+      "id": "high_impact_shredder",
+      "name": "High-Impact Shredder",
+      "description": "The weapon permanently gains +6 to its Base Damage and a -6 to its Pierce."
+    },
+    {
+      "id": "icarus_grip",
+      "name": "Icarus Grip",
+      "description": "Attacks made by this weapon while making Movement Actions will halve the Penalty gained."
+    },
+    {
+      "id": "impact_casing",
+      "name": "Impact Casing",
+      "description": "The weapon permanently gains a +1D10 to Damage dealt."
+    },
+    {
+      "id": "invisible_hand",
+      "name": "Invisible Hand",
+      "description": "When an Attack is missed, the next Attack made will be at a +10 Bonus To Hit. This buff will fade away after 4 Turns of not being used."
+    },
+    {
+      "id": "iron_gaze",
+      "name": "Iron Gaze",
+      "description": "When making Aim Actions, this weapon gains an additional +10 Bonus To Hit."
+    },
+    {
+      "id": "keep_away",
+      "name": "Keep Away",
+      "description": "As long as there are no enemies within 15 meters of the User, this weapon's Reload time is reduced by 4, to a minimum of 2."
+    },
+    {
+      "id": "kill_clip",
+      "name": "Kill Clip",
+      "description": "The first Attack made after reloading this weapon increases the Base Damage for that Attack by +25%, rounding down."
+    },
+    {
+      "id": "killing_tally",
+      "name": "Killing Tally",
+      "description": "Each successful Kill made with this weapon increases the Base Damage by +3, to a total of +9. When the weapon is reloaded or an hour has passed, this bonus is reset to 0."
+    },
+    {
+      "id": "lasting_impact",
+      "name": "Lasting Impact",
+      "description": "Explosives will be modified to do the following: The Attack that directly strikes a Target gain the Sticky Special Rule. It will not detonate or gain the Blast or Kill radius on impact, but will still deal the listed Damage and Pierce. At the beginning of the User's next Turn, the stickied Attack will detonate, dealing the Damage a second time with Blast and Kill radius as normal. If the Attack with the Sticky Special Rule was successfully removed, it will not detonate anymore and will fade away. Weapons that don't have a Blast or Kill radius will reroll this Perk."
+    },
+    {
+      "id": "lead_from_light",
+      "name": "Lead From Light",
+      "description": "Any time the User picks up an Orb of Light that replenishes Light or Super Energy, half of the weapon's ammunition is reloaded."
+    },
+    {
+      "id": "momentum",
+      "name": "Momentum",
+      "description": "Successful Kills made with this weapon will give the User +3 Mythic Agility for 3 Turns. This does not stack with consecutive kills but will reset the duration of the Mythic Agility gained."
+    },
+    {
+      "id": "moving_target",
+      "name": "Moving Target",
+      "description": "This weapon allows the User to make any amount of Movement Actions while making an Aim Action and the Aim Action won't be lost."
+    },
+    {
+      "id": "mulligan",
+      "name": "Mulligan",
+      "description": "Every missed Attack will have a 50% chance of regenerating 1 ammo in the Magazine."
+    },
+    {
+      "id": "one_two_punch",
+      "name": "One-Two Punch",
+      "description": "After successfully striking an Enemy with this weapon, the User will gain +2D10 Damage to the next Unarmed Melee Attack they make until the end of their next Turn. The Damage gained this way does not stack with additional attacks."
+    },
+    {
+      "id": "opening_shot",
+      "name": "Opening Shot",
+      "description": "The first round of the Magazine will gain a +20 Bonus To Hit. If this weapon only has a Magazine of 1, reroll this Perk."
+    },
+    {
+      "id": "osmosis",
+      "name": "Osmosis",
+      "description": "When the User of this weapon uses a Light Ability based Grenade, this weapon is reloaded 50% of its Magazine."
+    },
+    {
+      "id": "overabundance",
+      "name": "Overabundance",
+      "description": "The weapon regenerates 1 Magazine for any Attack that strikes with 3 or more Degrees of Success."
+    },
+    {
+      "id": "overpressurized_munitions",
+      "name": "Overpressurized Munitions",
+      "description": "The weapon's Pierce is halved. For every 5 Pierce reduced this way will give +1D10 Damage it deals, to a minimum of +1D10."
+    },
+    {
+      "id": "persistent_barrel",
+      "name": "Persistent Barrel",
+      "description": "Long and Extended Range Penalties are halved when using this weapon."
+    },
+    {
+      "id": "precision_firing",
+      "name": "Precision Firing",
+      "description": "The weapon gains an additional Semi-Auto Firing Type. Weapons that are Burst or Pump will gain Semi-Auto (X) equal to Burst (X) or Pump (X). Automatic weapons will gain Semi-Auto (X), where Semi-Auto (X) is half of Auto (X), and then reduced by an additional 1. For example, Auto (7) will become Semi-Auto (3). If the weapon is a Melee Weapon, a Sustained Firing Type Weapon, a Semi-Auto Firing Type weapon, or only has a Magazine of 2 or less, this Perk may be rerolled."
+    },
+    {
+      "id": "rampage",
+      "name": "Rampage",
+      "description": "Successful Kills made with this weapon will give the User +3 Mythic Strength for 3 Turns. This does not stack with consecutive kills but will reset the duration of the Mythic Strength gained."
+    },
+    {
+      "id": "rapid_fire",
+      "name": "Rapid-Fire",
+      "description": "The weapon's Rate of fire is increased. Weapons with the Semi-Auto, Burst, or Pump Firing Types will gain +1 Rate of Fire. Weapons with the Sustained and Automatic Firing Types will gain +2 Rate of Fire. Any other weapon will reroll this Perk."
+    },
+    {
+      "id": "readied_reflexes",
+      "name": "Readied Reflexes",
+      "description": "If this weapon makes a successful Attack against a Target, the User gains a +10 Bonus to Reaction Tests until the beginning of their next Turn."
+    },
+    {
+      "id": "right_back_at_you",
+      "name": "Right Back At You",
+      "description": "Any time the User takes 10 or more Damage, the weapon regenerates up to 2 ammunition in its Magazine."
+    },
+    {
+      "id": "shoot_to_loot",
+      "name": "Shoot To Loot",
+      "description": "Attacks from this weapon that strike Engrams and Dust Ammunitions will instantly be absorbed into the User, later being extracted when combat is over. Dust Ammunitions can be used while absorbed, when needed."
+    },
+    {
+      "id": "snapshot_sight",
+      "name": "Snapshot Sight",
+      "description": "For every Turn an Aim Action is kept active after the initial Turn, the weapon continues to gain a +10 Bonus To Hit at the beginning of each Turn, to a total of +30 Bonus To Hit. This Bonus is lost if the User stops Aiming or Reloads the weapon."
+    },
+    {
+      "id": "spread_shot",
+      "name": "Spread Shot",
+      "description": "Weapons that don't have the Spread Special Rule will gain it. The Damage Dice of the weapon will be reduced by 1D10. For example, a weapon that deals 4D10 +10 Damage will now deal 3D10 + 10 Damage. Weapons that already have the Spread Special Rule will reroll this Perk."
+    },
+    {
+      "id": "sprint_grip",
+      "name": "Sprint Grip",
+      "description": "While this weapon is held in combat, the User gains the Sprint Movement Speed type as if they had the Blur Ability. If the User already has the Blur Ability, they will be able to make Attacks using this weapon while Sprinting, using the Penalties given for making Attacks while making Run Movement Actions."
+    },
+    {
+      "id": "stasis_shackle",
+      "name": "Stasis Shackle",
+      "description": "If an Enemy is killed by this weapon, all other enemies within a Blast (4) radius of them can't make Charge, Run, or Evade Into Cover Actions."
+    },
+    {
+      "id": "stopping_power",
+      "name": "Stopping Power",
+      "description": "The weapon loses no Damage or Pierce from Piercing Through Targets."
+    },
+    {
+      "id": "stunloader",
+      "name": "Stunloader",
+      "description": "Attacks from this weapon that deal Special Damage will also Stun the Target for 1 Turn."
+    },
+    {
+      "id": "suspending_belief",
+      "name": "Suspending Belief",
+      "description": "The first Target struck within Melee Reach will not be able to make Movement Actions during their next Turn."
+    },
+    {
+      "id": "sympathetic",
+      "name": "Sympathetic",
+      "description": "The weapon's reload is reduced by 1, to a minimum of 3. If the User's Wounds are less than half, it is reduced by an additional 2, to a minimum of 2. If the User is at 10 Wounds or less, the weapon's Reload is reduced down to 2, regardless of weapon type or base Reload."
+    },
+    {
+      "id": "tap_the_trigger",
+      "name": "Tap The Trigger",
+      "description": "The first Attack made in a Turn has a +10 Bonus to Hit and the Close Range is doubled."
+    },
+    {
+      "id": "tension",
+      "name": "Tension",
+      "description": "This weapon always gives its User the ability to Quickdraw it as a Free Action if combat has begun. This can only be used once per Turn."
+    },
+    {
+      "id": "tilted",
+      "name": "Tilted",
+      "description": "Upon successfully Damaging an Enemy, the User of this weapon will gain a +10 Bonus to their next Evasion."
+    },
+    {
+      "id": "trench_barrel",
+      "name": "Trench Barrel",
+      "description": "When this weapon is used as a Melee Attack by striking an Enemy with it, the first ranged Attack made in the next Half Action will gain +50% total Damage to Wounds after Damage Resistance is figured. Reroll this if the weapon is a Melee Weapon."
+    },
+    {
+      "id": "turnabout",
+      "name": "Turnabout",
+      "description": "If the weapon reduces an enemy's Energy Shield to 0, the weapon refills the User's Energy Shields by 50."
+    },
+    {
+      "id": "under_fire",
+      "name": "Under Fire",
+      "description": "When the User takes 10 or more Damage, the next Attack made with this weapon gains the Penetrating Special Rule."
+    },
+    {
+      "id": "under_over",
+      "name": "Under-Over",
+      "description": "This weapon deals an additional 1D10 Damage against Targets that have an active Energy Shield."
+    },
+    {
+      "id": "use_more_gun",
+      "name": "Use More Gun",
+      "description": "The weapon gains +5 Pierce."
+    },
+    {
+      "id": "valiant",
+      "name": "Valiant",
+      "description": "The Reload of this weapon is unaffected by any Slowing or Stunning effect, allowing the User to reload it normally under any condition except for being Unconscious or being unable to use their arms."
+    },
+    {
+      "id": "well_rounded",
+      "name": "Well-Rounded",
+      "description": "This Weapon gains a +5 Bonus To Hit, +1 Base Damage, +3 Pierce, and the Close and Optimal Range is increased by 25%, rounding down."
+    },
+    {
+      "id": "zen_moment",
+      "name": "Zen Moment",
+      "description": "The User of this weapon gains a +30 Bonus to Opposing any Test that would knock them over. The User won't be knocked out of Aim Actions if they take Damage."
+    },
+    {
+      "id": "your_lucky_day",
+      "name": "Your Lucky Day",
+      "description": "Instead of rolling on the normal Weapon Perk table, roll for an Exotic Weapon Perk, instead."
+    }
+  ],
+  "exotic_perks": [
+    {
+      "id": "players_choice",
+      "name": "Player's Choice",
+      "description": "Choose from any Weapon Perk on this table."
+    },
+    {
+      "id": "plus_one",
+      "name": "+1",
+      "description": "All Attacks made by this weapon deals 2 sets of Damage. The Base Damage and Optimal Range of the weapon is halved."
+    },
+    {
+      "id": "ace_of_spades",
+      "name": "Ace of Spades",
+      "description": "If an Attack from this weapon strikes the Head Location or equivalent Armor Trait weak point and kills that enemy, the following effects will be given: The enemy will explode with a Blast (3) radius, dealing the same Damage to all enemies within, counting as an Attack against the Head or Armor Trait weak point. If the weapon is Reloaded within 1 Turn after this explosion, the first round in the Magazine will deal +1D10 Damage."
+    },
+    {
+      "id": "atomization",
+      "name": "Atomization",
+      "description": "The weapon gains the Hardlight Special Rule."
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "description": "The weapon gains a new Firing Type of Charge (2), which then fires a Half Action worth of Attacks that the weapon would normally fire. Each of these charged Attacks will gain the Kinetic and Hardlight Special Rule."
+    },
+    {
+      "id": "big_business",
+      "name": "Big Business",
+      "description": "The weapon's Magazine is permanently increased by +100%. When an Dust Ammunition is picked up and is compatible with this weapon, it will instantly be reloaded."
+    },
+    {
+      "id": "borealis",
+      "name": "Borealis",
+      "description": "If this weapon is used to reduce an Energy Shield's Shield Integrity to 0, all remaining rounds in the Magazine gain +2D10 Damage and +10 Pierce."
+    },
+    {
+      "id": "burden",
+      "name": "Burden",
+      "description": "An entire Dust Ammunition can be fed to the weapon as a Half Action, doubling the Close Range, Optimal Range, Base Damage, and Pierce of the next Attack made."
+    },
+    {
+      "id": "calamity_charge",
+      "name": "Calamity Charge",
+      "description": "The weapon gains the option to Charge (1) any Attack made with it. This will double the Damage Dice rolled when finding Damage."
+    },
+    {
+      "id": "centrifuse",
+      "name": "Centrifuse",
+      "description": "Run and Charge Movement Actions made by the User will cause the next Attack of this weapon to emit a Blast (2) of its Damage centered on the Target struck. All Targets within the Blast will be Blinded until the beginning of the User's next Turn. This effect can only be performed once per Turn."
+    },
+    {
+      "id": "chaperone",
+      "name": "Chaperone",
+      "description": "Kills with this weapon will give the next Half Action of Attacks a +10 Bonus To Hit and +100% Close and Optimal Range."
+    },
+    {
+      "id": "choir",
+      "name": "Choir",
+      "description": "The weapon's Rate of Fire is halved, if possible. Automatic and Sustained Weapons have their Rate of Fire halved, rounding down. Weapons with Pump, Semi-Auto, and Burst will be halved, if possible. If the Weapon is Semi-Auto (1), it will become Auto (1). If the weapon is Burst (2), it becomes Semi-Auto (1). If the weapon is Burst (3), it will become Burst (2). The Close Range and Optimal Range of the weapon are doubled. Attacks made that strike the Head Location or Armor Trait weak point locations will cause an explosion, dealing a second set of that Damage with Blast (3)."
+    },
+    {
+      "id": "cloudstrike",
+      "name": "Cloudstrike",
+      "description": "Kills with this weapon will cause a bolt of lightning to strike where the Enemy was standing, striking anything within a Blast (4) radius. This will deal 1D10+(X) Damage to all Targets within the radius. (X) begins at 5 and is multiplied by the number of additional Enemies within the radius, to a maximum of +30."
+    },
+    {
+      "id": "coldheart",
+      "name": "Coldheart",
+      "description": "The Base Damage and Pierce of the weapon is permanently halved. Each Half Action an Enemy is struck by this weapon; the weapon will deal an additional +1D10 to that Enemy. There is no upper limit to how much additional Damage is taken."
+    },
+    {
+      "id": "crimson_king",
+      "name": "Crimson King",
+      "description": "Attacks that strike the Head Location or equivalent Armor weak point will heal the User 1 Damage from their Wounds. Each Kill made by this weapon will refill the weapon's Magazine at the beginning of the User's next Turn as a Free Action."
+    },
+    {
+      "id": "darci",
+      "name": "D.A.R.C.I.",
+      "description": "While making an Aim Action, the User of this weapon will see the Wounds, Energy Shields, Fatigue, and any other Status or Medical Effect the Target is currently suffering from. Attacks against a Target that the User can see this information of will take 2D10 additional Damage if struck in the Head Location or equivalent weak spot location."
+    },
+    {
+      "id": "deathbringer",
+      "name": "Deathbringer",
+      "description": "An explosive weapon that misses its Target will Scatter 1D10 meters from the Target without detonating. As a Half Action, an undetonated explosive can be detonated, dealing its Damage to all Enemies within the Blast. Up to 4 undetonated explosives can be out at a time. If any more are placed, the oldest of the explosives will fade away. After 5 Turns, undetonated explosives will fade away. If the weapon does not have a Blast radius, this Perk must be rerolled."
+    },
+    {
+      "id": "delicate_tomb",
+      "name": "Delicate Tomb",
+      "description": "When an enemy is killed by this weapon, they will drop an \"lonic Trace\" which is similar to an Engram. When a User picks comes into contact with it, it will be absorbed as a Free Action. Each time an lonic Trace is absorbed, the weapon gains an additional Attack that will gain +1D10 Damage and will Stun the Target for their next Turn. The weapon can store up to 4 lonic Trace charge Attacks. All lonic Traces fade away if not collected within 5 Turns. All charges are lost if unused after 1 minute (10 Turns)."
+    },
+    {
+      "id": "deterministic",
+      "name": "Deterministic",
+      "description": "Every 4th Attack this weapon makes will cause an Enemy struck by it to become weakened. A weakened Enemy will have their Damage Resistance reduced by 4 each time this happens, to a minimum of O Damage Resistance. After not being struck by the weapon for 1 minute (10 Turns), the weakening effect is lost."
+    },
+    {
+      "id": "divinity",
+      "name": "Divinity",
+      "description": "Each time an Enemy is struck, they will take 1 additional Damage from any weapon that has this Perk. This maxes out at a total of 12 additional Damage. This effect is lost if a Divinity Perk weapon doesn't strike the Target within 1 hour of the last source of Damage."
+    },
+    {
+      "id": "down_for_the_count",
+      "name": "Down for the Count",
+      "description": "When the User of this weapon makes a Melee Attack using another weapon or Unarmed Melee Attacks, it will create a Carlo charge, to a maximum of 5 charges. Each Carlo charge can be cashed in at the same time or separately, giving this weapon +1D10 Damage per charge. Reloading the weapon or not using them within 1 minute will reset the available charges."
+    },
+    {
+      "id": "dragons_breath",
+      "name": "Dragon's Breath",
+      "description": "All Targets struck by this weapon take Flame (1) Special Rule. For every enemy currently suffering from the Flame Special Rule caused by this weapon, the next Attack gains +1 Damage."
+    },
+    {
+      "id": "dreamwork",
+      "name": "Dreamwork",
+      "description": "If another Character kills an Enemy that this weapon Damaged, this weapon will be instantly reloaded as a Free Action. When reloaded this way, the Magazine will be temporarily increased by +50%, rounding up, to a minimum of +1. This additional magazine will last until it is reloaded again. When the weapon reloads itself as a Free Action, it will not take into account when the Magazine is already increased by 50% from Dreamwork. It cannot stack with itself."
+    },
+    {
+      "id": "erianas_vow",
+      "name": "Eriana's Vow",
+      "description": "When this weapon is used with an Aim Action, it will deal +1D10 Damage on the first Attack made each Turn. The first round in the Magazine will deal +1D10 Damage. When both of these benefits are used at the same time, it becomes +3D10, instead."
+    },
+    {
+      "id": "ex_diris",
+      "name": "Ex Diris",
+      "description": "After the User takes 10 or more Damage in a single Turn or deals more than 15 Damage in a single Turn, a Moth is created. This Moth is a light-based entity that will slowly flutter towards an Enemy. Once within 2 meters of an Enemy, it will detonate, dealing 4D10 +20 Damage in a Blast (3) radius. The Moth will move at 5 meters per Turn. If killed, it will detonate. Any amount of Damage will kill the Moth. Due to the size of the Moth, it is at a -30 Penalty To Hit. There can be 3 active Moths at a time. A Moth will only last for 4 Turns before fading away."
+    },
+    {
+      "id": "exhaustive_research",
+      "name": "Exhaustive Research",
+      "description": "If the User of this weapon is making an Aim Action and making an Attack against an Enemy within 20 meters of the User, the Attack against that Enemy will gain a Blast (4) radius. If the weapon already has a Blast radius, it is increased by 4 meters. This can only be performed once per Turn."
+    },
+    {
+      "id": "exotic_outbreak",
+      "name": "Exotic Outbreak",
+      "description": "Attacks made by this weapon have the Homing Special Rule as they swarm erratically. Evading Attacks from this weapon are at a -10 Penalty."
+    },
+    {
+      "id": "explosive_pact",
+      "name": "Explosive Pact",
+      "description": "Any explosive weapon or Light Ability that is used to Damage an Enemy will halve this weapon's Reload speed. The Reload speed can be halved up to 2 times this way for unique explosives being used. This means that an explosive that Damages 2 enemies will only count as 1, but two separate explosives Damaging 1 enemy each will count as 2. Explosives count as any Attack that has a Blast or Kill radius, not including this weapon. If the weapon has its Reload speed halved twice, it will halve to a minimum of 1. For example, a Reload of 12 being halved becomes 6, and if that is halved a second time, it will become 3."
+    },
+    {
+      "id": "eyes_of_tomorrow",
+      "name": "Eyes of Tomorrow",
+      "description": "This weapon can make a unique Aim Action, where instead of aiming down sights normally, the User will instead scan up to 2 Enemies per Half Action. Up to 4 enemies can be tracked with this at a time, and enemies will stay Tracked for 2 Turns. When fired, the weapon will fire that Attack at each of the currently tracked enemies. Breaking line of sight will cause the track to instantly be lost. Splitting attacks against multiple users will not take additional Ammunition from the Magazine."
+    },
+    {
+      "id": "final_stasis",
+      "name": "Final Stasis",
+      "description": "When this weapon is used to Kill an Enemy, the next Attack this weapon strikes an Enemy with will cause the Enemy to be affected by the Freeze Stasis Aspect during their next Turn, regardless of distance from the User."
+    },
+    {
+      "id": "final_warning",
+      "name": "Final Warning",
+      "description": "Each successful Attack made with this weapon creates a unique Burst (x) Attack that is activated as a Free Action when the weapon is reloaded. For every Attack made, Burst (x) fires at an enemy with a Warfare Range Test made as the Free Action. This Attack has the Homing Special Rule. It will deal 2 Damage, ignoring Damage Resistance, to the nearest enemy. The amount of Damage this Attack can deal maxes out at 20."
+    },
+    {
+      "id": "finality",
+      "name": "Finality",
+      "description": "The first Half Action of the User's Turn will cause any Attack made by this weapon to have the Flame (2) Special Rule. The second Half Action of the User's Turn will cause any Attack made by this weapon to have the Cryo (2) Special Rule."
+    },
+    {
+      "id": "forerunner",
+      "name": "Forerunner",
+      "description": "This weapon gains the Kinetic Special Rule. Though when this weapon strikes an Enemy that does not have Energy Shields, it will deal an additional +1D10 Damage."
+    },
+    {
+      "id": "fourth_horseman",
+      "name": "Fourth Horseman",
+      "description": "Each Half Action this weapon is used to Attack, the next Attacks will gain a stacking +1D10 Damage and will gain a stacking -10 Penalty To Hit. The Damage Bonus and To Hit Penalty are lost when the weapon is reloaded or isn't fired for 1 Turn."
+    },
+    {
+      "id": "graviton_burst",
+      "name": "Graviton Burst",
+      "description": "The last set of Damage rolled in a Burst (X) Attack will gain the Dice Minimum (6) Special Rule. For any other weapon, it will be the final Attack made per Half Action that gains this effect. However, more than 1 Attack must be made in a Half Action for other Firing Type weapons to gain this benefit. If it is not possible for a weapon to gain this benefit, such as only having 1 Magazine, or having such a slow Rate of Fire that it couldn't make a second Attack, this Perk may be rerolled."
+    },
+    {
+      "id": "graviton_rain",
+      "name": "Graviton Rain",
+      "description": "After being reloaded, the first Attack in this weapon that strikes an enemy will cause stasis-based graviton needles to rain down in a radius of 5 meters around the enemy. This will last for 3 Turns, causing any enemy within the needles to take 3D10 Damage, ignoring Armor. Thes needles spawn 4 meters above the enemy."
+    },
+    {
+      "id": "gun_and_run",
+      "name": "Gun and Run",
+      "description": "Each kill made during combat will cause all Movement-based To Hit Penalties to be reduced by 5, to a minimum of 0. This is reset when combat ends or when the User goes Unconscious. Only this weapon will benefit from the reduction of these Penalties."
+    },
+    {
+      "id": "hard_light",
+      "name": "Hard Light",
+      "description": "Attacks made by this weapon gain no Damage and Pierce Penalties from Long and Extreme Range Attacks."
+    },
+    {
+      "id": "heartshadow",
+      "name": "Heartshadow",
+      "description": "A Weapon with this Perk will gain a Half Action unique Attack that deals its normal Damage. However, if it successfully strikes the Enemy, the User will be rendered invisible for 4 Turns. While invisible, they will gain a +60 Bonus to Camouflage Tests."
+    },
+    {
+      "id": "heir_apparent",
+      "name": "Heir Apparent",
+      "description": "This weapon has a Charge (2) action that must first be performed before it begins to fire normally. This means that if the weapon has Auto (6), it will first need to Charge for 2 Half Actions before Auto (6) is then fired each following Turn until the weapon runs out of ammo or the User stops firing for a full Turn. Once the weapon has been Charged, it will project an Energy Shield with a 1.5 meter radius around it, which it can fire through. Attacks that strike the User from the front will strike the Energy Shield, instead of them. This Energy Shield has a Shield Integrity of 75 with no Delay or Recharge. Once the Energy Shield is reduced to 0, it can only be regenerated by performing the Charge (2) Action again."
+    },
+    {
+      "id": "hoarder",
+      "name": "Hoarder",
+      "description": "The weapon's Magazine is permanently increased by 300%."
+    },
+    {
+      "id": "howl_at_the_moon",
+      "name": "Howl At The Moon",
+      "description": "Attacks that strike an Enemy's Head Location, or Armor weak spot, will gain 1 Paracausal charge. The final round in the Magazine will then deal +2 Base Damage for each Paracausal charge the weapon has gained. If the weapon is reloaded, all Paracausal charges are lost."
+    },
+    {
+      "id": "inheritance",
+      "name": "Inheritance",
+      "description": "Each successful Attack made against a Character will regenerate 2 Light Energy and 1 Super Energy of the User. Kills made with the weapon will regenerate 10 Light Energy."
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "description": "Kills made with this weapon will refill up to 10 rounds to its Magazine, increase the Base Damage by +5 for the next 2 Attacks made, and will refill up to 10 Super Energy."
+    },
+    {
+      "id": "kill_shot",
+      "name": "Kill Shot",
+      "description": "If the User kills an enemy and then begins reloading this weapon within 1 Turn, the first Attack made afterwards will gain the Kinetic Special Rule and will reduce the Target's Shield Integrity to 0 if they have Energy Shields active."
+    },
+    {
+      "id": "leviathans_breath",
+      "name": "Leviathan's Breath",
+      "description": "As a Full Action, this weapon fires a massive bolt at an Enemy with a -10 Penalty to be Evaded. If struck by this bolt, the Enemy will Stun them for 1 Turn, making it so they can only make a Half Action for their next Turn. A Blast (4) radius is centered around the Target, causing anyone within it to be Scattered 1D10 meters away. Everyone within the radius will take 3D10 Damage, ignoring Armor."
+    },
+    {
+      "id": "lifespring",
+      "name": "Lifespring",
+      "description": "Each successful Attack will heal the User 1 Wound. Weapons with Blast and Kill radius will heal 1 Wound per enemy struck. Weapons with a Blast and Kill radius, as well as a Magazine of 2 or lower will heal 2 Wounds per enemy struck."
+    },
+    {
+      "id": "malice",
+      "name": "Malice",
+      "description": "The final round in the magazine will deal an additional +1D10 Damage and will fully reload the Magazine the following Half Action. During that Half Action, the weapon can't be used as it reloads."
+    },
+    {
+      "id": "manticore",
+      "name": "Manticore",
+      "description": "Each time this weapon deals 20 Damage to an Enemy's Wounds, an Anti-Grav charge is gained. The weapon can store 5 Anti-Grav charges. The User can cash out an Anti-Grav charge, removing it. Each time an Anti-Grav charge is used, the User's Universal Movement Abilities will last an additional Half Action. When a Universal Movement Ability is used with an Anti-Grav charge active, the next Attack made by this weapon gains +2D10 Damage."
+    },
+    {
+      "id": "merciless",
+      "name": "Merciless",
+      "description": "Each time an Attack strikes an Enemy and doesn't kill it, this weapon's Reload is reduced by 1, to a minimum of 1. When an Enemy is Killed, this weapon can be reloaded within 1 Turn to give the entire next Magazine a +50% Base Damage. Once reloaded the weapon's Reload is reset back to its original value. The increased Base Damage is lost after 1 minute (10 Turns)."
+    },
+    {
+      "id": "microcosm",
+      "name": "Microcosm",
+      "description": "This weapon loses no Damage or Pierce when Piercing Through Enemies. Each time this weapon Kills an Enemy, the User regains 10 Super Energy. If the Enemy killed by this Weapon was from an Attack that Pierced Through another Enemy, the User regains an additional 20 Super Energy."
+    },
+    {
+      "id": "mida",
+      "name": "MIDA",
+      "description": "While this weapon is being used, the User will gain +2 Mythic Agility and gain a +10 Bonus to Evasion Tests. The distance the User can travel while keeping an Aim Action active is doubled. Making Evasion Test will not remove the User from their Aim Action."
+    },
+    {
+      "id": "my_needs",
+      "name": "My Needs",
+      "description": "If an enemy is killed by this weapon with an Attack to the Head Location or equivalent Armor weak spot, 6 shards will be created. Each shard will launch themselves at the nearest enemies, dealing 1D10 Damage ignoring Damage Resistance. The Shards will target Enemies within 40 meters. If there are no enemies within that range, they will remain motionless until they fade away after 1 Turn. These shards will target these Enemies with the same amount of Degrees of Success of the Attack that killed the initial enemy, which can then be Evaded by the Targets if they make successful Evasion Tests for each Shard separately."
+    },
+    {
+      "id": "my_regime",
+      "name": "My Regime",
+      "description": "Each time an Enemy dies, the User will be healed 3 Wounds for every Attack that struck them that was made by this weapon. This weapon does not need to land the killing blow for the User to be healed."
+    },
+    {
+      "id": "natural_volition",
+      "name": "Natural Volition",
+      "description": "An enemy that is killed by this weapon will detonate with Blast (2), dealing the total Damage to Wounds they took, ignoring Damage Resistance to all other enemies in the Blast. If they die, they will also detonate this way. This can only happen from an attack made by this weapon once per Turn, not including the chaining effects that are possible."
+    },
+    {
+      "id": "necrotech",
+      "name": "Necrotech",
+      "description": "The last round of the magazine of this weapon will deal a Blast (8) explosion, dealing its Damage to all enemies within. If the weapon only has a Magazine of 1, or has a Blast (X) of 5 or larger, this Perk may be rerolled."
+    },
+    {
+      "id": "nightmare",
+      "name": "Nightmare",
+      "description": "Once every 2 Turns, if an enemy is killed by this weapon, the User will be healed 3D10+Courage Modifier in Wounds."
+    },
+    {
+      "id": "outlaw",
+      "name": "Outlaw",
+      "description": "On a successful Kill, the weapon's Reload is reduced by 10, to a minimum of 1."
+    },
+    {
+      "id": "overkill",
+      "name": "Overkill",
+      "description": "The weapon's Magazine and Rate of Fire is halved. The weapon's Damage Dice rolled is doubled when finding Damage."
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "description": "Each time an Attack with this weapon strikes an Enemy, the Blast radius of the weapon is increased by 1 for every Enemy that was struck by it during the previous Turn. If the weapon does not have a Blast radius, you must reroll this Perk."
+    },
+    {
+      "id": "polaris",
+      "name": "Polaris",
+      "description": "Successful Attacks that strike the enemy's Head will return that ammo to the weapon's Magazine."
+    },
+    {
+      "id": "pristine_jade",
+      "name": "Pristine Jade",
+      "description": "Each Attack that strikes any Body Location that is not the Head will give the weapon a Jade charge, up to a maximum of 5 Jade charges. Upon striking the Head Location of an enemy, the charges are used, reducing them to 0. The weapon will gain Dice Minimum (X), where (X) is 2 for every charge."
+    },
+    {
+      "id": "radiant_dance_machines",
+      "name": "Radiant Dance Machines",
+      "description": "Each successful Attack made in a Turn will gain Bonus Base Damage equal to the User's Perception Modifier."
+    },
+    {
+      "id": "rapid",
+      "name": "Rapid",
+      "description": "Each Turn the weapon is fired, the Rate of Fire of the weapon is increased by 1 for Melee Weapons, Semi-Auto, Pump, and Burst, or by 2 for Sustained and Automatic. This will max out at 2x the original Rate of Fire if possible, or until the weapon is reloaded"
+    },
+    {
+      "id": "rat_king",
+      "name": "Rat King",
+      "description": "This weapon gains +3 Base Damage and +3 Pierce for every Exotic weapon actively being used by the party, as long as they are within 20 meters of that weapon. This does include the Rat King itself. The Base Damage and Pierce bonuses will max out at +15, each."
+    },
+    {
+      "id": "remnants_lumina",
+      "name": "Remnant's Lumina",
+      "description": "Each enemy killed by this weapon will spawn 5 shards. Each shard will go towards the nearest allied Character, healing 1D5 Wounds upon each impact."
+    },
+    {
+      "id": "remnants_thorn",
+      "name": "Remnant's Thorn",
+      "description": "Each Attack made by this weapon will deal 1D5 Damage to that Target at the beginning of their next Turn, ignoring Damage Resistance."
+    },
+    {
+      "id": "sentient_projectiles",
+      "name": "Sentient Projectiles",
+      "description": "All Attacks made with this weapon have the Homing Special Rule. If an Attack misses an Enemy, the Homing reroll will target a different nearby enemy. If there is no other nearby enemy, it will circle around, striking the original Enemy at the beginning of the User's next Turn."
+    },
+    {
+      "id": "skyburner",
+      "name": "Skyburner",
+      "description": "When making Attacks with this weapon while using an Aim Action, the Enemy gains a -20 Penalty to Evade."
+    },
+    {
+      "id": "sleeper_simulant",
+      "name": "Sleeper Simulant",
+      "description": "This weapon loses no Damage or Pierce when Piercing Through Enemies. If an Attack had 3 or more Degrees of Success and dealt Damage to an Enemy, it will pierce through and strike a surface. When it strikes the surface, it will ricochet into another Enemy if possible. If there is no other Enemy, nothing happens."
+    },
+    {
+      "id": "stay_in_the_fight",
+      "name": "Stay In The Fight",
+      "description": "If the User's Wounds are at 25% or lower, rounding down, this weapon will gain a +30 Bonus To Hit."
+    },
+    {
+      "id": "still_hunt",
+      "name": "Still Hunt",
+      "description": "Any time the User of this weapon picks up an Orb of Light, this weapon will gain the benefits of a Full Aim Action as a Free Action during the User's next Turn. When used with an Aim Action, this weapon gains an additional +10 Bonus To Hit and no amount of Damage will stop the User's Aim Action."
+    },
+    {
+      "id": "sturm",
+      "name": "Sturm",
+      "description": "Any time an Enemy is killed with this weapon, all other of the User's weapons currently holstered are reloaded. Any time another weapon kills an Enemy while this weapon is holstered, this weapon is reloaded."
+    },
+    {
+      "id": "sword_logic",
+      "name": "Sword Logic",
+      "description": "Every kill made by this weapon will gain a +2 Bonus to Damage, to a maximum of +12. This will last until combat ends."
+    },
+    {
+      "id": "tainted",
+      "name": "Tainted",
+      "description": "The weapon gains the Needle (X) Special Rule, where (X) is decided by the weapon's Rate of Fire. If the weapon used does not use one of the listed Rate of Fires, reroll this Perk. Burst, Pump Action, and Semi-Auto (X): Needle (X) is the Rate of Fire (X) +1. Sustained and Auto (X): Needle (X) is Rate of Fire (X) halved, +1."
+    },
+    {
+      "id": "tear",
+      "name": "Tear",
+      "description": "On a successful kill, all enemies within 10 meters of the Target will have all their Damage they deal halved on their first Attack made each Half Action."
+    },
+    {
+      "id": "the_beast",
+      "name": "The Beast",
+      "description": "Every Attack made by this weapon that successfully deals Damage will give 1 Beast charge. The weapon can store up to 5 Beast charges at a time. At any point, this weapon can make a Full Action Attack that cashes in all of the Beast charges currently stored, reducing them to 0. For each Beast Charge, the weapon deals an additional 1D10 Damage for that Attack."
+    },
+    {
+      "id": "the_leech",
+      "name": "The Leech",
+      "description": "Attacks from this weapon that Damage an Energy Shield's Shield Integrity will refill the User's Shield Integrity by half of the amount removed."
+    },
+    {
+      "id": "thousand_voices",
+      "name": "Thousand Voices",
+      "description": "When an enemy is struck by this weapon, they will detonate with Blast (3) after 3 Turns, dealing 3D10 + (X) Damage. The Enemy can only be affected by one instance of this effect at a time, but each time they are struck by it, (x) is increased by 5, to a maximum of 30. The detonation happens at the beginning of the User's Turn."
+    },
+    {
+      "id": "thunderlord",
+      "name": "Thunderlord",
+      "description": "When an enemy is killed by this weapon, a bolt of lightning strikes straight down with a 2 meter radius. Anyone within the radius will take the Damage of an Arcbolt Grenade. If anyone is Damaged by this lightning, the weapon's Reload is halved. Once the weapon is reloaded, the reduced Reload is lost."
+    },
+    {
+      "id": "tracking_module",
+      "name": "Tracking Module",
+      "description": "All Attacks made with this weapon have the Homing Special Rule. If the weapon already has the Homing Special Rule, the reroll will gain an additional +10 Bonus To Hit."
+    },
+    {
+      "id": "tractor_cannon",
+      "name": "Tractor Cannon",
+      "description": "Enemies struck by this weapon are pushed back 1 meter. Each time the enemy is pushed back, they will take a stacking 1 additional Damage from all sources of Damage. This effect is lost after 1 minute (10 Turns) of not being struck by this weapon."
+    },
+    {
+      "id": "transcendence",
+      "name": "Transcendence",
+      "description": "Each time this weapon attacks an Enemy, it will gain an additional +1D10 Damage against that Enemy, to a maximum of +4D10."
+    },
+    {
+      "id": "trespasser",
+      "name": "Trespasser",
+      "description": "Reloading this weapon will increase the weapon's Rate of Fire for the next 2 Turns. Semi-Auto, Burst, and Pump Rate of Fire are increased by 1, while Auto and Sustained Rate of Fire are increased by 2."
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "description": "All Attacks made by this weapon gain the Homing Special Rule. If the Target is within Optimal Range and the first Attack misses, causing it to reroll with the Homing Special Rule, the Target will gain a -10 Penalty to their Evasion Test to Evade the Attack."
+    },
+    {
+      "id": "twin_worms",
+      "name": "Twin Worms",
+      "description": "All Attacks made by this weapon deals 2 sets of Damage. The Base Damage is halved and loses 1 Damage Dice."
+    },
+    {
+      "id": "two_tailed_fox",
+      "name": "Two-Tailed Fox",
+      "description": "All Attacks made by this weapon deals 2 sets of Damage. The Base Damage, Pierce, Close Range, and Optimal Range are halved. The first of the 2 sets of Damage deals Flame (1D5), while the second deals Cryo (1D5)."
+    },
+    {
+      "id": "venimeuse",
+      "name": "Venimeuse",
+      "description": "Attacks made by this weapon have Acid (X), where (X) is 1 for each Damage Dice the weapon deals."
+    },
+    {
+      "id": "vestige_spike",
+      "name": "Vestige Spike",
+      "description": "Attacks made by this weapon gain the Spike Special Rule."
+    },
+    {
+      "id": "vexcalibur",
+      "name": "Vexcalibur",
+      "description": "Kills with this weapon will cause allies within 5 meters of the User to regain 20 Shield Integrity to their Energy Shields."
+    },
+    {
+      "id": "vigilance",
+      "name": "Vigilance",
+      "description": "When an ally within 10 meters is struck for 10 or more Damage, or is killed, this weapon gains +1D10 Damage for the User's next Turn and they regenerate 1D5 Wounds per Half Action during that Turn."
+    },
+    {
+      "id": "vorpal",
+      "name": "Vorpal",
+      "description": "When facing Nemesis level enemies, bosses, mini-bosses, and vehicles, this weapon's Pierce is increased by +50%. The User will gain +3 Damage Resistance for figuring Damage to Wounds when these enemies Attack them."
+    },
+    {
+      "id": "wardcliff_coil",
+      "name": "Wardcliff Coil",
+      "description": "The weapon's Rate of Fire is replaced by Burst (X). Weapons that are Semi-Auto or Pump will gain Burst (X) equal to Semi-Auto (X) or Pump (X). Automatic weapons will gain Burst (X), where (X) is half of Auto (X), and then reduced by an additional 1. For example, Auto (7) will become Burst (3). The weapon can take any type of Dust Ammunition to reload it. If an Dust Ammunition is picked up while this weapon is being held, the weapon will instantly use the Dust Ammunition to reload as a Free Action. All Attacks made by this weapon have the Airburst (1) Special Rule."
+    },
+    {
+      "id": "whisper_of_the_worm",
+      "name": "Whisper of the Worm",
+      "description": "Successfully landing 3 Attacks in a row will regenerate all 3 of those rounds into the magazine. Each missed Attack will have a 50% chance of regenerating that round int the magazine."
+    },
+    {
+      "id": "wicked",
+      "name": "Wicked",
+      "description": "Each Attack this weapon makes against a Target will cause them to be Stunned for their next Turn, only being able to make 1 Half Action for that Turn. If an Enemy is killed while being Stunned by this weapon, this weapon's Magazine is instantly reloaded."
+    },
+    {
+      "id": "winterbite",
+      "name": "Winterbite",
+      "description": "As a Half Action, this weapon can fire off a large ball of energy with the Homing Special Rule. It will lock onto and strike the nearest Enemy, dealing Cryo (2D5)."
+    },
+    {
+      "id": "withered",
+      "name": "Withered",
+      "description": "When this weapon strikes an Enemy, they will take 1 Damage at the beginning of their Turn for 3 Turns. This Damage ignores Damage Resistance. Each additional Half Action the enemy is struck will double the current Damage they take and reset the amount of Turns the Damage lasts. The Damage at the beginning of each Turn will max out at 20."
+    },
+    {
+      "id": "withering_gaze",
+      "name": "Withering Gaze",
+      "description": "The first successful Attack made during Aim Actions each Half Action will inflict the Weaken Light Aspect on the Target."
+    },
+    {
+      "id": "worldline_zero",
+      "name": "Worldline Zero",
+      "description": "While the User of this weapon is Charging, Running, or Sprinting, they are able to make a 'Blink' Action at the beginning of their next Turn as a Free Action. This Blink Action will teleport the User an additional (x) meters, where (x) is equal to the User's Agility Modifier. The User can teleport through walls but can't teleport into obstacles."
+    },
+    {
+      "id": "xenophage",
+      "name": "Xenophage",
+      "description": "The weapon gains Blast (1). If the weapon already has a Blast radius, it gains +1D10 Damage. When the weapon is used with an Aim Action, it will gain +3 Damage for a Half Aim, or +7 Damage with a Full Aim. While using an Aim Action, the User's Perceptive Range is doubled."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+
+{
+  "elements": [
+    {
+      "id": "arc",
+      "name": "Arc"
+    },
+    {
+      "id": "solar",
+      "name": "Solar"
+    },
+    {
+      "id": "void",
+      "name": "Void"
+    },
+    {
+      "id": "stasis",
+      "name": "Stasis"
+    },
+    {
+      "id": "strand",
+      "name": "Strand"
+    },
+    {
+      "id": "kinetic",
+      "name": "Kinetic"
+    }
+  ]
+}

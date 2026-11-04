@@ -1,0 +1,18 @@
+{
+  "weather": {
+    "conditions": [
+      { "condition": "Light Fog, Smoke, Light Rainfall", "penalty": -5 },
+      { "condition": "Moderate Fog, Smoke, Rainfall", "penalty": -10 },
+      { "condition": "Heavy Rainfall, Debris", "penalty": -20 },
+      { "condition": "Heavy Fog, Smoke, Downpour, Tremors", "penalty": -30 }
+    ],
+    "other_conditions": [
+      { "condition": "Heavy rain through window", "penalty": -20 },
+      { "condition": "Tall foliage", "penalty": -20 },
+      { "condition": "Night vision with non-smartlink optics", "penalty": -30 },
+      { "condition": "Weapon braced on vibrating terrain", "penalty": -10 }
+    ],
+    "melee_rule": "Warfare Melee takes half listed penalties (min -5).",
+    "citation": "Weather and unnatural condition penalties."
+  }
+}

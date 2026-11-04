@@ -1,0 +1,11 @@
+{
+  "attack_limits": {
+    "base_attacks": {
+      "formula": "Warfare Melee Modifier / 2 (minimum 1)"
+    },
+    "examples": [
+      { "warfare_melee": 40, "attacks_per_half": 2 }
+    ],
+    "citation": "Amount of Attacks rules."
+  }
+}

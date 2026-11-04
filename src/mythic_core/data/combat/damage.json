@@ -1,0 +1,17 @@
+{
+  "damage": {
+    "dice": {
+      "description": "Roll all listed D10 or D5 dice and add together.",
+      "citation": "Damage Dice rules."
+    },
+    "base_damage": {
+      "description": "Flat damage added to dice; if no dice, base damage is total.",
+      "citation": "Base Damage rules."
+    },
+    "special_damage": {
+      "trigger": ["Natural 10 on D10", "Natural 5 on D5"],
+      "effect": "Apply Special Damage chart",
+      "citation": "Special Damage rules."
+    }
+  }
+}

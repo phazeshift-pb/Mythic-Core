@@ -1,0 +1,52 @@
+{
+  "weapon_training": {
+    "notes": "Training determines which weapon categories a character can use without penalty.",
+    "training": [
+      {
+        "name": "Basic",
+        "exp": 150,
+        "weapons": ["Pistol", "Knife", "Shotgun"]
+      },
+      {
+        "name": "Infantry",
+        "exp": 200,
+        "weapons": ["Rifle", "Carbine", "SMG", "Grenade"]
+      },
+      {
+        "name": "Heavy",
+        "exp": 200,
+        "weapons": ["LMG", "MG", "HMG"]
+      },
+      {
+        "name": "Advanced",
+        "exp": 300,
+        "weapons": ["Energy Weapon", "Railgun", "Chemical Sprayer", "Beam"]
+      },
+      {
+        "name": "Launcher",
+        "exp": 250,
+        "weapons": ["Missile Launcher", "Rocket Launcher", "Grenade Launcher"]
+      },
+      {
+        "name": "Long Range",
+        "exp": 150,
+        "weapons": ["Sniper Rifle"]
+      },
+      {
+        "name": "Ordnance",
+        "exp": 300,
+        "weapons": ["Satchel Charge", "Demolition", "Ordnance", "Landmine"]
+      },
+      {
+        "name": "Cannon",
+        "exp": 250,
+        "weapons": ["Cannon", "Mortar Cannon", "Autocannon", "Coilgun", "Energy Cannon"]
+      },
+      {
+        "name": "Melee",
+        "exp": 150,
+        "weapons": ["All non-knife melee weapons", "Physical Shields"]
+      }
+    ]
+  }
+}

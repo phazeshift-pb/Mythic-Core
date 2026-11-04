@@ -1,0 +1,8 @@
+{
+  "creation_points": {
+    "base_points": 85,
+    "high_power_option": 100,
+    "max_per_characteristic": 20,
+    "notes": "Creation Points are added to Soldier Type base characteristics."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "specialization_packs": {
+    "rules": {
+      "standard_packs": "A Character may select a standard specialization pack as allowed by Character Creation.",
+      "limited_packs": "Limited packs have additional requirements or restrictions described in their military_special field."
+    },
+    "standard": [
+      {
+        "name": "Battlefield Medic",
+        "abilities": ["Emergency Procedure", "Field Medic", "Under Control"],
+        "skills": ["Evasion (Trained)", "Investigation (Trained)", "Medication (Trained)"]
+      },
+      {
+        "name": "Heavy Weapons",
+        "abilities": ["Gather Senses", "Mobile Fire", "Rapid Reload"],
+        "skills": ["Athletics (Trained)", "Survival (Trained)", "Intimidation (Trained)"]
+      },
+      {
+        "name": "Recon/Infiltration",
+        "abilities": ["Always Ready", "Eagle Eye", "Exceptional Hearing"],
+        "skills": ["Camouflage (+10)", "Cryptography (Trained)", "Investigation (Trained)"]
+      },
+      {
+        "name": "Close Quarters",
+        "abilities": ["Disarm", "Evasive Maneuvers", "Hand-To-Hand Basic"],
+        "skills": ["Athletics (+10)", "Investigation (Trained)", "Survival (Trained)"]
+      },
+      {
+        "name": "Logistics",
+        "abilities": ["Eagle Eye", "Exceptional Hearing", "Triangulation"],
+        "skills": ["Cryptography (+10)", "Security (Trained)", "Technology (Trained)"]
+      },
+      {
+        "name": "Resource/Support",
+        "abilities": ["Ask Nicely", "Resourceful", "Triangulation"],
+        "skills": ["Investigation (Trained)", "Security (Trained)", "Technology (Trained)"]
+      },
+      {
+        "name": "Demolitions",
+        "abilities": ["Gather Senses", "Mind Timer", "Under Control"],
+        "skills": ["Demolition (Trained)", "Technology (Trained)", "Investigation (Trained)"]
+      },
+      {
+        "name": "Marksman",
+        "abilities": ["Adept Marksman", "Far-Sight", "Marksman"],
+        "skills": ["Athletics (Trained)", "Camouflage (Trained)", "Navigation (Trained)"]
+      },
+      {
+        "name": "Technician/Comms",
+        "abilities": ["Alien Tech", "Handyman", "Smooth Talker"],
+        "skills": ["Command (Trained)", "Investigation (Trained)", "Technology (Trained)"]
+      },
+      {
+        "name": "Duelist",
+        "abilities": ["Akimbo", "Denial", "Quickdraw"],
+        "skills": ["Athletics (Trained)", "Stunting (Trained)", "Survival (Trained)"]
+      },
+      {
+        "name": "Pointman",
+        "abilities": ["Fast Foot", "Gather Senses", "Snapshot"],
+        "skills": ["Athletics (Trained)", "Investigation (Trained)", "Survival (Trained)"]
+      },
+      {
+        "name": "Vehicle Expert",
+        "abilities": ["Handyman", "Gather Senses", "Mobile Fire"],
+        "skills": ["Navigation (Trained)", "Pilot (Trained)", "Technology (Trained)"]
+      }
+    ],
+    "limited": [
+      {
+        "name": "Commander",
+        "abilities": ["Grand Entrance", "Order of Things", "Reliable Reputation"],
+        "skills": ["Appeal (Trained)", "Command (Trained)", "Investigation (Trained)"],
+        "military_special": "The Command Package is based on leading the party, and usually coming with a higher rank than the rest of the Party. When in a Human Military, E-6 should be the commonly given Rank to be above the rest of the Party. If in a Covenant Military, the common rank given should be a Major. The Command Specialization Package is limited to one per Party. If the rest of the Party are already higher rank, or near the rank of what the base Commander Rank is, the GM may promote the Commander. A general rule of thumb for Humans would be to allow the Character to take an increased rank of O-5, but this is not completely common. For Covenant, a simple Rank increase to the level above the rest would suffice."
+      },
+      {
+        "name": "Medical Physician",
+        "abilities": ["Cynical", "Emergency Procedure", "Under Control"],
+        "skills": ["Investigation (Trained)", "Medication (Trained)", "Technology (Trained)"],
+        "military_special": "Those in the Human military structure who specialize in Medical practices are joined into the Medical Corps of their respective Military. They currently enrolled and eligible in training or are still early within the ranks begins as an O-1 rank of Ensign in the Navy. After completing 17 Months as the Medical Specialization Pack, the Character is ranked up to O-3 Lieutenant. These special ranks are not for commanding, but for paygrade Bonuses. This gives no Command Bonuses or power over those of lesser ranks. A Medical Physician should be limited to one per Fireteam, Squad, or Player group. If the Character is outside of the Military, they are exempt from this rule. Civilians who are working under a Military as a Medical Physician can gain the rank of O-1 Ensign until discharge or moving on."
+      }
+    ]
+  }
+}

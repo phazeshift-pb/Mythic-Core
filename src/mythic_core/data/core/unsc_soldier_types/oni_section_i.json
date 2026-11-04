@@ -1,0 +1,141 @@
+{
+  "name": "UNSC / ONI Section I Operative",
+  "experience_cost": 2300,
+  "training": ["Basic", "Infantry"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 25,
+    "TOU": 25,
+    "AGI": 25,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 25,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {},
+
+  "advancements": {
+    "INT": "+5 Simple",
+    "PER": "+5 Simple",
+    "CHA": "+5 Simple",
+    "LDR": "+10 Rookie",
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "CRG": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [45, 117],
+    "size": "Normal"
+  },
+
+  "traits": [
+    {
+      "name": "Approval",
+      "effect": "This Soldier Type requires GM approval due to its espionage and deception potential."
+    },
+    {
+      "name": "Hidden",
+      "effect": "May mask themselves as Army, Marine, Air Force, or Navy. Player and Character do not need to reveal their identity or motives."
+    },
+    {
+      "name": "Rank",
+      "effect": "Begins at Rank O-1 and may take the Command Specialization Package even if another Character already has it."
+    },
+    {
+      "name": "False Rank",
+      "effect": "Operative receives pay of their true Rank but displays a false Rank to maintain cover."
+    },
+    {
+      "name": "Support",
+      "effect": "Gains +1 Support Point at Character Creation and after each Mission. This bonus does not regenerate after use."
+    },
+    {
+      "name": "UNSC Gear Discount",
+      "effect": "All UNSC gear costs half cR for the ONI Operative."
+    },
+    {
+      "name": "Squad Up",
+      "effect": "+5 Courage and +10 Warfare Melee/Range when taking Combined Actions with Army, Marine, Air Force, Navy, ORION, ODST, Militiaman, or Spartan IV Soldier Types."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {
+    "description": "ONI Section I is the intelligence-gathering branch of ONI, specializing in espionage, codebreaking, and covert operations.",
+
+    "evacuate": {
+      "effect": "May spend 1 Support Point to call in a falsified evacuation of any urban or colonial location.",
+      "legitimate_evacuations": "If the evacuation is legitimate for civilian survival, it is free."
+    },
+
+    "espionage": {
+      "effect": "May remove any intel sent to the party before others see it and may replace it with falsified documents."
+    },
+
+    "provision": {
+      "effect": "May call in Army, Marine, Navy, and Air Force Infantry Support at half cost. May call in Ordnance at 1/4 cost."
+    }
+  },
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "standard": [
+      "MA5 Series Assault Rifle (time period appropriate)",
+      "3 Ammunition Pouches",
+      "WAYPOINT Comm",
+      "Flashlight",
+      "Interrogator Translator",
+      "M1 Combat Knife or Model 52 Knife",
+      "Spoofer",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Softcases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "marksman": [
+      "BR55 or BR85 Battle Rifle",
+      "3 Ammunition Pouches",
+      "WAYPOINT Comm",
+      "Flashlight",
+      "Interrogator Translator",
+      "M1 Combat Knife or Model 52 Knife",
+      "Spoofer",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "close_quarters": [
+      "M45 Tactical Shotgun",
+      "3 Ammunition Pouches",
+      "WAYPOINT Comm",
+      "Flashlight",
+      "Interrogator Translator",
+      "M1 Combat Knife or Model 52 Knife",
+      "Spoofer",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Softcases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ]
+  }
+}

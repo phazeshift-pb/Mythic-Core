@@ -1,0 +1,8 @@
+{
+  "extreme_range": {
+    "penalty": -80,
+    "pierce": 0,
+    "description": "Attacks beyond long range up to 3x max range.",
+    "citation": "Extreme Range rules."
+  }
+}

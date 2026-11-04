@@ -1,0 +1,16 @@
+{
+  "spotter": {
+    "requirements": {
+      "scope_value": "Equal or greater than attacker",
+      "attacker_must_aim": true
+    },
+    "test": {
+      "skill": "Perception",
+      "bonus_half_aim": 5,
+      "bonus_full_aim": 10,
+      "max_bonus": 50
+    },
+    "loss_condition": "Target moves >20 meters",
+    "citation": "Spotter rules for ranged attacks."
+  }
+}

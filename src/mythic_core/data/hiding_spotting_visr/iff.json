@@ -1,0 +1,18 @@
+{
+  "iff": {
+    "options": [
+      { "name": "Directional Facing", "range_allies": 1000, "range_enemies": 200 },
+      { "name": "Distance", "range_allies": 1000, "range_enemies": 200 },
+      { "name": "Information", "range_allies": 250 },
+      { "name": "Location", "range_allies": 1000, "range_enemies": 200 },
+      { "name": "Medical/Biometrics", "range_allies": 500 },
+      { "name": "Points of Interest", "range_allies": 1000 },
+      { "name": "Warning Ping", "range_allies": 1000 }
+    ],
+    "trigger_lock": {
+      "description": "Prevents friendly fire with UNSC weapons",
+      "notes": "Does not prevent blast damage"
+    },
+    "citation": "IFF Tag options and Trigger Lock rules."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Warlock Class Soldier Type",
+  "experience_cost": 9500,
+  "training": ["Basic", "Infantry"],
+  "upbringing": "Sub-Class Only",
+
+  "base_characteristics": {
+    "STR": 5,
+    "TOU": 5,
+    "AGI": 10,
+    "WFR": 5,
+    "WFM": 5,
+    "INT": 5,
+    "PER": 5,
+    "CRG": 0,
+    "CHA": 0,
+    "LDR": 0
+  },
+
+  "mythic_characteristics": {
+    "STR": "+2",
+    "TOU": "+2",
+    "AGI": "+2"
+  },
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": null,
+    "PER": null,
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {},
+
+  "traits": [
+    {
+      "name": "Training",
+      "effect": "The Character begins with the Human Weaponry Racial Trait at Character Creation."
+    },
+    {
+      "name": "Chosen",
+      "effect": "The Character has a Ghost as another Character with them."
+    },
+    {
+      "name": "Power",
+      "effect": "The Character has an additional Light Ability Slot at Character Creation. This slot does not take up one of the purchasable slots."
+    },
+    {
+      "name": "Revive",
+      "effect": "As an Extended 2 Full Actions, the Character can Revive Unconscious or Dead Guardians by applying their Connection to the Character's Ghost. This brings the Guardian to full Wounds."
+    },
+    {
+      "name": "Equipment",
+      "effect": "The Character begins with 3 Common Weapon Engrams and 1 Common Armor Engram."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {},
+
+  "special_rules": {
+    "tier": 4,
+    "subclass_required": true
+  },
+
+  "subclasses": {
+    "Voidwalker": {
+      "characteristic_modifiers": {
+        "WFR": "+5",
+        "TOU": "-5"
+      }
+    },
+    "Sunsinger": {
+      "characteristic_modifiers": {
+        "AGI": "+5",
+        "PER": "+5",
+        "STR": "-5",
+        "TOU": "-5"
+      }
+    },
+    "Stormcaller": {
+      "characteristic_modifiers": {
+        "INT": "+5",
+        "PER": "+5",
+        "WFM": "-5",
+        "WFR": "-5"
+      }
+    },
+    "Dawnblade": {
+      "characteristic_modifiers": {
+        "WFM": "+5",
+        "WFR": "+5",
+        "INT": "-5",
+        "PER": "-5"
+      }
+    },
+    "Shadebinder": {
+      "characteristic_modifiers": {
+        "WFM": "+10",
+        "AGI": "-5",
+        "TOU": "-5"
+      }
+    },
+    "Broodweaver": {
+      "characteristic_modifiers": {
+        "INT": "+5",
+        "AGI": "+10",
+        "STR": "-5",
+        "TOU": "-5",
+        "WFM": "-5"
+      }
+    }
+  },
+
+  "equipment_sets": {}
+}

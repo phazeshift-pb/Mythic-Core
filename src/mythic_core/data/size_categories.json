@@ -1,0 +1,18 @@
+{
+  "size_categories": [
+    { "category": "Mini", "reach": 0, "height": "0.1 - 0.5 m" },
+    { "category": "Small", "reach": 1, "height": "0.51 - 1.4 m" },
+    { "category": "Normal", "reach": 1, "height": "1.41 - 2.0 m" },
+    { "category": "Large", "reach": 2, "height": "2.01 - 3.0 m" },
+    { "category": "Huge", "reach": 3, "height": "3.01 - 3.5 m" },
+    { "category": "Hulking", "reach": 3, "height": "3.51 - 4.0 m" },
+    { "category": "Giant", "reach": 4, "height": "4.01 - 4.5 m" },
+    { "category": "Immense", "reach": 4, "height": "4.51 - 6.0 m" },
+    { "category": "Massive", "reach": 5, "height": "6.01 - 10 m" },
+    { "category": "Great", "reach": 6, "height": "10.01 - 40 m" },
+    { "category": "Monumental", "reach": 7, "height": "40.01 - 120 m" },
+    { "category": "Colossal", "reach": 10, "height": "120.01 - 500 m" },
+    { "category": "Vast", "reach": 25, "height": "500.01 - 1000 m" },
+    { "category": "Unscalable", "reach": "X", "height": "1001+ m" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "defense": {
+    "repair": {
+      "action": "Full",
+      "test": "Cryptography",
+      "repair_per_degree": 1
+    },
+    "restore": {
+      "rule": "Firewall must be repaired to full rating before defending again"
+    },
+    "citation": "Defending Firewalls."
+  }
+}

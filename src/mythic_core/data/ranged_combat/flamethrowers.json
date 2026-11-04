@@ -1,0 +1,10 @@
+{
+  "flamethrowers": {
+    "base_bonus": 10,
+    "spread_bonus": 20,
+    "cone_attack": true,
+    "long_range": "Impossible",
+    "extreme_range": "Impossible",
+    "citation": "Flamethrower and Cryosprayer rules."
+  }
+}

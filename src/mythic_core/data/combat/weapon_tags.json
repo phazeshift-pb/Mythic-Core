@@ -1,0 +1,15 @@
+{
+  "weapon_tags": {
+    "wielding": [
+      { "tag": "DW", "description": "Dual Wield" },
+      { "tag": "OH", "description": "One-Handed" },
+      { "tag": "TH", "description": "Two-Handed" },
+      { "tag": "HW", "description": "Heavy Weapon" }
+    ],
+    "information": [
+      { "tag": "U", "description": "Universal" },
+      { "tag": "I", "description": "Insurrectionist" }
+    ],
+    "citation": "Weapon Tags including Wielding and Information categories."
+  }
+}

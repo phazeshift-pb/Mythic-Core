@@ -1,0 +1,9 @@
+{
+  "melee_movement": {
+    "types": {
+      "charge": "Full Action melee attack with movement.",
+      "hit_and_run": "Swipe attack during movement."
+    },
+    "citation": "Melee Attacks and Movement rules."
+  }
+}

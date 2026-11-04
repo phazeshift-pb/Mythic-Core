@@ -1,0 +1,20 @@
+{
+  "mythic": {
+    "strength": {
+      "melee_damage_bonus": "modifier + X",
+      "carry_weight_bonus": "X * 10",
+      "citation": "“Increases the Character's Strength Modifier for figuring Melee Damage and Carry Weight.”"
+    },
+    "toughness": {
+      "damage_resistance_bonus": "modifier + X",
+      "carry_weight_bonus": "X * 10",
+      "wounds_bonus": "modifier + X",
+      "citation": "“Increases character's Toughness Modifier when figuring Damage Resistance, Carry Weight and Wounds.”"
+    },
+    "agility": {
+      "movement_bonus": "modifier + X",
+      "initiative_bonus": "floor(X / 2)",
+      "citation": "“Increases character's Agility Modifier when figuring Movement Speed… increases Initiative Roll by (X/2).”"
+    }
+  }
+}

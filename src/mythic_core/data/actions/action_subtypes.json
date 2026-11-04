@@ -1,0 +1,10 @@
+{
+  "action_subtypes": {
+    "movement": "Actions involving movement.",
+    "attack": "Actions involving melee or ranged attacks.",
+    "concentration": "Actions requiring focus or precision.",
+    "defense": "Actions used to avoid or mitigate attacks.",
+    "misc": "Actions that do not fit other categories.",
+    "social": "Actions involving negotiation or interaction."
+  }
+}

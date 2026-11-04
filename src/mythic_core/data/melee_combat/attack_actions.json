@@ -1,0 +1,16 @@
+{
+  "attack_actions": {
+    "rules": {
+      "multi_action_attacks": "Some melee attacks require multiple attack actions.",
+      "half_action_attacks": "If an attack states it takes a Half Action, it always costs a Half Action.",
+      "slow_weapons": "Weapons with Slow limit attacks per Half Action.",
+      "max_attacks_half": 4,
+      "max_attacks_full": 8,
+      "modern_army_combative_bonus": {
+        "extra_attack": 1,
+        "reaction_penalty": -20
+      }
+    },
+    "citation": "Attack Action rules."
+  }
+}

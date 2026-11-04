@@ -1,0 +1,16 @@
+{
+  "hacking": {
+    "requirements": "Access to device (direct, wired, wireless)",
+    "action": "Full",
+    "test": "Cryptography",
+    "success": {
+      "damage": 1,
+      "extra_damage_per_degree": 1,
+      "firewall_removed_at_zero": true
+    },
+    "failure": {
+      "trigger_lockout": true
+    },
+    "citation": "Attacking Firewalls."
+  }
+}

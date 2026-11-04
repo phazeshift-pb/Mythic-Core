@@ -1,0 +1,19 @@
+{
+  "initiative": {
+    "roll": {
+      "dice": "1D10",
+      "add": ["Agility Modifier", "Mythic Agility / 2"],
+      "citation": "“Each Character will roll a D10 and add their Agility Modifier and half of their Mythic Agility.”"
+    },
+    "tie_breakers": [
+      "Higher Agility Characteristic",
+      "If tied: roll 1D100, highest goes first"
+    ],
+    "group_rule": "GM may roll once for an entire NPC group.",
+    "surprise_round": {
+      "description": "Occurs before Initiative if targets are Unaware or Helpless.",
+      "effect": "Targets cannot act or react.",
+      "citation": "Surprise Round rules."
+    }
+  }
+}

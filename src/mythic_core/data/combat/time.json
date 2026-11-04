@@ -1,0 +1,21 @@
+{
+  "time": {
+    "narrative": {
+      "description": "Used when precise timekeeping is unnecessary, such as travel or roleplay.",
+      "citation": "Narrative Time description."
+    },
+    "structured": {
+      "description": "Used for combat and problem-solving; divided into Rounds, Turns, and Actions.",
+      "citation": "Structured Time description."
+    },
+    "rounds": {
+      "duration_seconds": 6,
+      "description": "Every character takes one Turn per Round in Initiative order.",
+      "citation": "“A Round is a 6 second period…”"
+    },
+    "turns": {
+      "description": "Each character has one Turn per Round to perform Actions.",
+      "citation": "Turn description."
+    }
+  }
+}

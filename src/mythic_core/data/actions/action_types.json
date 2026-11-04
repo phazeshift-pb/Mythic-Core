@@ -1,0 +1,21 @@
+{
+  "action_types": {
+    "full": {
+      "description": "Requires the character's entire turn.",
+      "citation": "“A Full Action requires the character's full turn to accomplish.”"
+    },
+    "half": {
+      "description": "Consumes roughly half of the character's turn.",
+      "citation": "“Half Actions are simple and only require some effort.”"
+    },
+    "reaction": {
+      "description": "Used to respond to incoming actions; does not consume the character's turn.",
+      "penalty_rule": "Each Reaction after the first gains a stacking -10 penalty.",
+      "citation": "“Each time a Reaction is made, any Reaction afterwards is at a stacking -10 Penalty.”"
+    },
+    "free": {
+      "description": "Takes negligible time; may be performed alongside other actions.",
+      "citation": "“A Free Action takes only a snap of the finger to use.”"
+    }
+  }
+}

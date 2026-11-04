@@ -1,0 +1,85 @@
+{
+  "advanced_melee_stances": {
+    "rules": {
+      "one_per_turn": true,
+      "declare_before_actions": true
+    },
+    "stances": [
+      {
+        "name": "Bashing",
+        "cost": "2 attacks",
+        "effects": {
+          "base_damage_multiplier": 2,
+          "toughness_test_on_hit": true,
+          "evade_penalty": -10,
+          "parry_bonus": 20
+        }
+      },
+      {
+        "name": "Deny Approach",
+        "cost": "1 attack",
+        "effects": {
+          "reach_bonus": 1,
+          "base_damage_multiplier": 0.5,
+          "movement_halved_on_hit": true
+        }
+      },
+      {
+        "name": "Execution Swing",
+        "cost": "Half Action",
+        "effects": {
+          "evasion_penalty": -20,
+          "to_hit_penalty_non_helpless": -30,
+          "always_special_damage": true,
+          "special_damage_bonus": 40
+        }
+      },
+      {
+        "name": "Half-Swording",
+        "cost": "1 attack per half",
+        "effects": {
+          "ignore_half_armor_on_parry": true,
+          "two_handed_only": true
+        }
+      },
+      {
+        "name": "One-Handed Strike",
+        "cost": "1 attack per half",
+        "effects": {
+          "base_damage_reduction": 4,
+          "pierce_reduction_if_damage_low": true
+        }
+      },
+      {
+        "name": "Pommeling",
+        "effects": {
+          "attack_type": "Bludgeoning",
+          "damage_from_weapon_type": true
+        }
+      },
+      {
+        "name": "Reverse Gripping",
+        "effects": {
+          "ignore_strength_mod": true,
+          "counter_attack_test": { "penalty": -20 }
+        }
+      },
+      {
+        "name": "Sweeping Strike",
+        "cost": 2,
+        "effects": {
+          "multi_target": true,
+          "damage_halved_per_target": true
+        }
+      },
+      {
+        "name": "Two-Handed Strike",
+        "cost": "1 attack per half",
+        "effects": {
+          "base_damage_bonus": 6
+        }
+      }
+    ],
+    "citation": "Advanced Melee Stances."
+  }
+}

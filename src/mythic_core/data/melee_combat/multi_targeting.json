@@ -1,0 +1,7 @@
+{
+  "multi_targeting": {
+    "switch_target_penalty": -10,
+    "stacking": true,
+    "citation": "Penalty for switching melee targets."
+  }
+}

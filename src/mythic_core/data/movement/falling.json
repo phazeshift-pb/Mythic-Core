@@ -1,0 +1,29 @@
+{
+  "falling": {
+    "damage": {
+      "base": "Meters fallen",
+      "dice": "2D10 per 10 meters",
+      "max_dice": "20D10",
+      "max_base": 50
+    },
+    "soften_fall": {
+      "test": "Athletics -10",
+      "effect": "Halve damage dice"
+    },
+    "special_damage": {
+      "interval": "Every 15 meters",
+      "locations": {
+        "1-4": "Left Leg",
+        "5-8": "Right Leg",
+        "9-10": "Roll on To Hit chart"
+      }
+    },
+    "falling_speed": {
+      "rule": "1 Half Action per 50 meters"
+    },
+    "being_landed_on": {
+      "extra_damage": "1D10 per 50kg"
+    },
+    "citation": "Falling Damage and Falling Speed rules."
+  }
+}

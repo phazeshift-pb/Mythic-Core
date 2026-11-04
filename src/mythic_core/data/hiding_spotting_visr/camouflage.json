@@ -1,0 +1,29 @@
+{
+  "camouflage": {
+    "passive": {
+      "requires_skill": true,
+      "modifier_choice": ["Intellect", "Perception"],
+      "minimum": 1,
+      "table": [
+        { "skill": "None", "result": "Cannot use Passive Camouflage" },
+        { "skill": "Trained", "result": "Modifier * 0.25" },
+        { "skill": "+10", "result": "Modifier * 0.33" },
+        { "skill": "+20", "result": "Modifier * 0.5" }
+      ]
+    },
+    "environmental": {
+      "rules": "Choose Primary (+20) and Secondary (+10) camo",
+      "patterns": [
+        { "pattern": "Dark", "environment": "Night, Cave, Dark buildings" },
+        { "pattern": "Desert", "environment": "Desert, Dune, Beach" },
+        { "pattern": "Oceanic", "environment": "Ocean, Sea, Lake" },
+        { "pattern": "Rocky", "environment": "Cliffs, Mountains" },
+        { "pattern": "Snow", "environment": "Snow, Tundra" },
+        { "pattern": "Urban", "environment": "Cities, Towns, Indoors" },
+        { "pattern": "Woodland", "environment": "Forestry, Jungle" },
+        { "pattern": "Grassland", "environment": "Plains, Bog, Fen" }
+      ]
+    },
+    "citation": "Camouflage rules including Passive and Environmental types."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "armor": {
+    "locations": ["Head", "Chest", "Arms", "Legs"],
+    "armor_rating": "Damage Resistance from armor per location",
+    "armor_weight": {
+      "rule": "Armor counts as 1/4 weight toward Carry Weight",
+      "exceptions": ["Power Armor", "Semi-Powered Armor"],
+      "citation": "Armor Weight rules."
+    }
+  }
+}

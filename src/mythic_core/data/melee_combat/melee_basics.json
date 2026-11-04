@@ -1,0 +1,8 @@
+{
+  "melee_basics": {
+    "definition": "Melee Combat occurs when characters make melee attacks within reach.",
+    "ranged_penalty": "Ranged attacks against characters in melee suffer penalties.",
+    "movement_note": "Characters in melee are constantly repositioning; this does not consume movement actions.",
+    "citation": "Melee Combat introduction."
+  }
+}

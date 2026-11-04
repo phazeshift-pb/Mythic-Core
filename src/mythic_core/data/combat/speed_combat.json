@@ -1,0 +1,18 @@
+{
+  "speed_combat": {
+    "rules": {
+      "penalty_applies_to": ["Attack", "Evasion", "Parry"],
+      "weapon_exceptions": {
+        "half_penalty": ["Sniper Rifles", "Energy Weapons", "Railguns", "Coil Guns"],
+        "remove_penalty": ["Vehicle Lock weapons"]
+      }
+    },
+    "table": [
+      { "difference_mpt": 100, "penalty": -10, "melee_bonus": 5 },
+      { "difference_mpt": 200, "penalty": -20, "melee_bonus": 15 },
+      { "difference_mpt": 300, "penalty": -40, "melee_bonus": 30 },
+      { "difference_mpt": 400, "penalty": -80, "melee_bonus": 60 }
+    ],
+    "citation": "High-speed combat penalties and melee bonus table."
+  }
+}

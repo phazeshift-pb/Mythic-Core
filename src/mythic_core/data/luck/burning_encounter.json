@@ -1,0 +1,16 @@
+{
+  "burning_encounter": {
+    "options": [
+      { "effect": "Count a Test as natural 01 Critical Success", "declare": "Before or during Test" },
+      { "effect": "Gain +4 Degrees of Success to any Test" },
+      { "effect": "Count as rolling Special Damage on a Half Action's worth of Attacks" },
+      { "effect": "Cause opponent to fail all Tests against the Character for next Round" },
+      { "effect": "Ignore all Penalties for next two Rounds" },
+      { "effect": "Double the Damage of a single Attack" },
+      { "effect": "Attack becomes unavoidable; choose Sub-Location" },
+      { "effect": "Go first in Initiative or choose opponent to go last" },
+      { "effect": "Remove Scatter from an Attack or add Scatter to one that didn't have it" }
+    ],
+    "citation": "Encounter Burning Options."
+  }
+}

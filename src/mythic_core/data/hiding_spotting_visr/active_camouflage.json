@@ -1,0 +1,31 @@
+{
+  "active_camouflage": {
+    "rules": {
+      "description": "Cloaking devices bend light and mask the user.",
+      "stacking": "Overrides Environmental Camouflage when active",
+      "weapon_fire": {
+        "effect": "Uncloaks user partially",
+        "benefit_reduction": "50%",
+        "spotting_bonus_per_attack": 5
+      }
+    },
+    "watching_for_cloaks": {
+      "bonus": 20,
+      "action": "Full"
+    },
+    "visr_interaction": {
+      "effect": "Halves cloaking bonuses",
+      "notes": "Does not affect Camouflage Skill or Education bonuses"
+    },
+    "humming_detection": [
+      { "range": 3, "bonus": 10 },
+      { "range": 2, "bonus": 20 },
+      { "range": 1, "bonus": 30 }
+    ],
+    "firing_at_cloaked": {
+      "spotted_penalty": -20,
+      "visr_penalty": 0
+    },
+    "citation": "Active Camouflage rules including VISR interactions."
+  }
+}

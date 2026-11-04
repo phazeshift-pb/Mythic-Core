@@ -1,0 +1,180 @@
+{
+  "name": "UNSC / ONI Spartan II Augmented Soldier",
+  "experience_cost": 11700,
+  "training": ["All"],
+  "upbringing": "Military",
+
+  "base_characteristics": {
+    "STR": 50,
+    "TOU": 45,
+    "AGI": 50,
+    "WFR": 40,
+    "WFM": 40,
+    "INT": 25,
+    "PER": 40,
+    "CRG": 35,
+    "CHA": 10,
+    "LDR": 30
+  },
+
+  "mythic_characteristics": {
+    "STR": "+5",
+    "TOU": "+4",
+    "AGI": "+3"
+  },
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": null,
+    "PER": null,
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [193, 226],
+    "weight_kg": [172, 181],
+    "size": "Large"
+  },
+
+  "traits": [
+    {
+      "name": "Skill Training",
+      "effect": "Begins with four Skills at +10 during Character Creation."
+    },
+    {
+      "name": "Rank",
+      "effect": "Begins at Rank: Petty Officer Second Class."
+    },
+    {
+      "name": "Broken",
+      "effect": "Begins with the Emotionally Broken Ability and the Fast Foot Ability."
+    },
+    {
+      "name": "Augmented",
+      "effect": "Gains all Spartan II Augmentation Traits at Character Creation."
+    },
+    {
+      "name": "Weapons Expert",
+      "effect": "Begins with all Faction and Weapon Training options at Character Creation."
+    },
+    {
+      "name": "Carry Weight",
+      "effect": "Doubles Strength and Toughness when calculating Carry Weight."
+    },
+    {
+      "name": "Squad Up",
+      "effect": "+5 Courage and +10 Warfare Melee/Range when taking Combined Actions with Spartan II, Spartan III, or Spartan IV Soldier Types."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {
+    "mjolnir_armor": {
+      "description": "Spartans begin with a set of Mjolnir or SPI armor appropriate to the timeline. They may swap armor between missions.",
+      "armor_options": [
+        "SPI Mark I (2531–2537)",
+        "SPI Mark II (2537+)",
+        "SPI Headhunter (2537+)",
+        "Black Body Suit (2500–2525)",
+        "Mjolnir Mark IV (2525–2551)",
+        "Mjolnir Mark V (2551–2552)",
+        "Mjolnir Mark VI (2552–2553)",
+        "GEN II Mjolnir (2553–2559)",
+        "GEN III Mjolnir (2559+)"
+      ]
+    }
+  },
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "point_man": [
+      "MA5K Carbine",
+      "Hard Case, Two Tactical Softcases",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Utility Webbing"
+    ],
+
+    "assault_and_ambush": [
+      "Two M7 Silenced Submachine Guns",
+      "Hard Case, Tactical Softcase",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang Grenade",
+      "Utility Webbing"
+    ],
+
+    "close_quarters": [
+      "M45 Tactical Shotgun",
+      "Hard Case, Two Tactical Softcases",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Three Flashbang Grenades",
+      "Utility Webbing"
+    ],
+
+    "heavy_support": [
+      "AIE-486H Heavy Machine Gun",
+      "Hard Case, Tactical Softcase",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Utility Webbing"
+    ],
+
+    "heavy_squad_support": [
+      "M735 or M739 Light Machine Gun",
+      "Hard Case, Tactical Softcase",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Utility Webbing"
+    ],
+
+    "long_range_specialist": [
+      "Sniper Rifle System 99 Rifle",
+      "Tactical Hard Case, Tactical Softcase",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Utility Webbing"
+    ],
+
+    "anti_armor": [
+      "M41 Rocket Launcher",
+      "Hard Case, Tactical Softcase",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Utility Webbing"
+    ]
+  }
+}

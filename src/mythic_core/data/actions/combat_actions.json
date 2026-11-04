@@ -1,0 +1,153 @@
+{
+  "combat_actions": [
+    {
+      "name": "Aim",
+      "length": ["Half", "Full"],
+      "subtype": ["Concentration"],
+      "description": "Take extra time to make attacks more precise.",
+      "effects": {
+        "half": "+5 To Hit on first attack",
+        "full": "+10 To Hit on first two attacks",
+        "loss_conditions": [
+          "Move farther than Half Move",
+          "Take damage",
+          "Target moves more than Perception Modifier",
+          "Switch weapons or scopes",
+          "Use a Reaction"
+        ]
+      },
+      "citation": "“Aiming as a Half Action gives the Character a +5 To Hit…”"
+    },
+    {
+      "name": "Blind Fire",
+      "length": ["Half", "Full"],
+      "subtype": ["Attack"],
+      "description": "Fire without seeing the target.",
+      "effects": {
+        "penalty": -60,
+        "smartlink_penalty": -30,
+        "no_aim_bonus": true
+      },
+      "citation": "“When using Blind Fire, shots are made at a -60 Penalty.”"
+    },
+    {
+      "name": "Brace Weapon",
+      "length": ["Half"],
+      "subtype": ["Misc"],
+      "description": "Prepare a Heavy Weapon for firing.",
+      "effects": {
+        "unbraced_penalty": -20,
+        "drop_test": "Strength Test on each attack"
+      },
+      "citation": "“Bracing is a Half Action needed to use [HW] Heavy Weapons without Penalty.”"
+    },
+    {
+      "name": "Called Shot",
+      "length": ["Half"],
+      "subtype": ["Attack", "Concentration"],
+      "description": "Attack a specific body location.",
+      "effects": {
+        "location_penalty": -30,
+        "sublocation_penalty": -60,
+        "weapon_penalties": {
+          "standard": -40,
+          "large_heavy": -20
+        }
+      },
+      "citation": "“Attacking a specific body location gives the Character a -30 Penalty…”"
+    },
+    {
+      "name": "Charge",
+      "length": ["Full"],
+      "subtype": ["Attack", "Movement"],
+      "description": "Move in a straight line and attack.",
+      "effects": {
+        "attack_bonus": "+10 To Hit",
+        "pierce_bonus": "Meters traveled",
+        "tackle_bonus": "+5 per 10 meters (max +30)"
+      },
+      "citation": "“The Charge Attack increases the Pierce… equal to the Meters traveled.”"
+    },
+    {
+      "name": "Evade",
+      "length": ["Reaction"],
+      "subtype": ["Defense"],
+      "description": "Oppose an attack using the Evasion Skill.",
+      "citation": "“Test the Evasion Skill opposed against an attack.”"
+    },
+    {
+      "name": "Forced Reposition",
+      "length": ["Half"],
+      "subtype": ["Attack", "Movement"],
+      "description": "Force an opponent to move via opposed Warfare Melee.",
+      "citation": "“Attempts to force the opponent a number of meters equal to half their Half Move.”"
+    },
+    {
+      "name": "Grapple",
+      "length": ["Half", "Full"],
+      "subtype": ["Attack"],
+      "description": "Initiate or defend a Grapple.",
+      "citation": "“The Character defends or attacks a Grapple Action…”"
+    },
+    {
+      "name": "Guarded Attack",
+      "length": ["Full"],
+      "subtype": ["Attack", "Concentration"],
+      "description": "Attack defensively.",
+      "effects": {
+        "attack_penalty": -10,
+        "evasion_bonus": 10
+      },
+      "citation": "“The character suffers a -10 Penalty… but gain a +10 Bonus to all Evasion tests.”"
+    },
+    {
+      "name": "Killzone",
+      "length": ["Full"],
+      "subtype": ["Concentration"],
+      "description": "Set up a 45-degree ambush zone.",
+      "citation": "“A Killzone is a 45-degree cone facing a chosen direction…”"
+    },
+    {
+      "name": "Readied Stance",
+      "length": ["Half"],
+      "subtype": ["Concentration", "Attack"],
+      "description": "Focus entirely on defense; gain two penalty-free Reactions.",
+      "citation": "“May make two Reactions that gives no Penalties…”"
+    },
+    {
+      "name": "Reload",
+      "length": ["Varies"],
+      "subtype": ["Misc"],
+      "description": "Reload a weapon.",
+      "citation": "“The length of the Reload Action depends on the Weapon being reloaded…”"
+    },
+    {
+      "name": "Standard Attack",
+      "length": ["Half", "Full"],
+      "subtype": ["Attack"],
+      "description": "Make melee or ranged attacks.",
+      "citation": "“The Active Character makes a Ranged or Melee Attack…”"
+    },
+    {
+      "name": "Suppressing Fire",
+      "length": ["Full"],
+      "subtype": ["Attack", "Defense"],
+      "description": "Force opponents to stay in cover.",
+      "citation": "“Suppressing Fire is where a Character… fires wildly at an Opponent…”"
+    },
+    {
+      "name": "Tactical Advance",
+      "length": ["Full"],
+      "subtype": ["Movement"],
+      "description": "Move from cover to cover.",
+      "citation": "“The Active Character moves from one point of cover to the next.”"
+    },
+    {
+      "name": "Throwing Objects",
+      "length": ["Half", "Full"],
+      "subtype": ["Attack", "Misc"],
+      "description": "Throw grenades, improvised weapons, or other objects.",
+      "citation": "“As a Half Action, the Character will throw an object…”"
+    }
+  ]
+}

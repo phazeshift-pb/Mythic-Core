@@ -1,0 +1,30 @@
+{
+  "wounds_formula": {
+    "description": "Formula used during Character Creation to determine a character's maximum Wounds.",
+    "formula": {
+      "base": 40,
+      "toughness_modifier": "Add Toughness Modifier × 2",
+      "mythic_toughness": "Add Mythic Toughness × 2"
+    },
+    "calculation": "Wounds = 40 + (Toughness Modifier × 2) + (Mythic Toughness × 2)",
+    "notes": [
+      "Wounds increase whenever the Toughness Modifier increases.",
+      "Mythic Toughness contributes directly to Wounds.",
+      "This formula is only used at Character Creation and when Toughness advances."
+    ],
+    "examples": [
+      {
+        "toughness": 50,
+        "toughness_modifier": 5,
+        "mythic_toughness": 1,
+        "calculated_wounds": "40 + (5×2) + (1×2) = 52"
+      },
+      {
+        "toughness": 70,
+        "toughness_modifier": 7,
+        "mythic_toughness": 0,
+        "calculated_wounds": "40 + (7×2) = 54"
+      }
+    ]
+  }
+}

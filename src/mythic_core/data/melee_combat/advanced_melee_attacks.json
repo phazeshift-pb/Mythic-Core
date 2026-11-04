@@ -1,0 +1,72 @@
+{
+  "advanced_melee_attacks": {
+    "requires_ability": "Modern Army Combative",
+    "attacks": [
+      {
+        "name": "Calculated Assault",
+        "cost": 1,
+        "effect": { "to_hit_bonus": 20 }
+      },
+      {
+        "name": "Heavy Knockback",
+        "cost": 1,
+        "effect": {
+          "knockback_meters": "Strength Mod + Mythic Strength",
+          "wall_damage": "1 damage per 2 meters remaining"
+        }
+      },
+      {
+        "name": "Knockdown Trip",
+        "cost": 2,
+        "effect": {
+          "fail": "Target crouched",
+          "fail_2df": "Target prone"
+        }
+      },
+      {
+        "name": "Lunge",
+        "cost": 1,
+        "effect": { "reach_bonus": 2 }
+      },
+      {
+        "name": "Pummeling Stance",
+        "cost": 1,
+        "effect": { "evade_penalty": -20, "parry_penalty": -20 }
+      },
+      {
+        "name": "Puncturing Strike",
+        "cost": 2,
+        "effect": {
+          "pierce_multiplier": 2,
+          "grapple_on_hit": true
+        }
+      },
+      {
+        "name": "Quick Switch",
+        "cost": "2 or 3",
+        "effect": { "swap_positions": true }
+      },
+      {
+        "name": "Strong Strike",
+        "cost": 2,
+        "effect": {
+          "strength_damage_multiplier": 2,
+          "miss_penalty": { "evade_parry_bonus": 10 }
+        }
+      },
+      {
+        "name": "Stun Strike",
+        "cost": 1,
+        "effect": {
+          "target_stunned_per_degree": 1
+        }
+      },
+      {
+        "name": "Weapon Manipulation",
+        "cost": 2,
+        "effect": { "weapon_penalty_next_turn": -20 }
+      }
+    ],
+    "citation": "Advanced Melee Attacks."
+  }
+}

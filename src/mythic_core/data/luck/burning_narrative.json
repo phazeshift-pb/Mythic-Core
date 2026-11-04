@@ -1,0 +1,10 @@
+{
+  "burning_narrative": {
+    "options": [
+      { "effect": "Find a powerful weapon or ammo cache for up to 6 weapons" },
+      { "effect": "Find a working vehicle at a convenient time" },
+      { "effect": "Change NPC Disposition to any chosen option" }
+    ],
+    "citation": "Narrative Burning Options."
+  }
+}

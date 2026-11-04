@@ -1,0 +1,14 @@
+{
+  "indirect_fire": {
+    "base_penalty": -70,
+    "hud_penalty": -50,
+    "spotter": {
+      "tests": ["Warfare Range", "Intellect"],
+      "action": "Full",
+      "bonus_per_degree": 10,
+      "minimum_penalty": 0
+    },
+    "loss_condition": "Target moves >10 meters",
+    "citation": "Indirect Fire rules."
+  }
+}

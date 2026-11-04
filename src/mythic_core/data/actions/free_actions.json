@@ -1,0 +1,10 @@
+{
+  "free_actions": {
+    "description": "Minor actions that require negligible effort.",
+    "examples": [
+      "Drop an item",
+      "Speak up to 6 seconds of dialogue"
+    ],
+    "citation": "“Free Actions include dropping an item or speaking 6 seconds worth of dialogue.”"
+  }
+}

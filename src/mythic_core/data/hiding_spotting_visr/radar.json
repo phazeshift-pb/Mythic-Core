@@ -1,0 +1,14 @@
+{
+  "radar": {
+    "motion_tracker": {
+      "range": 18,
+      "tracks": ["Allies", "Enemies moving >4m/turn", "Non-IFF characters"],
+      "camouflage_rule": "Does not track cloaked enemies"
+    },
+    "radar_display": {
+      "description": "Circular display showing nearby units",
+      "precision": "Precise positional tracking"
+    },
+    "citation": "Radar and Motion Tracker rules."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "scatter": {
+    "chart": {
+      "directions": {
+        "1-2": "Up",
+        "3": "Up-right",
+        "4": "Right",
+        "5": "Down-right",
+        "6-7": "Down",
+        "8": "Down-left",
+        "9": "Left",
+        "10": "Up-left"
+      }
+    },
+    "distance": {
+      "base_x": 1,
+      "increase_per_failure": 1,
+      "range_rules": {
+        "beyond_max": "Scatter distance doubled",
+        "beyond_extreme": "Scatter distance quadrupled"
+      }
+    },
+    "thrown_objects": {
+      "rule": "Scatter distance halved",
+      "max_distance": "Cannot exceed throw distance"
+    },
+    "citation": "Scatter rules including chart and distance calculation."
+  }
+}

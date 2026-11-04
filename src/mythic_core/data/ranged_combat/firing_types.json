@@ -1,0 +1,44 @@
+{
+  "firing_types": {
+    "charge": {
+      "description": "Requires (X) Half Actions to charge before firing.",
+      "hold_charge": "May hold charge; may cost extra ammo."
+    },
+    "automatic": {
+      "description": "Fires continuously; each shot rolled separately.",
+      "half_action": "Auto(X)/2 rounded down",
+      "full_action": "Auto(X)"
+    },
+    "burst": {
+      "description": "Single To Hit Test fires multiple shots.",
+      "bonus": 10,
+      "evade_rule": "One evasion test negates all shots"
+    },
+    "flintlock": {
+      "description": "Full Action to fire; long reload time.",
+      "reload": "Extended over multiple rounds"
+    },
+    "pump_action": {
+      "description": "Fires (X) per Half Action; one extra Reaction shot.",
+      "reaction_penalty": -10
+    },
+    "semi_auto": {
+      "description": "One shot per trigger pull; accurate.",
+      "bonus": 10,
+      "rate": "SemiAuto(X) per Half Action"
+    },
+    "sustained": {
+      "description": "Continuous damage; one To Hit Test.",
+      "rate": "Sustained(X) per Full Action",
+      "evade_rule": "Each hit requires separate evasion"
+    },
+    "drawback": {
+      "description": "Requires (X) Half Actions to draw string.",
+      "early_fire_penalty": "Base Damage and Pierce halved",
+      "strength_reduction": {
+        "per_2_strength_mod": 1,
+        "per_1_mythic_strength": 1
+      }
+    }
+  }
+}

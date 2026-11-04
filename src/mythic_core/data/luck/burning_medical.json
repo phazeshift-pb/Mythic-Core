@@ -1,0 +1,18 @@
+{
+  "burning_medical": {
+    "options": [
+      {
+        "effect": "Return from Death or prevent Death",
+        "wounds": "Restore Toughness Modifier in Wounds",
+        "special_damage_revert": true
+      },
+      { "effect": "Recover up to 10 Fatigue and 20 Wounds" },
+      { "effect": "Ignore all incoming Special Damage for the Turn" },
+      { "effect": "Remove Spike, Cryo, Acid, Electricity, Flame, Needle effects" },
+      { "effect": "AI regains all permanently lost Characteristics" },
+      { "effect": "Remove Radiation Poisoning" },
+      { "effect": "Recover a lowered Characteristic by 25" }
+    ],
+    "citation": "Medical Burning Options."
+  }
+}

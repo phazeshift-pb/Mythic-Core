@@ -1,0 +1,171 @@
+{
+  "name": "UNSC ORION Project Augmented Soldier (Spartan 1 / 1.1)",
+  "experience_cost": 5800,
+  "training": ["Basic", "Infantry", "Advanced"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 35,
+    "TOU": 40,
+    "AGI": 35,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 40,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {
+    "STR": "+2",
+    "TOU": "+3",
+    "AGI": "+1"
+  },
+
+  "advancements": {
+    "WFM": "+5 Simple",
+    "WFR": "+10 Rookie",
+    "PER": "+5 Simple",
+    "LDR": "+5 Simple",
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "CRG": null,
+    "CHA": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [45, 117],
+    "size": "Normal"
+  },
+
+  "traits": [
+    {
+      "name": "Skill Training",
+      "effect": "Begins with six Skills of the player's choosing at Trained during Character Creation."
+    },
+    {
+      "name": "Resistant",
+      "effect": "+20 Toughness when resisting Flood Spores and Infection Forms."
+    },
+    {
+      "name": "Squad Up",
+      "effect": "+5 Courage and +10 Warfare Melee/Range when taking Combined Actions with Army, Marine, Air Force, Navy, ORION, ODST, Militiaman, or Spartan IV Soldier Types."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {
+    "becoming_orion": {
+      "experience_cost": 4000,
+      "requirements": [
+        "Any Human may undergo ORION augmentation.",
+        "Procedure takes 1 month to complete and 1 month to recover."
+      ],
+      "effects": [
+        "+10 Strength",
+        "+10 Agility",
+        "+15 Toughness",
+        "+15 Perception",
+        "Gain all ORION Mythic Characteristics",
+        "+20 Toughness bonus vs Flood Spores and Infection Forms"
+      ]
+    }
+  },
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "point_man": [
+      "MA5 Series Assault Rifle (time period appropriate)",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M6J Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "close_quarters": [
+      "M45 Tactical Shotgun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M6J Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "heavy_support": [
+      "AIE-486H Heavy Machine Gun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "heavy_squad_support": [
+      "M735 or M739 Light Machine Gun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "long_range_specialist": [
+      "Sniper Rifle System 99 Rifle",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "anti_armor": [
+      "M41 Rocket Launcher",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ]
+  }
+}

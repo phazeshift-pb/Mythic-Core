@@ -1,0 +1,115 @@
+{
+  "environmental_effects": {
+    "temperature": [
+      {
+        "range": "51+ °C",
+        "effects": {
+          "perception": -20,
+          "warfare": -20,
+          "toughness_test": {
+            "penalty": -20,
+            "fatigue_interval": "Every 10 minutes"
+          }
+        }
+      },
+      {
+        "range": "40–50 °C",
+        "effects": {
+          "perception": -10,
+          "toughness_test": {
+            "fatigue_interval": "Every hour"
+          }
+        }
+      },
+      {
+        "range": "-19 to 40 °C",
+        "effects": "No penalties"
+      },
+      {
+        "range": "-20 to -39 °C",
+        "effects": {
+          "agility": -10,
+          "toughness_test": {
+            "fatigue_interval": "Every hour"
+          }
+        }
+      },
+      {
+        "range": "-40 to -50 °C",
+        "effects": {
+          "agility": -20,
+          "warfare": -20,
+          "toughness_test": {
+            "penalty": -20,
+            "fatigue_interval": "Every 10 minutes"
+          }
+        }
+      },
+      {
+        "range": "-51 °C and below",
+        "effects": {
+          "agility": -30,
+          "warfare": -30,
+          "toughness_test": {
+            "penalty": -30,
+            "fatigue_interval": "Every 5 minutes"
+          }
+        }
+      }
+    ],
+
+    "electrocution": {
+      "severity_levels": "1–5",
+      "damage_per_turn": "Severity × 1D10",
+      "ignores_armor": true,
+      "ignores_half_toughness": true,
+      "escape_test": {
+        "action": "Full Action",
+        "test": "Strength",
+        "penalty_per_severity": -10,
+        "max_penalty": -50
+      },
+      "chain_effect": {
+        "helpers": "Become electrocuted at severity -1",
+        "each_additional_character": "Severity -1"
+      }
+    },
+
+    "fire": {
+      "catch_fire_test": {
+        "action": "Half Action",
+        "test": "Agility"
+      },
+      "put_out_fire": {
+        "method": "Drop and roll",
+        "test": "Agility +10",
+        "bonus_per_round_on_fire": 10
+      },
+      "damage": {
+        "base": "2D5",
+        "max": "5D5",
+        "ignores_resistance": true
+      }
+    },
+
+    "temperature_mitigation": {
+      "description": "Proper clothing can negate or reduce extreme temperature effects.",
+      "examples": ["Winter clothing", "Heat-vented gear"]
+    },
+
+    "unconscious_in_extreme_temperatures": {
+      "normal_extremes": "Toughness Modifier in hours before death",
+      "upper_extremes": "Toughness Modifier in minutes before death"
+    },
+
+    "space_exposure": {
+      "unconscious_in": "3 Turns (18 seconds)",
+      "effects_per_round": [
+        "Radiation Poisoning (+1)",
+        "5 Damage ignoring resistance"
+      ]
+    },
+
+    "citation": "Environmental Effects from Wounds & Medical chapter."
+  }
+}

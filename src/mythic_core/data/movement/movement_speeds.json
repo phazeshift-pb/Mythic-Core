@@ -1,0 +1,24 @@
+{
+  "movement_speeds": {
+    "table": [
+      { "mod": 0, "half": 0.5, "full": 1, "charge": 2, "run": 3, "sprint": 4 },
+      { "mod": 1, "half": 1, "full": 2, "charge": 3, "run": 6, "sprint": 8 },
+      { "mod": 2, "half": 2, "full": 4, "charge": 6, "run": 12, "sprint": 16 },
+      { "mod": 3, "half": 3, "full": 6, "charge": 9, "run": 18, "sprint": 24 },
+      { "mod": 4, "half": 4, "full": 8, "charge": 12, "run": 24, "sprint": 32 },
+      { "mod": 5, "half": 5, "full": 10, "charge": 15, "run": 30, "sprint": 40 },
+      { "mod": 6, "half": 6, "full": 12, "charge": 18, "run": 36, "sprint": 48 },
+      { "mod": 7, "half": 7, "full": 14, "charge": 21, "run": 42, "sprint": 56 },
+      { "mod": 8, "half": 8, "full": 16, "charge": 24, "run": 48, "sprint": 64 },
+      { "mod": 9, "half": 9, "full": 18, "charge": 27, "run": 54, "sprint": 72 }
+    ],
+    "multipliers": {
+      "half": 1,
+      "full": 2,
+      "charge": 3,
+      "run": 6,
+      "sprint": 8
+    },
+    "citation": "Movement table showing Half, Full, Charge, Run, and Sprint speeds."
+  }
+}

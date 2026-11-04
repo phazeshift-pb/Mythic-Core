@@ -1,0 +1,81 @@
+{
+  "non_combat_actions": [
+    {
+      "name": "Crouch, Stand, Prone",
+      "length": ["Free", "Half"],
+      "subtype": ["Movement"],
+      "description": "Change stance between standing, crouching, and prone.",
+      "citation": "“Standing to a Crouch… is a Free Action once per Turn.”"
+    },
+    {
+      "name": "Delay Action",
+      "length": ["Full"],
+      "subtype": ["Misc"],
+      "description": "Wait for an opportunity to act later.",
+      "citation": "“Instead of acting immediately, the character waits for an opportunity…”"
+    },
+    {
+      "name": "Haggle",
+      "length": ["Varies"],
+      "subtype": ["Concentration", "Social"],
+      "description": "Attempt to negotiate prices.",
+      "citation": "“When attempting to haggle prices… must use their Negotiation Skill.”"
+    },
+    {
+      "name": "Jump or Leap",
+      "length": ["Half", "Full"],
+      "subtype": ["Movement"],
+      "description": "Jump vertically or horizontally.",
+      "citation": "“Characters can Jump vertically or Leap horizontally.”"
+    },
+    {
+      "name": "Lock Picking",
+      "length": ["Varies"],
+      "subtype": ["Concentration"],
+      "description": "Use Security Skill to pick locks.",
+      "citation": "“Every Full Action, the Character must attempt to gain Degrees of Success…”"
+    },
+    {
+      "name": "Move",
+      "length": ["Half", "Full"],
+      "subtype": ["Movement"],
+      "description": "Perform movement actions such as walk, run, swim, climb.",
+      "citation": "“The Active Character can choose to make multiple types of Movement Actions…”"
+    },
+    {
+      "name": "Performance",
+      "length": ["Varies"],
+      "subtype": ["Concentration", "Social"],
+      "description": "Perform entertainment-oriented actions.",
+      "citation": "“Performing various entertainment-oriented actions.”"
+    },
+    {
+      "name": "Ready",
+      "length": ["Half"],
+      "subtype": ["Misc"],
+      "description": "Ready a weapon or item.",
+      "citation": "“Ready a weapon or item.”"
+    },
+    {
+      "name": "Sleight of Hand",
+      "length": ["Half", "Full"],
+      "subtype": ["Concentration"],
+      "description": "Attempt to trick or steal using hand movements.",
+      "citation": "“Attempting to trick or steal from others…”"
+    },
+    {
+      "name": "Mount",
+      "length": ["Half"],
+      "subtype": ["Movement"],
+      "description": "Begin mounting a beast or vehicle.",
+      "citation": "“Begin mounting a target.”"
+    },
+    {
+      "name": "Use a Skill",
+      "length": ["Varies"],
+      "subtype": ["Concentration", "Misc"],
+      "description": "Use any skill depending on context.",
+      "citation": "“Use of a skill.”"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "perceptive_range": {
+    "base_formula": "perception * 2",
+    "lighting_modifiers": {
+      "blinding": 0.5,
+      "darkness": 0.5,
+      "bright": 1,
+      "low_light": 1,
+      "normal": 2,
+      "black": 0
+    },
+    "scope_multiplier": "Multiply perceptive range by scope magnification",
+    "penalties": {
+      "double_range": -20,
+      "triple_range": -60,
+      "beyond_triple": "impossible"
+    },
+    "citation": "“Perceptive Range is figured by multiplying the Character's Perception Characteristic by 2.”"
+  }
+}

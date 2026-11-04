@@ -1,0 +1,260 @@
+{
+  "weapon_special_rules": [
+    {
+      "name": "Acid",
+      "description": "Acid is a degrading series of damage that happens every Round. The first round of Damage is signified by (X), and every Round after, Acid (X) is halved, rounding up. After the Damage hits 1, the Damage ends. Acid Damage ignores Half Armor and Toughness, but not Mythic Toughness. Acid stacks with sequential successful hits to a maximum of 16."
+    },
+    {
+      "name": "Cauterize",
+      "description": "Weapons with Cauterize add their Pierce when figuring Special Damage. If the Attack's Pierce is reduced to 0 before hitting the Character, such as by Cover or a Physical Shield, that shot loses Cauterize."
+    },
+    {
+      "name": "Cryo",
+      "description": "Weapons with Cryo give the Target Cryo Buildup. Cryo Buildup increases by Cryo (X) on a successful hit. It is reduced by 1 at the beginning of the Character's Turn. At the end of every Round, Characters take Fatigue equal to their Cryo Buildup, reduced by their Toughness Modifier and Mythic Toughness, to a minimum of 0. If a Character is put into a Coma by Cryo Fatigue, they are considered frozen to death. The Character may Burn a point of Luck to survive, removing the Fatigue caused by Cryo and all Cryo Buildup. Characters and Vehicles under 3 Size Points struck by Cryo have their Movement Speed halved during their next Round. Effects that reduce Flame also reduce Cryo. Areas frozen by Cryo thaw after 2 Minutes (12 Rounds)."
+    },
+    {
+      "name": "Dice Minimum",
+      "description": "A Damage Roll cannot be lower than the number specified by (X). If Dice Minimum is (4), any roll under 4 counts as a 4."
+    },
+    {
+      "name": "Electrified",
+      "description": "Characters struck by Electrified must make a Toughness Test. If failed, the Character is Stunned for (X) minus their Toughness Modifier in Half Actions. This does not stack with other Electrified attacks."
+    },
+    {
+      "name": "EMP",
+      "description": "EMP disables electronics and vehicles for (X) Full Actions. For every 2 Size Points of a Vehicle being hit, it is disabled for 1 less Half Action, to a minimum of 1 Half Action. The vehicle user can attempt a Technology Test to lessen this by one Half Action. Equipment hit by an EMP has an (X)% chance, to a maximum of 5%, to have its memory erased. This does not affect AI, armored computing devices, or military equipment. EMP deals 50 damage to Shields for every 1 point in (X), figured before Damage. Vehicles 5 Size Points and larger are unaffected by Plasma Pistols."
+    },
+    {
+      "name": "Flame",
+      "description": "Flame is a stacking Damage type that deals its damage each Round the Character is on fire. A Character hit by Flame is on fire until they spend a Half Action to put out the flames. At the beginning of the Character's Turn, they take (X) Damage, ignoring Armor, where (X) is the weapon's Flame value. If a weapon deals Flame (1D5) and the Character was hit 4 times, they take 4D5 Damage at the beginning of their Turn. Damage continues at the beginning of each Turn until put out. Flames go out in 4 Rounds after the Attack hits, but Flame Attacks reset this timer."
+    },
+    {
+      "name": "Hardlight",
+      "description": "When a weapon with Hardlight rolls a 10 on a D10, or a 5 on a D5, it gains +1D10 to the Damage Roll. This also increases Special Damage. If the extra D10 rolls a 10, continue rolling another D10 until a roll is not 10. Rolling a natural 1 only explodes the first set of Dice. If a Character dies from a Hardlight weapon, their body and armor disintegrate into orange, white, and red particles."
+    },
+    {
+      "name": "Headshot",
+      "description": "Attacks that strike the head ignore the Character's Toughness Modifier when figuring Damage Resistance."
+    },
+    {
+      "name": "Homing",
+      "description": "Homing allows the weapon to reroll a missed To Hit attack. The roll cannot be rerolled more than once per Attack."
+    },
+    {
+      "name": "Insurrectionist [I] Tag",
+      "description": "Insurrectionist Characters do not have to pay their Soldier Type Upcharge for Weapons with the [I] Tag."
+    },
+    {
+      "name": "Kinetic",
+      "description": "When a weapon with Kinetic hits a Character with Effects that reduce Flame without Pierce, the Energy Shield still takes the damage as normal. If the Character does not have Energy Shields, the Attack deals an additional 1D10 Damage."
+    },
+    {
+      "name": "Long Barrel",
+      "description": "Weapons with Long Barrel cannot gain To Hit Bonuses from Close Range or Point Blank. Within 10 Meters of the Target, the weapon has a -10 Penalty To Hit. Within the Opponent's Melee Combat Range, the Opponent gains a +20 Bonus to Evasion and Parry. Long Barrel is removed when used with Short Barrel or Sawed-Off Barrel Modifications. Long Barrel is given to any Vehicle Weapon held by a Character. If the Character Braces the weapon, Long Barrel Penalties and the Bonuses to being evaded are removed."
+    },
+    {
+      "name": "Needle",
+      "description": "Needles, known as Blamite, are explosive pink ballistic crystals. Needles explode when they reach the specified number impaled into a Character, shown by (X). For example, Needle (3) needs 3 impaled Needle shards to detonate with Blast (1). When they detonate, they deal (X)D10 Damage, ignoring Armor. Needles fired from other weapons do not stack their Needle (X) rule. Needles impale as long as they do not hit Energy Shields. Impaled Needles can be removed to stop detonation. A Character can remove (X) Needles per Half Action, where (X) is every 2 Agility Modifier. Each Needle removed this way causes 1 Damage, ignoring Damage Resistance. A Medical Test can remove the Needles without this Damage. Needles dissolve after 3 Rounds without meeting the required (X) to detonate; when dissolving, the Needle pops without dealing extra Damage."
+    },
+    {
+      "name": "Nonlethal",
+      "description": "Weapons with Nonlethal cannot damage a Character below 0 Wounds and cannot Penetrate through Characters."
+    },
+    {
+      "name": "Overheat",
+      "description": "A weapon with Overheat must take (X) Half Actions to cool down before it can be used again. Some weapons may build up (X) based on how many uses were made."
+    },
+    {
+      "name": "Penetrating",
+      "description": "Weapons with Penetrating deal their Pierce multiplied by 3 as Damage to Energy Shields, increased to 5 if the Weapon also has Blast or Kill. Penetrating doubles the Weapon's Damage and Pierce against Cover Points and Physical Shields. This extra Damage and Pierce can only affect Cover and Shields, not Wounds."
+    },
+    {
+      "name": "Recharge Rate",
+      "description": "A weapon with Recharge Rate must recharge for (X) Half Actions, starting after the Half Action in which it was fired. Once recharged, it may be fired again."
+    },
+    {
+      "name": "Slow",
+      "description": "Melee Weapons with Slow are more difficult to use due to their length, shape, or weight. Weapons with Slow halve the Character's Melee Attacks per Round."
+    },
+    {
+      "name": "Spike",
+      "description": "Spikes are projectiles made to impale. Weapons with Spike impale into the Character and must be removed or the Character takes Damage when moving. Spikes only impale if they deal a minimum of 4 Damage to Wounds. A Character may remove an impaled Spike with a +20 Strength Test; this deals 1 Damage, ignoring Damage Resistance. A Character may remove two Spike sources per Half Action. A Medical Test may remove two Spikes per Half Action without dealing the Damage. Once per Round, if a Spike is not removed and the Character moves more than 4 Meters, the weapon deals its Base Damage, ignoring Armor and Mythic Toughness. Spike does not stack with the Impaled Medical Rule; it replaces it."
+    },
+    {
+      "name": "Spread",
+      "description": "Spread causes an attack to spread outward, like buckshot or flame. Weapons gain a +10 Bonus To Hit and strike outward in a cone, potentially hitting multiple nearby targets. At Point Blank, the Target takes the entire Attack and no others can be hit unless the Attack Pierced Through. For every 20 Meters from the Target, Spread damages Characters 1 Meter farther to the left and right of the User; weapons may specify a cone size that overrides this. At Close Range, Spread gains +1D10 Damage and gains another +1D10 at Point Blank. At Long Range, Spread loses 1D10 Damage and halves Pierce. At Extreme Range it loses another 1D10 Damage and all Pierce."
+    },
+    {
+      "name": "Sticky",
+      "description": "An item with Sticky is highly adhesive. Once activated, it sticks to whatever touches it. Removing it requires a -30 Strength Test as a Reaction. A stuck explosive does not allow a Character to evade it, because it is attached to them. The Character can still evade away from allies or attempt to remove the explosive."
+    },
+    {
+      "name": "Stun",
+      "description": "The Target must make a +20 Toughness Test at the beginning of their next Turn. If failed, the Character is Stunned for (X) Half Actions, reduced by the Target's Toughness Modifier and Mythic Toughness."
+    },
+    {
+      "name": "Tranquilize",
+      "description": "A Character hit by Tranquilize is Stunned for (X) Rounds. While Stunned, further Tranquilize attacks extend the Stunned state by (X) more Rounds. If (X) surpasses 10, the Character becomes Unconscious. The Character must make a Toughness Test; each Degree of Success decreases (X) by 1, to a minimum of 1, and each Degree of Failure increases (X) by 1, to a maximum of 10. When Tranquilize (X) becomes 0, the Character is no longer Stunned and may react normally. When Unconscious and Tranquilize (X) becomes 0, they must spend a Full Action to wake up."
+    },
+    {
+      "name": "Universal [U] Tag",
+      "description": "Insurrectionists and Civilian Characters do not have to pay their Soldier Type Upcharge for Equipment and Weapons with the [U] Tag."
+    },
+    {
+      "name": "Vehicle Lock",
+      "description": "A weapon with Vehicle Lock homes in on Vehicles with incredible accuracy. It ignores all Penalties from Vehicle Speed and gains +20 To Hit when the Vehicle is within the weapon's Range."
+    },
+    {
+      "name": "Night Vision",
+      "description": "Night Vision reduces Penalties from Darkness by 40 and Low-Light Penalties by 10. It cannot be used during the day, triples Penalties from Bright and Blinding lights, and gives a -20 Penalty to Perception, Warfare Range, and Warfare Melee for 3D5 Turns after being removed or deactivated. It cannot be used with Thermal Imaging, Infrared Imaging, or Flashlights."
+    },
+    {
+      "name": "Thermal Imaging",
+      "description": "Thermal Imaging allows the Character to see Infrared Lasers, reduces Penalties from Darkness by 30 and Low-Light Penalties by 10, and reduces Opposed Camouflage Test Degrees of Success against the User by 2, to a minimum of 1. It does not work properly outdoors during the day, gives no Bonuses to Opposed Camouflage Tests, and causes a -10 Penalty To Hit and to Perception in Close Range. It treats Pitch Black Lighting as regular Darkness. Thermal Imaging Scopes cannot see through glass. It cannot be used with Night Vision, Infrared Imaging, or Flashlights."
+    },
+    {
+      "name": "Infrared Imaging",
+      "description": "Infrared equipment allows the Character to see Infrared Lasers, reduces Penalties from Darkness and Low-Light by 20, and reduces Opposed Camouflage Test Degrees of Success against the User by 2, to a minimum of 1. Infrared Scopes can be used during the day without Penalties. It cannot be used with Night Vision, Thermal Imaging, or Flashlights."
+    }
+  ],
+  "explosive_and_area_of_effect_rules": [
+    {
+      "name": "Airburst",
+      "description": "Airburst allows explosives to detonate (X) meters away from the fired-at Target, including around corners and above Cover. Each Degree of Failure increases (X) by 2."
+    },
+    {
+      "name": "Blast Radius",
+      "description": "Blast Radius is the radius in which all Characters receive Damage. Blast attacks always count as striking the lowest Armor Location, excluding lower- or unarmored Sublocations. Blast attacks can hit multiple Vehicle Sublocations when multiple locations are within the radius. Blast Radius is shown as Blast (X). When Special Damage is rolled, every Damage Die a Blast or Kill weapon has deals Special Damage to 1 Body Location within the Blast Radius."
+    },
+    {
+      "name": "Concussive Grenades",
+      "description": "Concussive Grenades disorientate Characters for 1D5 + (X) Half Actions, reduced by the Character's Toughness Modifier. A Disorientated Character must make a Toughness Test at -40. Disorientated Characters take a -40 Penalty to Warfare Melee and Warfare Range Tests and cannot make Intellect- or Perception-based Skill Tests."
+    },
+    {
+      "name": "Explosive Knockback",
+      "description": "Explosive Knockback applies when Explosives have 3 or more Damage Dice and a Kill Radius. Characters within the Kill Radius are thrown back as many Meters as the Weapon has Kill (X). For every 400 kg a Character weighs, they are thrown back 1 Meter less."
+    },
+    {
+      "name": "Flashbang",
+      "description": "A Flashbang blinds and deafens Characters within its Radius for 1D5 Half Actions, reduced by the Character's Toughness Modifier, to a minimum of 1. For every Meter closer to the Flashbang within its radius, the Character gains +1 to the Half Actions they are Blinded and Deafened. The total is halved with a Polarized Visor. An Agility Test can shield a Character and remove the 1D5 roll. Flashbang victims do not count as Unaware or Helpless."
+    },
+    {
+      "name": "Gravimetric Pulse",
+      "description": "Gravimetric Pulse has a radius of (X) Meters, shown as Gravimetric (X), and can target Characters, Vehicles, Equipment, or other objects. Targets cannot be affected through Walls or Cover. Radius mode requires all Characters and objects within the radius to make a Strength or Agility Test or be moved. Targeted mode affects one Character or object at -30 and can ensnare the Character when they reach within 1 Meter of the weapon. Ensnared Characters must make a -40 Strength Test to break free at the beginning of their Turn and cannot make Attacks or Movement Actions while ensnared. Gravimetric Pulse can push or pull Targets toward the User at 20 Meters per Round, reduced by 1 Meter for every 100 kg the Targets weigh."
+    },
+    {
+      "name": "Gravity",
+      "description": "Gravity affects a radius of (X) Meters, determines the Damage Targets take, and determines how far they are thrown. For every Meter closer to the center, a Character is thrown 2 Meters farther. A Character at the edge of Gravity (6) is thrown 2 Meters; one at the center is thrown 12 Meters. Characters thrown into a surface take 1D10 Damage, ignoring Armor. For every Meter closer to the center, they also take 5 Damage, ignoring Damage Resistance. Every 400 kg an object weighs reduces movement by 1 Meter without reducing Damage."
+    },
+    {
+      "name": "Grenade Timing and Cooking",
+      "description": "Grenades detonate 6 seconds after being armed, at the beginning of the Character's next Turn. Cooking a Grenade is a Full Action in which the Character arms it and waits to throw. Once thrown, it detonates at the beginning of the next Turn, when the Character decides where it is thrown. The Character rolls Warfare Melee to throw it, then makes a +20 Agility, Intellect, or Warfare Melee Test. Each Degree of Failure causes the Grenade to detonate 1 Meter closer to the Character. Each Degree of Success gives Characters within the Blast or Kill Radius a -5 Penalty to Evade."
+    },
+    {
+      "name": "Kill Radius",
+      "description": "Kill Radius is the more dangerous of the two explosive radii. Anything within it receives the total Attack Damage multiplied by 2. Kill Radius is shown as Kill (X)."
+    },
+    {
+      "name": "Pepper Spray",
+      "description": "If a Target is struck in the Face, they must make a -30 Toughness Test or gain one level of Fatigue, to a maximum of 2 Fatigue from Pepper Spray. Each Degree of Failure affects the Target for 5 Turns. Each Half Action spent washing it away reduces the duration by 5 Turns. While affected, the Target takes a -30 Penalty to visual- and smell-based Perception Tests, Warfare Melee, and Warfare Range Tests."
+    },
+    {
+      "name": "Smoke",
+      "description": "Smoke covers a radius of (X) Meters in thick colored smoke. It gives a -60 Penalty to Vision-based Perception Tests and Warfare Range Tests, and a -30 Penalty to Warfare Melee Tests. After the listed number of Rounds, it begins to dissipate and its Penalties are reduced by 10. When the Penalties reach 0, the Smoke is gone. Outdoors, the duration may be reduced by 1 Round for every 5 km/h of wind. Indoors in a small room or hallway, the dissipation rate is doubled."
+    },
+    {
+      "name": "Tear Gas",
+      "description": "Tear Gas affects anyone within its Radius unless they use protective equipment such as a Vacuum Suit, enclosed armor, goggles, or a face mask. It lasts 10 Rounds outdoors, reduced by 1 for every 5 km/h of wind, and lasts 20 Rounds in a small enclosed area. Unprotected Characters take a -40 Penalty to Warfare Range and smell- and sight-based Perception Tests, and a -20 Penalty to Warfare Melee. Each Round in Tear Gas requires a Toughness Test; failure gives 1 Fatigue, to a maximum of 4 Fatigue from Tear Gas. Once out, a Toughness Test removes the Penalties; each failure gives the next Test a stacking +10 Bonus."
+    }
+  ],
+  "armor_and_equipment_special_rules": [
+    {
+      "name": "Biofoam Injector Port",
+      "description": "Biofoam Injector Ports allow Biofoam Canisters to be attached to the Armor, applying Biofoam where needed."
+    },
+    {
+      "name": "Bulky",
+      "description": "Bulky Armor gives a -10 Penalty to the Character's Agility Characteristic. The Armor is always considered to have a Damage Resistance of 1 against these Attacks, protecting against 1 point of Damage."
+    },
+    {
+      "name": "Communications Unit",
+      "description": "The ODST's Armor acts as a transmission booster, doubling the range and strength of data and voice transmissions. Communication options are immune to EMP and jamming devices."
+    },
+    {
+      "name": "Cryo-Resistant",
+      "description": "Cryo-Resistant Armor halves Fatigue from Cryo. If only 1 Fatigue would be dealt, it reduces it to 0."
+    },
+    {
+      "name": "Demolitions",
+      "description": "The suit contains a layer of Titanium-A composite plating used for Demolitions. It halves all Damage and Pierce from weapons with Blast and/or Kill Special Rules, unless the Blast Special Rule came from modified ammunition."
+    },
+    {
+      "name": "Fire-Rescue",
+      "description": "Fire-Rescue halves Damage from Fire and Flame."
+    },
+    {
+      "name": "Freefall Assistance Microskeleton",
+      "description": "The Freefall Assistance Microskeleton is a shock-absorbing exoskeleton that reduces Falling Damage to one-quarter of the total."
+    },
+    {
+      "name": "Hybrid Black-Surfacing Paneling",
+      "description": "This pitch-black suit reflects no light. Its paneling can partially take on hues of the User's surroundings and gives a +20 Bonus to Camouflage in dark and low-light conditions."
+    },
+    {
+      "name": "Kevlar Undersuit and Liquid Nanocrystal",
+      "description": "This protects against Abilities, Special Rules, and Traits that reduce Armor before Pierce is figured. Any Attack that reduces Armor or attacks an unarmored Location counts as having 13 Armor for the Weapon's Pierce."
+    },
+    {
+      "name": "Mobility-Boosting Exo-Lining",
+      "description": "A powered lining across the legs and lower back holds the weight of itself and its Armor and gives a +10 Bonus to Agility. It weighs 7.9 kg."
+    },
+    {
+      "name": "Photo-Reactive Panels",
+      "description": "The Battle Dress Uniform is fitted with black panels that shift light to conceal the User as Active Camouflage. This gives the Character a +(X) Bonus to Camouflage."
+    },
+    {
+      "name": "Rucksack",
+      "description": "An armored M/LBE Hard Case armored backpack."
+    },
+    {
+      "name": "Rucksack Medical Extension",
+      "description": "A Medical extension to the ODST Rucksack that holds up to two Medical Kits, 10 Biofoam Canisters, and 10 sets of medication of the Player's choice. It attaches to the M/LBE Hard Case Armored Backpack that comes with ODST BDU."
+    },
+    {
+      "name": "Temperature Regulator",
+      "description": "Protects the User from extreme temperatures by increasing or reducing the internal temperature of the suit by 30 degrees Celsius."
+    },
+    {
+      "name": "Thermal Cooling",
+      "description": "Hides the Character from thermal scanners and thermal tools, removing the Bonus they gain or Penalties they cause."
+    },
+    {
+      "name": "Thermal Dampener",
+      "description": "Reduces the Pierce from Attacks with Cauterize by 4."
+    },
+    {
+      "name": "Timeline",
+      "description": "Armor with Timeline is given +1 Armor to all Armor Locations when the timeline is set after the Human-Covenant War."
+    },
+    {
+      "name": "UU-PPE",
+      "description": "The Armor contains a specialized layer of Titanium-A composite plating used for Demolitions. It ignores Kill Radius damage increases and ignores 10 Pierce from Explosive weaponry."
+    },
+    {
+      "name": "UVH-BA",
+      "description": "A lighter suit with less plating to make room for a small exoskeletal support system. This gives the Character a +5 Bonus to Agility."
+    },
+    {
+      "name": "Vacuum-Sealed",
+      "description": "Holds 60 minutes of oxygen unless specified otherwise with (X)."
+    },
+    {
+      "name": "VISR",
+      "description": "Equips the Character with VISR and a Motion Tracker. The Character can communicate with UEG, CAA, and UNSC infrastructures and communication options."
+    },
+    {
+      "name": "VR/Oxygen Recycler",
+      "description": "A Vacuum Regulator and Oxygen Recycler combination that allows the User to remain in a vacuum and without oxygen for extended periods. It recycles oxygen as the User breathes and has enough Oxygen to last 120 Minutes."
+    }
+  ]
+}

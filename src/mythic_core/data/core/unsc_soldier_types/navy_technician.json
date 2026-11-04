@@ -1,0 +1,96 @@
+{
+  "name": "UNSC or Insurrectionist Navy Technician",
+  "experience_cost": 2000,
+  "training": ["Basic", "Infantry"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 25,
+    "TOU": 25,
+    "AGI": 25,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 25,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {},
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": "+10 Rookie",
+    "PER": "+10 Rookie",
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [45, 117],
+    "size": "Normal"
+  },
+
+  "traits": [
+    {
+      "name": "Skill Training",
+      "effect": "Begin with 3 Skills of the player's choosing at Trained during Character Creation."
+    },
+    {
+      "name": "Educated",
+      "effect": "Begin with 3 Educations at +5 during Character Creation."
+    },
+    {
+      "name": "Squad Up",
+      "effect": "When with Army, Marine, Air Force, Navy, ORION, ODST, Militiaman, or Spartan IV Soldier Types: gain +5 Courage and +10 to Warfare Melee and Warfare Range when taking Combined Actions."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {},
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "standard": [
+      "M6 Series Pistol or M61 Carbine Variant",
+      "Two Large Tactical Softcases",
+      "UNSC Portable TACPAD",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Multi-Tool Kit",
+      "Holographic Tactical Eyepiece",
+      "Six Tactical Softcases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "guard": [
+      "BR55, BR75, or BR85 Battle Rifle",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "UNSC Portable TACPAD",
+      "M1 Combat Knife or Model 52 Knife",
+      "Multi-Tool Kit",
+      "Holographic Tactical Eyepiece",
+      "Three Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ]
+  }
+}

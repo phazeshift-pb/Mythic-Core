@@ -1,0 +1,181 @@
+{
+  "medical_effects": {
+    "blinded": {
+      "description": "Character automatically fails sight-based Perception and Warfare Range tests.",
+      "melee_penalty": -40
+    },
+
+    "damaged_limbs": {
+      "tiers": ["Broken", "Useless", "Lost"],
+      "notes": "Broken limbs cause penalties; Useless limbs cause greater penalties; Lost limbs remove functionality entirely."
+    },
+
+    "damaged_arm": {
+      "broken": {
+        "penalty": -20,
+        "applies_to": ["Skills", "Characteristic Tests", "Weapons attached to arm"]
+      },
+      "useless": {
+        "penalty": -30,
+        "additional_penalty_non_useless_arm": -10,
+        "notes": "Splint removes -10 penalty on other arm."
+      },
+      "lost": {
+        "penalty": "Arm cannot be used",
+        "notes": "Severely limits grapples, melee, and weapon use."
+      }
+    },
+
+    "damaged_foot": {
+      "broken": {
+        "movement_halved": true,
+        "penalty": -10
+      },
+      "useless": {
+        "penalty": -20
+      },
+      "lost": {
+        "penalty": -30,
+        "notes": "Foot cannot be used; both feet lost prevents walking."
+      }
+    },
+
+    "damaged_hand": {
+      "broken": {
+        "penalty": -10,
+        "applies_to": ["Two-handed weapons", "Grapples", "Throws"]
+      },
+      "useless": {
+        "penalty": -20
+      },
+      "lost": {
+        "notes": "Cannot hold weapons unless attached to gauntlet/armor."
+      }
+    },
+
+    "damaged_leg": {
+      "broken": {
+        "movement_halved": true,
+        "penalty": -20
+      },
+      "useless": {
+        "penalty": -30
+      },
+      "lost": {
+        "penalty": -40,
+        "movement_speed": 1,
+        "cannot_actions": ["Full Move", "Charge", "Run", "Sprint"],
+        "notes": "Both legs lost prevents movement and evasion."
+      }
+    },
+
+    "deafened": {
+      "description": "Character cannot hear; all hearing-based Perception tests fail."
+    },
+
+    "dehydration": {
+      "effects": {
+        "fatigue_per_day": 1,
+        "stat_penalty": {
+          "strength": -10,
+          "toughness": -10,
+          "agility": -10,
+          "intellect": -10
+        }
+      },
+      "death_condition": "Toughness drops below 0"
+    },
+
+    "holding_breath": {
+      "duration": "Toughness Modifier × 2 Turns",
+      "after_duration": "Begin Suffocation rules"
+    },
+
+    "hunger_starvation": {
+      "start": "After 3 days without food",
+      "daily_effects": {
+        "strength": -5,
+        "toughness": -5,
+        "agility": -5,
+        "fatigue": 1
+      },
+      "death_condition": "Toughness reaches 0"
+    },
+
+    "impaled": {
+      "initial_damage": "Weapon's normal damage",
+      "movement_damage": {
+        "damage": "Half weapon damage",
+        "ignores_armor": true,
+        "no_pierce": true
+      },
+      "removal": {
+        "small_objects": "Reaction",
+        "large_objects": "Full Action"
+      }
+    },
+
+    "lost_eye": {
+      "penalty": -20,
+      "applies_to": ["Sight-based Perception", "Warfare Tests"],
+      "both_eyes": "See Blinded"
+    },
+
+    "lost_nose": {
+      "penalty": -30,
+      "applies_to": ["Smell-based Perception"]
+    },
+
+    "lost_ear": {
+      "penalty": -20,
+      "both_ears_penalty": -40
+    },
+
+    "lost_lung": {
+      "effects": {
+        "breath_duration_halved": true,
+        "fatigue_doubled": true,
+        "cannot_actions": ["Charge", "Run"],
+        "swim_climb_halved": true
+      }
+    },
+
+    "sleep_deprivation": {
+      "after_2_days": {
+        "agility": -5,
+        "perception": -5
+      },
+      "after_5_days": {
+        "fatigue_every_12_hours": 1
+      }
+    },
+
+    "stunned": {
+      "cannot_react": true,
+      "movement": "Half Move only",
+      "attack_penalty": -20,
+      "cannot_actions": ["Swim", "Climb", "Evade", "Jump", "Leap"]
+    },
+
+    "suffocation": {
+      "after_breath_limit": {
+        "test": "Toughness Test each Turn",
+        "success": "Gain 1 Fatigue, remain conscious",
+        "failure": "Become Unconscious"
+      },
+      "while_unconscious": {
+        "damage": "1D10 per Turn",
+        "ignores_resistance": true
+      }
+    },
+
+    "unconsciousness": {
+      "duration": "10 minutes minus Toughness + Mythic Toughness (min 1)",
+      "increase_per_wound": "1 minute",
+      "conditions": ["Unaware", "Helpless"],
+      "wake_condition": "Fatigue < Toughness Modifier"
+    },
+
+    "citation": "All Medical Effects from Wounds & Medical chapter."
+  }
+}

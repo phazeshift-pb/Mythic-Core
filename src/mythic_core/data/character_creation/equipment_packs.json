@@ -1,0 +1,23 @@
+{
+  "equipment_packs": {
+    "rules": {
+      "one_pack_only": true,
+      "replenish_between_missions": true,
+      "cannot_sell_or_trade_items": true,
+      "armor_can_be_swapped": "By paying cost difference",
+      "weapons_start_with": {
+        "magazines": 4,
+        "belt_fed": 1
+      },
+      "damaged_items_replaced": true,
+      "modifications_not_replaced": true
+    },
+    "structure": {
+      "name": "string",
+      "armor": "string",
+      "weapons": ["string"],
+      "items": ["string"]
+    },
+    "notes": "Actual packs defined in Soldier Type modules."
+  }
+}

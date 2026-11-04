@@ -1,0 +1,33 @@
+{
+  "hacking_software": {
+    "requirements": {
+      "cryptography": "+20",
+      "time": "10D10 hours",
+      "time_reduction": "Half Intellect Modifier",
+      "professional_cost": 200
+    },
+    "software": [
+      {
+        "name": "Overflow Suite",
+        "effect": "Grants +10 to Cryptography Tests."
+      },
+      {
+        "name": "Denial Of Service",
+        "effect": "Reduces opposing firewall lockout by 1 each round."
+      },
+      {
+        "name": "SQLi",
+        "effect": "Counts opposing firewall encryption tier as 1 lower."
+      },
+      {
+        "name": "T.A.E Force",
+        "effect": "Allows one reroll and prevents lockout; usable once per firewall."
+      },
+      {
+        "name": "White Hat",
+        "effect": "Doubles Degrees of Success and Degrees of Failure."
+      }
+    ],
+    "citation": "Hacking Software rules."
+  }
+}

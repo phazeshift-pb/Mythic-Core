@@ -1,0 +1,33 @@
+{
+  "listening": {
+    "footsteps": {
+      "passive": {
+        "rule": "Opposes Athletics without an Opposed Test",
+        "result": "Knows someone is present but not direction"
+      },
+      "active": {
+        "action": "Full",
+        "bonus": 20,
+        "fail_effect": "Cannot spot opponent for 1 round per Degree of Failure",
+        "success_effects": {
+          "base": "Knows opponent is present",
+          "direction_bonus": 10,
+          "location_bonus": 20
+        }
+      }
+    },
+    "gunfire": {
+      "rule": "Each damage die rolled last turn gives +5 to Investigation",
+      "result": "Direction and general distance known"
+    },
+    "background_noise": [
+      { "noise": "Animal chatter, Distant Fighting, Moderate Wind", "penalty": -5 },
+      { "noise": "Nearby Fighting, Distant Heavy Fighting", "penalty": -10 },
+      { "noise": "Nearby Heavy Fighting, Heavy Animal Chatter", "penalty": -20 },
+      { "noise": "Light Local Fighting", "penalty": -30 },
+      { "noise": "Heavy Local Fighting", "penalty": -40 },
+      { "noise": "Explosives, Large Battlefields", "penalty": -60 }
+    ],
+    "citation": "Listening rules including Passive, Active, and background noise penalties."
+  }
+}

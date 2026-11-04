@@ -1,0 +1,32 @@
+{
+  "mortar": {
+    "base_penalty": -70,
+    "spotter_test": {
+      "action": "Extended 2 Full Actions",
+      "penalty": -10,
+      "no_penalty_with_system": true,
+      "bonus_per_degree": 10
+    },
+    "target_designator": {
+      "base_penalty": -40
+    },
+    "calculation_test": {
+      "action": "Extended 10 Full Actions",
+      "math_education_reduction": 5,
+      "bonus_per_degree": 10,
+      "bonus_after_zero_penalty": 10,
+      "max_bonus": 30
+    },
+    "scatter": {
+      "distance_formula": "(X)D10",
+      "x_per_failure": 5,
+      "x_long_range": 10,
+      "extreme_range": "Impossible"
+    },
+    "ignore_cover": {
+      "condition": "3+ Degrees of Success",
+      "exception": "Indoors"
+    },
+    "citation": "Mortar Special Rule."
+  }
+}

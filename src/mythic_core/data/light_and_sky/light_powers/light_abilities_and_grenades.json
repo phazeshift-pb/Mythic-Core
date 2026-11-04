@@ -1,0 +1,888 @@
+{
+  "abilities": [
+    {
+      "name": "Gambler's Dodge",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 600,
+      "light_cost": 20,
+      "description": "As a Half Action, tumble during the second Half Action. Gain a +30 Bonus to all Evasion Tests until the beginning of the next Turn.",
+      "super_description": "The tumble gives a +60 Bonus to all Evasion Tests until the beginning of the next Turn and doubles the distance moved when Evading out of radius Attacks and Evading into Cover."
+    },
+    {
+      "name": "Marksman's Dodge",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 300,
+      "light_cost": 10,
+      "description": "Once per Turn as a Free Action, after a successful Evasion Test, reload one weapon currently held.",
+      "super_description": "The successful Evasion Test reloads all owned and allied weapons within a radius equal to the Character's Intellect Modifier in meters."
+    },
+    {
+      "name": "Acrobat's Dodge",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 600,
+      "light_cost": 30,
+      "description": "After a successful Evasion Test, allied Characters within 2 meters are healed for 1D10 + Agility Modifier Wounds.",
+      "super_description": "Allies are healed for 2D10 + (Agility Modifier multiplied by 2) Wounds."
+    },
+    {
+      "name": "Towering Barricade",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 750,
+      "light_cost": 30,
+      "description": "Creates a 4 meter tall, 2 meter wide Energy Shield barrier with 300 Shield Integrity. It cannot be passed through and lasts 4 Turns. It is destroyed at 0 Integrity, and another Barricade cannot be used while one is active.",
+      "super_description": "Shield Integrity becomes 900 and duration increases to 6 Turns."
+    },
+    {
+      "name": "Rally Barricade",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 750,
+      "light_cost": 30,
+      "description": "Creates a waist-high, 3 meter wide Energy Shield barrier with 300 Shield Integrity. It cannot be passed through and lasts 4 Turns. It is destroyed at 0 Integrity, and another Barricade cannot be used while one is active.",
+      "super_description": "Shield Integrity becomes 900 and duration increases to 6 Turns."
+    },
+    {
+      "name": "Healing Rift",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 550,
+      "light_cost": 30,
+      "description": "Create a 4 meter radius rift that heals allies within it for 1D5 + Intellect Modifier Wounds when created and at the beginning of the User's Turn. The rift lasts 3 Turns.",
+      "super_description": "Healing increases to 2D10 + Intellect Modifier Wounds."
+    },
+    {
+      "name": "Empowering Rift",
+      "connection": "Universal",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 550,
+      "light_cost": 30,
+      "description": "Create a 4 meter radius rift that lasts 3 Turns. When created and at the beginning of the User's Turn, Characters within gain +5 Base Damage to their next Attack, allowing one empowered Attack per Half Action.",
+      "super_description": "Characters gain 2 empowered Attacks per Half Action at +10 Base Damage."
+    },
+    {
+      "name": "Light Weapon",
+      "connection": "Universal",
+      "category": "Weapon",
+      "class": "All",
+      "experience_cost": 500,
+      "light_cost": "X",
+      "description": "Forms a weapon of pure Light energy in the color of the chosen Connection. Choose any Melee Weapon, Physical Shield, or Emblem-system Ranged Weapon. Light Cost equals the chosen weapon's credit cost rounded up to the nearest 5. The weapon can be changed between missions if the GM allows it, with the original refunded and a new cost paid. While active, it uses the listed Light cost per Turn and dissipates when the Character runs out of Light Energy. Damage Dice increase by +1D10, Special Damage is dealt on Damage Rolls of 9 or 10, Base Damage and Pierce increase by the relevant Warfare Characteristic Modifier, and Ranged Weapons require no ammunition but dissipate if they run out of ammunition.",
+      "super_description": "Damage Dice increase by +2D10 instead of +1D10. The weapon also gains up to 4 additional effects of the User's choice. Those effects may be used on a non-Super Light Ability at double the listed additional Energy cost."
+    },
+    {
+      "name": "Thruster",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "All",
+      "experience_cost": 650,
+      "light_cost": 20,
+      "description": "While on the ground, move in any direction up to the Run Movement Speed in meters as a Half Action.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Blink",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "All",
+      "experience_cost": 550,
+      "light_cost": 20,
+      "description": "Teleport in any direction up to the Character's Half Move while midair. This cannot move through objects, walls, or Characters and replaces Double Jump when used.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Burst Glide",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Warlock",
+      "experience_cost": 350,
+      "light_cost": 15,
+      "description": "While airborne, glide at double normal Movement Speed for 1 Turn and turn normally. This replaces Double Jump when used.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Strafe Glide",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Warlock",
+      "experience_cost": 350,
+      "light_cost": 15,
+      "description": "While airborne, glide in one direction for 3 Turns. This replaces Double Jump when used.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Balanced Glide",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Warlock",
+      "experience_cost": 350,
+      "light_cost": 15,
+      "description": "While airborne, glide at normal Movement Speed for 2 Turns and turn normally. This replaces Double Jump when used.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "High Jump",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Hunter",
+      "experience_cost": 450,
+      "light_cost": 15,
+      "description": "Increase the distance traveled when using a Double Jump. A Double Jump can still be used after High Jump.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Strafe Jump",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Hunter",
+      "experience_cost": 450,
+      "light_cost": 15,
+      "description": "Freely control movement direction while Jumping, Leaping, or Double Jumping and triple Leap distance. Usable once per Turn.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Triple Jump",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Hunter",
+      "experience_cost": 450,
+      "light_cost": 15,
+      "description": "Gain a third Jump while midair after Double Jump. Triple Jump is a Free Action usable only at the end of the Character's Half Action.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "High Lift",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Titan",
+      "experience_cost": 500,
+      "light_cost": 15,
+      "description": "Double Jump doubles the height gained and becomes a Free Action instead of a Half Action.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Strafe Lift",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Titan",
+      "experience_cost": 500,
+      "light_cost": 15,
+      "description": "Double Jump can only be used as a Leap. Freely control direction and turn mid-Leap; travel distance is tripled.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Catapult Lift",
+      "connection": "Universal",
+      "category": "Movement",
+      "class": "Titan",
+      "experience_cost": 500,
+      "light_cost": 15,
+      "description": "Triple Jump height, but it cannot be used with a Leap or while performing Double Jump. Double Jump may follow Catapult Lift and must be a Jump, not a Leap. The following Double Jump doubles the distance Jumped.",
+      "super_description": "The total distance traveled is tripled."
+    },
+    {
+      "name": "Stormtrance",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 550,
+      "light_cost": 25,
+      "description": "Fire forward Arc Energy with Spread in a cone reaching (X) meters. Lasts 3 Turns; each Half Action deals (X)D5 + Agility Modifier Damage, beginning at X=1 and increasing by 1 each active Half Action.",
+      "super_description": "Deal (X)D10 + Agility Modifier in Damage and last an additional Turn."
+    },
+    {
+      "name": "Chaos Reach",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 650,
+      "light_cost": 30,
+      "description": "Fire a long-distance Sustained (2) Arc Beam with Penetrating. It deals 3D10 + 10 Damage, Pierce 30, out to the Character's Perceptive Range.",
+      "super_description": "Gain +1D10 Damage, Kinetic, and strike through Targets, hitting anything in the straight line as if nothing had been struck before."
+    },
+    {
+      "name": "Chain Lightning",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 450,
+      "light_cost": 25,
+      "description": "The next Target struck strikes all enemies within a 4 meter radius.",
+      "super_description": "Double the radius and all other Characters struck take Kinetic."
+    },
+    {
+      "name": "Ball Lightning",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 500,
+      "light_cost": 25,
+      "description": "Throw a weightless Arc projectile the maximum distance. The struck Target takes 1D5 + 8 Damage, ignoring Armor. At the beginning of the User's next Turn, lightning strikes the Character in Blast (5) for 2D10 + 15 Damage, ignoring Armor.",
+      "super_description": "Double the radius and increase Damage by +2D10."
+    },
+    {
+      "name": "Storm",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 550,
+      "light_cost": 25,
+      "description": "Throw a weightless Arc bolt the maximum distance. Where it lands, deal 3D10 + Toughness Modifier Damage in Blast (5).",
+      "super_description": "Add +3D10 Damage and the Character's Strength Modifier to Damage."
+    },
+    {
+      "name": "Edge",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 650,
+      "light_cost": 30,
+      "description": "As a Half Action, double Movement Speeds for 2 Turns.",
+      "super_description": "Triple Movement Speeds for 4 Turns."
+    },
+    {
+      "name": "Combination Blow",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 600,
+      "light_cost": 30,
+      "description": "Activate a 3 Turn aura. Each enemy defeated with a Melee Attack grants +4 Damage to all Melee Attacks. The bonus ends with the aura.",
+      "super_description": "Gain +7 Base Damage per defeated enemy and the aura lasts 4 Turns."
+    },
+    {
+      "name": "Disorientating Blow",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 600,
+      "light_cost": 25,
+      "description": "Activate a 3 Turn aura. Enemies struck are Blinded until the beginning of the User's next Turn and grant a charge, up to 3. Spend charges for +5 Pierce on the next Attack.",
+      "super_description": "The aura lasts 4 Turns, maximum charges increase to 10, and each charge gives +3 Damage and +5 Pierce."
+    },
+    {
+      "name": "Thundercrash",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 500,
+      "light_cost": 25,
+      "description": "Make a Charge through the air. The Charge Melee Attack deals its Damage in Blast (X) at impact, where X equals Strength Modifier in meters, maximum 5.",
+      "super_description": "Double Charge distance, add +2 Damage Dice, and increase maximum Strength Modifier to 10."
+    },
+    {
+      "name": "Fists of Havoc",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 650,
+      "light_cost": 30,
+      "description": "Once per Turn as a Free Action, the next Melee Attack deals +2 Damage Dice.",
+      "super_description": "The next 2 Melee Attacks deal +3 Damage Dice instead of +2."
+    },
+    {
+      "name": "Seismic Strike",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 500,
+      "light_cost": 20,
+      "description": "After making a Full Move, Charge, or Run on the previous Turn, a Melee Attack deals +10 Base Damage and Flashbang (10) to Characters on the ground within Blast (X), where X is half Strength Modifier.",
+      "super_description": "The Attack gains +1 Damage Die, +15 Base Damage, +10 Pierce, Flashbang (16), and Blast radius equal to Strength Modifier."
+    },
+    {
+      "name": "Thunderclap",
+      "connection": "Arc",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 550,
+      "light_cost": 25,
+      "description": "The next Charge Melee Attack bursts Arc energy forward, dealing the same Damage beyond the struck Target with Spread out to Half Move in meters.",
+      "super_description": "Spread reaches Full Move and the initial Target takes +3 Damage Dice."
+    },
+    {
+      "name": "Song of Flame",
+      "connection": "Solar",
+      "category": "Standard",
+      "class": "All",
+      "experience_cost": 500,
+      "light_cost": 30,
+      "description": "As a Full Action, the Character and allies within 3 meters regain 5 Light Energy per Turn for 3 Turns.",
+      "super_description": "The Character and allies regain 5 Light and Super Energy per Turn for 3 Turns."
+    },
+    {
+      "name": "Incinerator Snap",
+      "connection": "Solar",
+      "category": "Standard",
+      "class": "All",
+      "experience_cost": 650,
+      "light_cost": 15,
+      "description": "A Target within Melee Reach takes Flame (2D10).",
+      "super_description": "Double the distance and the Target takes Flame (4D10)."
+    },
+    {
+      "name": "Celestial Fire",
+      "connection": "Solar",
+      "category": "Standard",
+      "class": "All",
+      "experience_cost": 500,
+      "light_cost": 20,
+      "description": "Once per Turn as a Free Action, a chosen Melee Attack reaches up to double Melee Reach in meters, gains Spread, and hits Targets within reach.",
+      "super_description": "Melee Reach is multiplied by 4 and the Attack gains Flame (1D10)."
+    },
+    {
+      "name": "Phoenix Dive",
+      "connection": "Solar",
+      "category": "Standard",
+      "class": "All",
+      "experience_cost": 550,
+      "light_cost": 30,
+      "description": "As a Full Action, slam a fist into the ground. Allies within a radius equal to Strength Modifier are healed of Special Rules and receive 2D5 + Strength Modifier Wounds.",
+      "super_description": "The ability takes a Half Action and the radius doubles."
+    },
+    {
+      "name": "Nova Bomb Vortex",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 550,
+      "light_cost": 25,
+      "description": "Throw a weightless Void bolt the maximum distance. It deals 3D10 + Intellect Modifier Damage in Blast (4), sucking Targets into the center.",
+      "super_description": "Blast (6) and 5D10 + (Intellect Modifier multiplied by 2) Damage."
+    },
+    {
+      "name": "Nova Bomb Cataclysm",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 550,
+      "light_cost": 25,
+      "description": "Throw a weightless Void bolt the maximum distance. It deals 3D10 + Intellect Modifier Damage in Blast (4) and has Homing after being thrown.",
+      "super_description": "Gain +10 To Hit, Blast (6), and 5D10 Intellect Modifier Damage."
+    },
+    {
+      "name": "Nova Warp",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 650,
+      "light_cost": 30,
+      "description": "Enter an alternate dimension and move a Half Move as a Half Action while tripling the distance traveled in the real world. The Character cannot be targeted, attacked, seen, or interacted with while inside.",
+      "super_description": "Create a Blast (4) attack at the entrance and exit, dealing 3D10 + 10 Damage with Pierce 20."
+    },
+    {
+      "name": "Pocket Singularity",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 600,
+      "light_cost": 30,
+      "description": "Throw a weightless ball of Void energy the maximum distance. It detonates within 1 meter of an enemy in Blast (5). Enemies are pushed 2D5 + Intellect Modifier meters and take +1D10 Damage from Attacks until the beginning of the User's next Turn.",
+      "super_description": "Pushed Characters take an additional +1D10 Damage from Attacks. If they die from an Attack during this effect, they detonate and deal that Attack's Damage to the nearest enemy within 2 meters."
+    },
+    {
+      "name": "Shadowshot",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 600,
+      "light_cost": 30,
+      "description": "Create an anchor within 10 meters. Enemies within Agility Modifier meters have Movement Speeds halved. It lasts 3 Turns. A tethered enemy knocked prone or damaged is drawn toward the anchor.",
+      "super_description": "Lasts 5 Turns; Characters in the radius take +1D10 Damage from each Attack that Damages Wounds. Enemies who die while tethered drop an Orb of Light that restores 5 Light Energy to an ally who collects it."
+    },
+    {
+      "name": "Snare Bomb",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 500,
+      "light_cost": 25,
+      "description": "Throw a weightless Void smoke bomb the maximum distance. It creates Smoke Grenade (4) within a 15 meter radius. Enemies in the smoke that take Wound Damage take +2D5 Damage.",
+      "super_description": "Enemies take +1D10 + Agility Modifier Wound Damage instead. If an enemy dies in the smoke, increase its active duration by 1 Turn."
+    },
+    {
+      "name": "Ward of Dawn",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 750,
+      "light_cost": 30,
+      "description": "Create a 3 meter radius dome Energy Shield with 200 Shield Integrity for 3 Turns. Characters inside gain 25 Energy Shields that disappear once depleted.",
+      "super_description": "The dome has 700 Shield Integrity, lasts 5 Turns, and grants 50 Energy Shields. The gained Shields cannot exceed the amount granted by the dome."
+    },
+    {
+      "name": "Sentinel Shield",
+      "connection": "Void",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 700,
+      "light_cost": 30,
+      "description": "Create a 2 meter wide, 2 meter tall defensive wall with 150 Shield Integrity for 3 Turns. Allies can fire through it while enemy attacks are stopped, though it can be physically passed through.",
+      "super_description": "The wall has 400 Shield Integrity, lasts 5 Turns, and allied attacks through it gain +1D10 Damage and +10 Pierce."
+    },
+    {
+      "name": "Needlestorm",
+      "connection": "Strand",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 700,
+      "light_cost": 30,
+      "description": "As an Extended 2 Full Actions, create 3 Threadlings. They can move up to 10 meters away, each make one Attack as a Full Action based on the User's Punch Melee Attack, and last 5 Turns. Each has Strength 30, Agility 80, Warfare Melee 45, Perception 60, no other Characteristics, and automatically fails other Tests.",
+      "super_description": "Create 6 Threadlings, each able to make 1 Attack per Half Action."
+    },
+    {
+      "name": "Arcane Needle",
+      "connection": "Strand",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 600,
+      "light_cost": 30,
+      "description": "Unarmed Melee Attacks gain Pierce equal to Intellect Modifier multiplied by 2 for 2 Turns. The Character gains 1 additional Melee Attack per Half Action.",
+      "super_description": "Pierce equals Intellect Modifier multiplied by 4, Attacks deal two sets of Damage, and a Full Action of Attacks grants 2 extra Melee Attacks per Half Action."
+    },
+    {
+      "name": "Penumbral Blast",
+      "connection": "Stasis",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 650,
+      "light_cost": 30,
+      "description": "Throw Stasis Energy in a Spread cone reaching Intellect Modifier meters. Targets take 3D10 + Intellect Modifier Damage and cannot make Movement Actions during their next Turn.",
+      "super_description": "Add +2D10 Damage, the Character's Warfare Melee Modifier to Damage and Pierce."
+    },
+    {
+      "name": "Shiver Strike",
+      "connection": "Stasis",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 600,
+      "light_cost": null,
+      "description": "Make a Charge through the air. The Charge Melee Attack deals Damage in Blast (X), where X equals half Strength Modifier in meters, maximum 4. Struck enemies have Movement Speeds halved during their next Turn.",
+      "super_description": "Double Charge distance, add +2 Damage Dice, raise the maximum Strength Modifier to 8, and give struck enemies a -10 Penalty to Evasion Tests until the beginning of the Attacker's next Turn."
+    },
+    {
+      "name": "Sequestered Writ",
+      "connection": "Terraform",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 650,
+      "light_cost": 30,
+      "description": "As a Full Action, slam a fist or Melee Weapon into the ground to create a 15 meter wide aura for 4 Turns. Enemies in it take a -10 Penalty To Hit.",
+      "super_description": "Enemies take -20 To Hit and halve all Damage to Wounds they would cause to the User or allies."
+    },
+    {
+      "name": "Disequilibrium",
+      "connection": "Terraform",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 650,
+      "light_cost": 25,
+      "description": "Fire Terraform Energy with Spread. It reaches (X) meters and deals 2D10 Damage ignoring Armor. Struck enemies sprout Light and Darkness plant life and rock, taking -10 to Evasion until the beginning of the User's next Turn.",
+      "super_description": "Add +1D10 Damage and increase the Evasion Penalty to -30."
+    },
+    {
+      "name": "Magnetic Crunch",
+      "connection": "Terraform",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 650,
+      "light_cost": 25,
+      "description": "Throw a weightless bolt the maximum distance. It deals 1D10 + X Damage in Blast (5), ignoring Armor, where X is 3 for each enemy in the radius. All enemies are pulled to the center.",
+      "super_description": "Add +1D10 Damage and X becomes 2 + Strength Modifier for each enemy in Blast (5)."
+    },
+    {
+      "name": "Tectonic Shift",
+      "connection": "Terraform",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 850,
+      "light_cost": 35,
+      "description": "As a Half Action, create a 15 meter radius of Light for 2 Turns. As a Half Action, teleport to any unobstructed spot within it.",
+      "super_description": "The start and end points of the teleport deal 4D10 Damage in Blast (2), ignoring Armor, and the radius lasts an additional Turn."
+    },
+    {
+      "name": "Impact Flux",
+      "connection": "Terraform",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 550,
+      "light_cost": 25,
+      "description": "Create a 2 Turn aura. Melee Attacks against enemies that dealt Damage give a stacking -5 Penalty to Evade Attacks from the User. The penalty ends when the aura fades.",
+      "super_description": "The penalty also applies to the User's allies, increases to -10, and the aura lasts 4 Turns."
+    },
+    {
+      "name": "Albedo Reflectance",
+      "connection": "Terraform",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 450,
+      "light_cost": 20,
+      "description": "Once per Turn as a Free Action, the next Melee Attack stops a struck enemy from Damaging the User until the beginning of the User's next Turn.",
+      "super_description": "The effect lasts an additional Turn and the enemy takes the Damage it would have dealt to the User, ignoring Damage Resistance."
+    },
+    {
+      "name": "Restorative Warding",
+      "connection": "Resurrection",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 750,
+      "light_cost": 40,
+      "description": "As an Extended 2 Full Actions, remove Dead Zone effects from the User and allies within 10 meters for 2 Turns.",
+      "super_description": "Takes 1 Full Action, affects every Character within 10 meters, and lasts 3 Turns."
+    },
+    {
+      "name": "Fated Connection",
+      "connection": "Resurrection",
+      "category": "Standard",
+      "class": "Warlock",
+      "experience_cost": 800,
+      "light_cost": 35,
+      "description": "As a Full Action, link all enemies within 5 meters for 3 Turns. Damage to one linked enemy's Wounds is dealt to all linked enemies; link damage does not count toward this effect.",
+      "super_description": "Enemies take an additional 1D10 + Intellect Modifier Wounds with each set of Damage, made as one roll and applied to all enemies."
+    },
+    {
+      "name": "Melee Ascension",
+      "connection": "Resurrection",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 750,
+      "light_cost": 30,
+      "description": "As a Half Action, increase Melee Attacks during the next Half Action by 50%, rounding up.",
+      "super_description": "Double the number of Attacks instead of increasing them by 50%."
+    },
+    {
+      "name": "Guiding Beacon",
+      "connection": "Resurrection",
+      "category": "Standard",
+      "class": "Hunter",
+      "experience_cost": 700,
+      "light_cost": 25,
+      "description": "Activate a 3 Turn aura. Melee Attacks that strike enemies grant charges, up to 4. Spend a charge as a Free Action to give the User or an ally within 5 meters +20 To Hit on their next Attack.",
+      "super_description": "The aura lasts 4 Turns, maximum charges increase to 10, and each charge also heals the Character 2D5 Wounds."
+    },
+    {
+      "name": "Collected Will",
+      "connection": "Resurrection",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 800,
+      "light_cost": 40,
+      "description": "Create a 3 meter radius dome Energy Shield with 400 Shield Integrity for 3 Turns. Allies inside restore 5 Light Energy per Half Action.",
+      "super_description": "The dome has 800 Shield Integrity, lasts 4 Turns, and allies also restore 5 Super Energy per Turn."
+    },
+    {
+      "name": "Predator Soul",
+      "connection": "Resurrection",
+      "category": "Standard",
+      "class": "Titan",
+      "experience_cost": 600,
+      "light_cost": 35,
+      "description": "The next Melee Attack heals the User for half the Damage to Wounds it deals. The struck Target takes +2D10 Damage from any Melee Attack by the User.",
+      "super_description": "The Melee Attack and this effect deal their Damage in Blast (4)."
+    }
+  ],
+  "grenades": [
+    {
+      "name": "Flux Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 20,
+      "base_damage": "10",
+      "damage_roll": "2D10",
+      "range": "Blast (7), Kill (2)",
+      "special_rules": "[UD]. Sticky. Detonates at the beginning of the Character's next Turn."
+    },
+    {
+      "name": "Pulse Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 13,
+      "base_damage": "4",
+      "damage_roll": "2D10",
+      "range": "Blast (6), Kill (1)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn and once every Half Action for the next 2 Turns."
+    },
+    {
+      "name": "Skip Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 8,
+      "base_damage": "7",
+      "damage_roll": "1D5",
+      "range": "Blast (10)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Each Character in the Blast rolls 1D5+1; the roll multiplies the Attack's Base Damage."
+    },
+    {
+      "name": "Arcbolt Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 15,
+      "base_damage": "15",
+      "damage_roll": "3D5",
+      "range": "Blast (5)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Characters in the Blast that take Damage arc that Damage to others within 6 meters outside the Blast; those Characters take the same Damage."
+    },
+    {
+      "name": "Storm Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 30,
+      "base_damage": "5",
+      "damage_roll": "1D10",
+      "range": "Blast (7), Kill (2)",
+      "second_detonation": {
+        "pierce": 10,
+        "base_damage": "10",
+        "damage_roll": "4D10",
+        "range": "Blast (10)"
+      },
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. At the beginning of the following Turn, a larger detonation occurs at the same location."
+    },
+    {
+      "name": "Flashbang Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 18,
+      "base_damage": "5",
+      "damage_roll": "2D10",
+      "range": "Blast (10), Kill (2)",
+      "special_rules": "[UD]. Flashbang (10). Detonates at the beginning of the Character's next Turn."
+    },
+    {
+      "name": "Lightning Grenade",
+      "connection": "Arc",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": null,
+      "base_damage": "10",
+      "damage_roll": "1D10",
+      "range": "Blast (10)",
+      "special_rules": "[UD]. Sticky. Detonates at the beginning of the Character's next Turn and lasts 3 Turns. Deals Damage to all within the Radius at the beginning of each Turn, ignoring Armor."
+    },
+    {
+      "name": "Solar Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 11,
+      "base_damage": null,
+      "damage_roll": "2D10",
+      "range": "Blast (6), Kill (1)",
+      "special_rules": "[UD]. Flame (5). Detonates at the beginning of the Character's next Turn and once every Half Action for the next 2 Turns."
+    },
+    {
+      "name": "Firebolt Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": null,
+      "base_damage": "10",
+      "damage_roll": "1D10",
+      "range": "Blast (9)",
+      "special_rules": "[UD]. Flame (2D5). Detonates at the beginning of the Character's next Turn and lasts 3 Turns. Deals Damage to all within the Radius at the beginning of each Turn, including Flame Damage."
+    },
+    {
+      "name": "Fusion Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 20,
+      "base_damage": "10",
+      "damage_roll": "1D10",
+      "range": "Blast (7), Kill (2)",
+      "special_rules": "[UD]. Sticky and Flame (2D5). Detonates at the beginning of the Character's next Turn."
+    },
+    {
+      "name": "Incendiary Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 5,
+      "base_damage": "4",
+      "damage_roll": "2D10",
+      "range": "Blast (7), Kill (1)",
+      "special_rules": "[UD]. Flame (1D10). Detonates at the beginning of the Character's next Turn."
+    },
+    {
+      "name": "Incendiary Grenade (Line)",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 13,
+      "base_damage": null,
+      "damage_roll": "3D10",
+      "range": "Kill (1), 6 meters forward",
+      "special_rules": "[UD]. Flame (1D10). Detonates at the beginning of the Character's next Turn. Sends a 1 meter wide line of fire 6 meters forward instead of Blast; the initial detonation still deals Kill (1)."
+    },
+    {
+      "name": "Swarm Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 14,
+      "base_damage": "2",
+      "damage_roll": "2D10",
+      "range": "Blast (8)",
+      "special_rules": "[UD]. Flame (1). Detonates at the beginning of the Character's next Turn. Each Character in the Blast rolls 1D5+1; the roll multiplies the Attack's Flame value."
+    },
+    {
+      "name": "Tripmine Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 10,
+      "base_damage": "10",
+      "damage_roll": "3D10",
+      "range": "Blast (6), Kill (3)",
+      "special_rules": "[UD]. Flame (4). Attaches to a surface and does not detonate until an enemy comes within 2 meters."
+    },
+    {
+      "name": "Healing Grenade",
+      "connection": "Solar",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": null,
+      "base_damage": null,
+      "damage_roll": "2D10",
+      "range": "Blast (6), Kill (1)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Characters within the Blast are healed instead of Damaged; Kill doubles the amount healed. Ignores Damage Resistance."
+    },
+    {
+      "name": "Axion Bolt Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 8,
+      "base_damage": "5",
+      "damage_roll": "1D10",
+      "range": "Blast (10)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Each Character in the Blast rolls 1D5+1; the roll multiplies the Attack's Base Damage."
+    },
+    {
+      "name": "Magnetic Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 12,
+      "base_damage": "6",
+      "damage_roll": "2D10",
+      "range": "Blast (5), Kill (1)",
+      "special_rules": "[UD]. Sticky. Detonates at the beginning of the Character's next Turn and detonates a second time at the beginning of the following Turn."
+    },
+    {
+      "name": "Suppressor Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 14,
+      "base_damage": "12",
+      "damage_roll": "3D10",
+      "range": "Blast (5)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Struck Characters cannot use Light Abilities, Abilities, Aspects, or any other type of ability for their next 2 Turns."
+    },
+    {
+      "name": "Scatter Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 17,
+      "base_damage": "5",
+      "damage_roll": "2D10",
+      "range": "Blast (5), Kill (1)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn, turning into 3 Grenades instead of exploding. The new Grenades scatter 2D5 meters and detonate separately, each dealing separate Damage."
+    },
+    {
+      "name": "Spike Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 24,
+      "base_damage": "8",
+      "damage_roll": "2D10",
+      "range": "Blast (7), Kill (2)",
+      "special_rules": "[UD]. Sticky. Detonates at the beginning of the Character's next Turn."
+    },
+    {
+      "name": "Void Wall Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 15,
+      "base_damage": null,
+      "damage_roll": "3D10",
+      "range": "Kill (1), 6 meters forward",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Creates a 2 meter wide, 3 meter tall horizontal wall of Void Light that deals its Damage again to anyone passing through it. The wall lasts 2 Turns."
+    },
+    {
+      "name": "Vortex Grenade",
+      "connection": "Void",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 19,
+      "base_damage": null,
+      "damage_roll": "2D10",
+      "range": "Blast (10)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Enemies in the Blast are drawn to the center and have Movement Speeds halved during their next Turn."
+    },
+    {
+      "name": "Shackle Grenade",
+      "connection": "Strand",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 8,
+      "base_damage": "8",
+      "damage_roll": "3D10",
+      "range": "Blast (8), Kill (1)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Struck Characters are suspended in the air and cannot move during the first Half Action of their next Turn."
+    },
+    {
+      "name": "Glacier Grenade",
+      "connection": "Stasis",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 10,
+      "base_damage": "5",
+      "damage_roll": "3D10",
+      "range": "Blast (4)",
+      "special_rules": "[UD]. Activates at the beginning of the Character's next Turn and creates a 2 meter tall, 3 meter wide Stasis Crystal wall for 2 Turns. If damaged, it detonates in Blast (8), preventing struck enemies from moving until the beginning of their next Turn. Characters touching the wall are also frozen."
+    },
+    {
+      "name": "Duskfield Grenade",
+      "connection": "Stasis",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": null,
+      "base_damage": null,
+      "damage_roll": null,
+      "range": "Blast (10)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn without Damage. Creates a Stasis Energy field for 3 Turns that halves enemy Movement Speeds and prevents Jump, Leap, Charge, and Run Actions."
+    },
+    {
+      "name": "Coldsnap Grenade",
+      "connection": "Stasis",
+      "experience_cost": 350,
+      "light_cost": 25,
+      "pierce": 15,
+      "base_damage": "1",
+      "damage_roll": "4D10",
+      "range": "Blast (5)",
+      "special_rules": "[UD]. Detonates at the beginning of the Character's next Turn. Struck enemies cannot move during the first Half Action of their Turn."
+    }
+  ]
+}

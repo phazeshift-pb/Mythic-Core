@@ -1,0 +1,26 @@
+{
+  "outliers": {
+    "rules": {
+      "cost": "Burn 2 Luck",
+      "restriction": "Guardian-only outliers"
+    },
+    "list": [
+      {
+        "name": "Passive",
+        "effect": "The Guardian gains an additional Light Aspect."
+      },
+      {
+        "name": "Focus",
+        "effect": "The Guardian gains an additional Light Ability."
+      },
+      {
+        "name": "Energize",
+        "effect": "The Guardian gains +25 Light Energy limit."
+      },
+      {
+        "name": "Super",
+        "effect": "The Guardian gains +20 Super Energy limit."
+      }
+    ]
+  }
+}

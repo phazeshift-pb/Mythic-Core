@@ -1,0 +1,107 @@
+{
+  "name": "Titan Class Soldier Type",
+  "experience_cost": 9500,
+  "training": ["Basic", "Infantry"],
+  "upbringing": "Sub-Class Only",
+
+  "base_characteristics": {
+    "STR": 15,
+    "TOU": 10,
+    "AGI": 5,
+    "WFR": 5,
+    "WFM": 5,
+    "INT": 0,
+    "PER": 0,
+    "CRG": 0,
+    "CHA": 0,
+    "LDR": 0
+  },
+
+  "mythic_characteristics": {
+    "STR": "+3",
+    "TOU": "+4",
+    "AGI": "+1"
+  },
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": null,
+    "PER": null,
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {},
+
+  "traits": [
+    {
+      "name": "Training",
+      "effect": "The Character begins with the Human Weaponry Racial Trait at Character Creation."
+    },
+    {
+      "name": "Chosen",
+      "effect": "The Character has a Ghost as another Character with them."
+    },
+    {
+      "name": "Revive",
+      "effect": "As an Extended 2 Full Actions, the Character can Revive Unconscious or Dead Guardians by applying their Connection to the Character's Ghost. This brings the Guardian to full Wounds."
+    },
+    {
+      "name": "Equipment",
+      "effect": "The Character begins with 3 Common Weapon Engrams and 1 Common Armor Engram."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {},
+
+  "special_rules": {
+    "tier": 4,
+    "subclass_required": true
+  },
+
+  "subclasses": {
+    "Defender": {
+      "characteristic_modifiers": {
+        "TOU": "+10"
+      }
+    },
+    "Sentinel": {
+      "characteristic_modifiers": {
+        "TOU": "+5",
+        "STR": "+5",
+        "WFM": "-5",
+        "WFR": "-5"
+      }
+    },
+    "Striker": {
+      "characteristic_modifiers": {
+        "WFM": "+10",
+        "WFR": "+10"
+      }
+    },
+    "Sunbreaker": {
+      "characteristic_modifiers": {
+        "WFR": "+10",
+        "WFM": "-10"
+      }
+    },
+    "Behemoth": {
+      "characteristic_modifiers": {
+        "STR": "+10",
+        "TOU": "+10",
+        "AGI": "-5",
+        "WFM": "-5",
+        "WFR": "-10"
+      }
+    }
+  },
+
+  "equipment_sets": {}
+}

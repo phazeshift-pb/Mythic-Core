@@ -1,0 +1,12 @@
+{
+  "narrative_movement": {
+    "rules": {
+      "base": "Narrative movement uses Full Move multiplied by listed multipliers.",
+      "carry_weight_penalties": {
+        "50_to_75_percent": "-1 Agility Mod",
+        "76_to_100_percent": "-2 Agility Mod"
+      }
+    },
+    "citation": "Narrative Movement table and carry weight penalties."
+  }
+}

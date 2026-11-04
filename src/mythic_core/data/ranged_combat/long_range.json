@@ -1,0 +1,8 @@
+{
+  "long_range": {
+    "penalty": -40,
+    "pierce_multiplier": 0.5,
+    "description": "Attacks beyond optimal range up to 2x max range.",
+    "citation": "Long Range rules."
+  }
+}

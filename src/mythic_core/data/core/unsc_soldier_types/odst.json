@@ -1,0 +1,177 @@
+{
+  "name": "UNSC Marine Corps Orbital Drop Shock Trooper (ODST)",
+  "experience_cost": 2600,
+  "training": ["Basic", "Infantry"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 25,
+    "TOU": 25,
+    "AGI": 25,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 25,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {},
+
+  "advancements": {
+    "STR": "+5 Simple",
+    "TOU": "+5 Simple",
+    "AGI": "+5 Simple",
+    "WFR": "+10 Rookie",
+    "WFM": null,
+    "INT": null,
+    "PER": "+5 Simple",
+    "CRG": "+10 Rookie",
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [45, 117],
+    "size": "Normal"
+  },
+
+  "traits": [
+    {
+      "name": "Skill Training",
+      "effect": "Begin with 3 Skills of the player's choosing at +10 during Character Creation."
+    },
+    {
+      "name": "Squad Up",
+      "effect": "When with Army, Marine, Air Force, Navy, ORION, ODST, Militiaman, or Spartan IV Soldier Types: gain +5 Courage and +10 to Warfare Melee and Warfare Range when taking Combined Actions."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {
+    "becoming_odst": {
+      "requirements": [
+        "+10 Rookie Advancement in Courage",
+        "+5 Simple Advancement in Toughness",
+        "Minimum 2,600 total Experience spent"
+      ],
+      "effects": [
+        "Does NOT gain additional Soldier Type Traits when becoming ODST.",
+        "Does NOT gain new Skills, Abilities, or Training.",
+        "Loses previous branch-specific Soldier Type Traits.",
+        "Gains ODST BDU of their choice.",
+        "May swap Equipment for any ODST Equipment set."
+      ]
+    }
+  },
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "point_man": [
+      "MA5 Series Assault Rifle (time period appropriate)",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M61 Carbine Variant",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ],
+
+    "assault_and_ambush": [
+      "M7 Caseless Submachine Gun",
+      "3 Ammunition Pouches",
+      "M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ],
+
+    "close_quarters": [
+      "M45 Tactical Shotgun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ],
+
+    "general_purpose_gunnery": [
+      "M247 Machine Gun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang Grenade",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ],
+
+    "long_range_specialist": [
+      "Sniper Rifle System 99 Rifle",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Softcases",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ],
+
+    "anti_armor": [
+      "M41 Rocket Launcher",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ],
+
+    "marksman": [
+      "BR55, BR75, or BR85 Battle Rifle",
+      "3 Ammunition Pouches",
+      "M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "Standard ODST Battle Dress Uniform"
+    ]
+  }
+}

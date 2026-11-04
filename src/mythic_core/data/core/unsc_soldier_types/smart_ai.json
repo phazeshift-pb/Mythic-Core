@@ -1,0 +1,105 @@
+{
+  "name": "UNSC Smart AI Soldier Type",
+  "experience_cost": 0,
+  "training": ["None"],
+  "upbringing": "Artificial Intelligence",
+
+  "base_characteristics": {
+    "STR": 35,
+    "TOU": 35,
+    "AGI": 35,
+    "WFR": 35,
+    "WFM": 35,
+    "INT": 50,
+    "PER": 50,
+    "CRG": 35,
+    "CHA": 35,
+    "LDR": 35
+  },
+
+  "mythic_characteristics": {
+  },
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": null,
+    "PER": null,
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": null,
+    "weight_kg": null,
+    "size": "None (Digital Entity)"
+  },
+
+  "traits": [
+    {
+      "name": "GM Approval",
+      "effect": "Smart AIs require GM approval due to their power and narrative impact."
+    },
+    {
+      "name": "Stationed",
+      "effect": "A Smart AI must be installed in a Station such as a computer system or advanced armor like Mjolnir."
+    },
+    {
+      "name": "No Specialization Pack",
+      "effect": "Smart AIs do not choose Specialization Packs. Instead, they begin with four Skills at +10, which act as their specialization."
+    },
+    {
+      "name": "Educated",
+      "effect": "Begins with 3 Educations at +10 and has no limit on how many Educations can be learned."
+    },
+    {
+      "name": "Limited Abilities",
+      "effect": "Many Skills and Abilities do not function for Smart AIs due to lacking a physical body."
+    },
+    {
+      "name": "AI Combat",
+      "effect": "Smart AIs begin with Wounds representing stability. Attacks represent digital combat using Strength and Warfare Characteristics."
+    },
+    {
+      "name": "Language",
+      "effect": "Begins with all Human and Misc. languages. Learns all Covenant languages after 2530, and all Forerunner languages after 2553."
+    },
+    {
+      "name": "Lifespan",
+      "effect": "Smart AIs have a 7-year lifespan. After year 7, they must roll monthly Toughness Tests; failure causes permanent -5 Wounds and -5 Toughness."
+    },
+    {
+      "name": "Connectivity",
+      "effect": "May connect to Human technology without rolls. Connecting to Covenant tech is at -10. Connecting to Forerunner tech is at -20."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {
+    "station_requirement": "Smart AIs must be installed in a Station to operate.",
+    "destabilization": "After 7 years active, monthly Toughness Tests determine stability loss.",
+    "tech_connection": {
+      "human": "Automatic success",
+      "covenant": "-10 penalty",
+      "forerunner": "-20 penalty"
+    }
+  },
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "none": [
+      "Smart AIs do not possess physical equipment unless installed in a system or armor."
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "weapon_ranges": {
+    "definitions": {
+      "optimal_range": "Range where no penalties apply",
+      "close_range": "Under optimal range",
+      "long_range": "Beyond optimal range up to 2x max",
+      "extreme_range": "Beyond long range up to 3x max"
+    },
+    "effects": {
+      "close_range_bonus": 5,
+      "long_range_penalty": -40,
+      "long_range_pierce_multiplier": 0.5,
+      "extreme_range_penalty": -80,
+      "extreme_range_pierce": 0
+    },
+    "citation": "Weapon range definitions and penalties."
+  }
+}

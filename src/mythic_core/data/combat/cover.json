@@ -1,0 +1,19 @@
+{
+  "cover": {
+    "rules": {
+      "concealed_locations": ["Legs", "Chest"],
+      "explosives_rule": "Explosives cannot bypass cover if cover is between target and source",
+      "custom_cover": "Cover Points = Light Cover Armor * thickness_cm"
+    },
+    "cover_points": [
+      { "material": "Plastics, rusted metal, Loose Earth", "light": 1, "medium": 2, "heavy": 4 },
+      { "material": "Thin Wood, Light Metal", "light": 2, "medium": 4, "heavy": 8 },
+      { "material": "Concrete, Stone, Thick Wood", "light": 4, "medium": 8, "heavy": 16 },
+      { "material": "Strong Metals, Bulletproof Glass", "light": 8, "medium": 16, "heavy": 32 },
+      { "material": "Blastproof Window", "light": 10, "medium": 20, "heavy": 40 },
+      { "material": "Forerunner Metal, Bunker plate", "light": 18, "medium": 36, "heavy": 72 },
+      { "material": "Hardlight Structures", "light": 20, "medium": 40, "heavy": 80 }
+    ],
+    "citation": "Cover rules and Cover Points table."
+  }
+}

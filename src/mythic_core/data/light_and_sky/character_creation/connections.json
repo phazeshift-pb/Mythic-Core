@@ -1,0 +1,79 @@
+{
+  "connections": {
+    "rules": {
+      "starting_connections": 1,
+      "additional_connection_requirement": "At least 2,000 Experience earned total",
+      "additional_connection_costs": [
+        {
+          "connection_number": 2,
+          "experience_cost": 1000
+        },
+        {
+          "connection_number": 3,
+          "experience_cost": 2000
+        },
+        {
+          "connection_number": 4,
+          "experience_cost": 4000
+        },
+        {
+          "connection_number": 5,
+          "experience_cost": 8000
+        }
+      ],
+      "maximum_additional_connections": 4,
+      "maximum_total_connections": 5,
+      "connection_difficulty": "Each Connection becomes more difficult to learn and master than the last.",
+      "light_connection_rule": "A Light Connection is a paracausal force specializing in creation. It is the first Connection made possible by Guardians and is first made when the Character is chosen by their Ghost. The Ghost is the initial Connection that makes this possible, so no other means are needed, such as Darkness or Specialized Connections.",
+      "darkness_connection_rule": "Darkness Connections are established through various means, including communing with powerful beings of Darkness, using artifacts imbued with Darkness, being Resurrected through the power of Darkness, or learning through extensive practice with someone who has already acquired the Connection.",
+      "specialized_connection_rule": "Specialized Connections are a mixture of Light and Darkness and can only be acquired once a Character has at least one Connection to both Light and Darkness. Once the Character understands both, they can obtain a Specialized Connection. Having a Connection to both Light and Dark is not the only condition that must be met.",
+      "specialized_connection_interaction": "The Character must also interact with the tangled force of both Light and Darkness. Examples include the Pale Heart, objects entangled in a Prismatic State, or vortices of Resurrection and Terraform energies. Simply being Resurrected or stuck within the energy of something Terraformed does not meet these demands; the GM decides whether specific instances qualify.",
+      "specialized_connection_training": "A Specialized Connection can also be obtained through extensive training with someone who has already gained the Connection.",
+      "specialized_connection_gm_option": "The GM may ignore these specific interaction requirements and require a Character to have one Light Connection and one Darkness Connection. The GM may also prohibit Specialized Connections because they are rare and unique."
+    },
+    "light": [
+      {
+        "name": "Arc",
+        "information": "Light, Electricity, Blue"
+      },
+      {
+        "name": "Solar",
+        "information": "Light, Fire, Orange"
+      },
+      {
+        "name": "Void",
+        "information": "Light, Space, Purple"
+      }
+    ],
+    "darkness": [
+      {
+        "name": "Stasis",
+        "information": "Darkness, Manifestation, Indigo"
+      },
+      {
+        "name": "Strand",
+        "information": "Darkness, Psychic, Green"
+      }
+    ],
+    "specialized": [
+      {
+        "name": "Terraform",
+        "information": "Both Light and Darkness, Creation, Silver"
+      },
+      {
+        "name": "Resurrection",
+        "information": "Both Light and Darkness, Recreate, Black"
+      },
+      {
+        "name": "Prismatic",
+        "information": "Both Light and Darkness, Transcendence, Pink"
+      }
+    ],
+    "prismatic_rules": {
+      "description": "The Prismatic Connection is unique and does not offer its own set of Light Abilities or Light Aspects.",
+      "experience_refund": "When the User takes the Prismatic Connection, all previous extra Experience spent on Light Abilities and Light Aspects that do not match their Connection or Class is refunded.",
+      "energy_regeneration": "The Character regains an additional 5 Light Energy and Super Energy at the beginning of each Turn.",
+      "weapon_ability_effects": "The Player may mix and match Light Weapon Ability effects from different Connections that the Character owns."
+    }
+  }
+}

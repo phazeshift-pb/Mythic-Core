@@ -1,0 +1,12 @@
+{
+  "ground_type": [
+    { "type": "Sand, Dirt, Carpet", "modifier": 0 },
+    { "type": "Grass, Ash, Silt, Wood Flooring", "modifier": -5 },
+    { "type": "Light Snow, Rock, Tall Grass", "modifier": -10 },
+    { "type": "Gravel, Moderate Snow, Leaves and Sticks", "modifier": -15 },
+    { "type": "Dense Vegetation, Metal Flooring", "modifier": -20 },
+    { "type": "Heavy Snow, Creaking Floor, Puddles", "modifier": -25 },
+    { "type": "Echoing Environment", "modifier": "x2" }
+  ],
+  "citation": "Ground Type penalties to Athletics."
+}

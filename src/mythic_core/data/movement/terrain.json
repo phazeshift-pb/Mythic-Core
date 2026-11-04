@@ -1,0 +1,21 @@
+{
+  "terrain": {
+    "difficult": [
+      { "condition": "Heavy Fog or Smoke", "penalty": -10, "notes": "If hurrying or running" },
+      { "condition": "Darkness, Dense Crowds", "penalty": -20, "notes": "If hurrying or running" },
+      { "condition": "Rubble, Sand", "penalty": -10 },
+      { "condition": "Ice, Mud", "penalty": -20 }
+    ],
+    "dangerous": [
+      { "condition": "Craters, Mountain Side", "penalty": -30 },
+      { "condition": "Unstable Ground", "penalty": -30 },
+      { "condition": "Thin Ice", "penalty": -40 },
+      { "condition": "Large Earthquakes", "penalty": -50 }
+    ],
+    "movement_restrictions": {
+      "difficult": "Cannot Run or Sprint.",
+      "dangerous": "Half Move only as Full Action; narrative movement reduced by 50%."
+    },
+    "citation": "Terrain penalties table for Difficult and Dangerous Terrain."
+  }
+}

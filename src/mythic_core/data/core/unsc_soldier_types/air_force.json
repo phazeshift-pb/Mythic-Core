@@ -1,0 +1,173 @@
+{
+  "name": "UNSC or Insurrectionist Air Force Soldier",
+  "experience_cost": 2000,
+  "training": ["Basic", "Infantry"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 25,
+    "TOU": 25,
+    "AGI": 25,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 25,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {},
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": "+10 Rookie",
+    "WFR": "+5 Simple",
+    "WFM": null,
+    "INT": null,
+    "PER": "+10 Rookie",
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [45, 117],
+    "size": "Normal"
+  },
+
+  "traits": [
+    {
+      "name": "Skill Training",
+      "effect": "Begin with 3 Skills of the player's choosing at Trained during Character Creation."
+    },
+    {
+      "name": "Vehicle",
+      "effect": "May purchase any UNSC Military Vehicle at 1/3rd cR cost. Vehicle becomes part of starting equipment, cannot be sold or traded, replenishes and repairs between missions, and is considered the party’s vehicle."
+    },
+    {
+      "name": "Vehicle Swap",
+      "effect": "Between missions, may swap their starting vehicle for another UNSC Military Vehicle by paying 1/3rd of the new vehicle’s cost. No refunds."
+    },
+    {
+      "name": "Squad Up",
+      "effect": "When with Army, Marine, Air Force, Navy, ORION, ODST, Militiaman, or Spartan IV Soldier Types: gain +5 Courage and +10 to Warfare Melee and Warfare Range when taking Combined Actions."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {
+    "weapon_cost_increase": "Weapons without the [I] tag cost 25% more.",
+    "modification_discount": "Weapon and Vehicle Modifications cost half cR."
+  },
+
+  "special_rules": {
+    "vehicle_discount": "UNSC Military Vehicles cost 1/3rd cR.",
+    "vehicle_replacement": "May replace starting vehicle between missions by paying 1/3rd cost of new vehicle."
+  },
+
+  "subclasses": {},
+
+  "equipment_sets": {
+    "point_man": [
+      "MA5 Series Assault Rifle",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol (time period appropriate)",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "marksman": [
+      "BR55, BR75, or BR85 Battle Rifle",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "close_quarters": [
+      "M90 Close Assault Weapon System Shotgun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol or M61 Carbine",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "heavy_support": [
+      "AIE-486H Heavy Machine Gun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "Two M9 Dual-Purpose Grenades",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Two Tactical Hard Cases",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "heavy_squad_support": [
+      "M735 or M739 Light Machine Gun",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "long_range_specialist": [
+      "Sniper Rifle System 99 Rifle",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Two Flashbang Grenades",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ],
+
+    "anti_armor": [
+      "M41 Rocket Launcher",
+      "3 Ammunition Pouches",
+      "M6 Series Pistol",
+      "Flashlight",
+      "M9 Dual-Purpose Grenade",
+      "M1 Combat Knife or Model 52 Knife",
+      "Flashbang",
+      "Holographic Tactical Eyepiece",
+      "Tactical Softcase",
+      "Utility Webbing",
+      "M50B, M52B, or M53 BDU (time period dependent)"
+    ]
+  }
+}

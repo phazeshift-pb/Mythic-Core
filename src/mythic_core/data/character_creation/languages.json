@@ -1,0 +1,10 @@
+{
+  "languages": {
+    "rules": {
+      "starting_languages": 1,
+      "max_languages": "Intellect Modifier",
+      "cost_per_language": 150
+    },
+    "notes": "Actual language lists appear in race/faction chapters."
+  }
+}

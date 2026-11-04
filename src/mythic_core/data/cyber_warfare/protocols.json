@@ -1,0 +1,45 @@
+{
+  "protocols": [
+    {
+      "name": "Host-Based Security",
+      "action": "Half",
+      "effect": "Increase Damage Resistance by Perception Modifier until next turn."
+    },
+    {
+      "name": "Data Driven Attack",
+      "action": "Declare at start of turn",
+      "effect": {
+        "damage_only_firewalls": true,
+        "base_damage_bonus": "Charisma Modifier ×2"
+      }
+    },
+    {
+      "name": "Spoofing",
+      "action": "Half",
+      "effect": {
+        "duplicate_firewall": 30,
+        "max_duplicates": "Perception Modifier",
+        "requires_perception_test_to_identify": true
+      }
+    },
+    {
+      "name": "Log Retention",
+      "action": "Half",
+      "effect": "Reduce incoming damage from same source for two attacks."
+    },
+    {
+      "name": "Worm",
+      "action": "Passive",
+      "effect": {
+        "attack_count_halved": true,
+        "delayed_damage": "Damage increased by 25% next round"
+      }
+    },
+    {
+      "name": "Intrusion Detection",
+      "action": "Half",
+      "effect": "Immune to all protocol effects until next turn."
+    }
+  ],
+  "citation": "AI Protocols."
+}

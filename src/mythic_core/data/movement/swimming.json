@@ -1,0 +1,28 @@
+{
+  "swimming": {
+    "swim_speed": "Strength Modifier meters per turn",
+    "simple": {
+      "rules": "No test needed with both hands free.",
+      "fast_swim_penalty": -10,
+      "fail_effects": {
+        "fail": "Swim Speed halved.",
+        "fail_2df": "No distance gained."
+      }
+    },
+    "difficult": {
+      "rules": "Requires Swim Test; GM assigns difficulty.",
+      "bonus_examples": "+40 for flotation devices or ropes."
+    },
+    "weight_penalties": [
+      { "carry": ">50%", "penalty": -10, "speed_reduction": 1 },
+      { "carry": ">75%", "penalty": -30, "speed_reduction": 2 },
+      { "carry": ">90%", "penalty": -50, "speed_reduction": 3 }
+    ],
+    "underwater": {
+      "camouflage_bonus": 20,
+      "breath_rules": "Uses Holding Breath rules.",
+      "fail_swim_penalty": "-20 after two failed tests."
+    },
+    "citation": "Swimming rules including Simple, Difficult, and weight penalties."
+  }
+}

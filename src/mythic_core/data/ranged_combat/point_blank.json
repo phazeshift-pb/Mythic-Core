@@ -1,0 +1,15 @@
+{
+  "point_blank": {
+    "ranged": {
+      "range_meters": 3,
+      "bonus": 20,
+      "lost_if_target_moved": true
+    },
+    "melee": {
+      "range_meters": 1,
+      "bonus": 10,
+      "lost_if_target_moved": true
+    },
+    "citation": "Point Blank rules for ranged and melee attacks."
+  }
+}

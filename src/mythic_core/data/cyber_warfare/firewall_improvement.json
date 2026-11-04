@@ -1,0 +1,14 @@
+{
+  "firewall_improvement": {
+    "requirements": {
+      "self_upgrade": "Cryptography +10",
+      "professional_cost_per_tier": 25
+    },
+    "time": {
+      "roll": "7D10 hours",
+      "reduction": "Subtract Intellect Modifier"
+    },
+    "effect": "Increases Firewall Tier by 1",
+    "citation": "Improving Firewall Ratings."
+  }
+}

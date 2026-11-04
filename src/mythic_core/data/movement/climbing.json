@@ -1,0 +1,21 @@
+{
+  "climbing": {
+    "climb_speed": {
+      "half_move": "Climb up to Half Move as Full Action.",
+      "full_move": "Climb up to Full Move with Climb Test."
+    },
+    "simple": {
+      "rules": "No test needed with both hands free.",
+      "fast_climb_penalty": -10,
+      "fail_effects": {
+        "fail": "Cannot climb higher.",
+        "fail_2df": "Falls."
+      }
+    },
+    "difficult": {
+      "rules": "Requires Climb Test; GM assigns difficulty.",
+      "bonus_examples": "+40 for intelligent climbing methods."
+    },
+    "citation": "Simple and Difficult Climbing rules."
+  }
+}

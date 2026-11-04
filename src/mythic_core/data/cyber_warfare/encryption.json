@@ -1,0 +1,24 @@
+{
+  "encryption": {
+    "tiers": {
+      "max_tier": 3,
+      "effect_per_tier": "Reduces Degrees of Success from hacking by 1"
+    },
+    "self_install": {
+      "requirements": "Cryptography +20",
+      "time": {
+        "tier_1": "4D10 hours",
+        "tier_2": "5D10 hours",
+        "tier_3": "6D10 hours",
+        "minimum_per_tier": 3,
+        "reduction": "Subtract Intellect Modifier"
+      }
+    },
+    "professional_cost": {
+      "tier_1": 25,
+      "tier_2": 75,
+      "tier_3": 150
+    },
+    "citation": "Encrypted Firewall rules."
+  }
+}

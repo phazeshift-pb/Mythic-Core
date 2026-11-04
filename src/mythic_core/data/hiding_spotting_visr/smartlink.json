@@ -1,0 +1,20 @@
+{
+  "smartlink": {
+    "description": "Weapon-mounted scopes and sights that integrate with VISR.",
+    "effects": {
+      "aiming": "Allows Aiming and Bracing simultaneously",
+      "blind_fire_penalty": {
+        "base": -60,
+        "smartlink": -30
+      }
+    },
+    "tethering": {
+      "actions": 2,
+      "type": "Full"
+    },
+    "emp_rule": {
+      "effect": "Smartlink devices without normal sights cannot Aim"
+    },
+    "citation": "Smartlink rules including Blind Fire interaction."
+  }
+}

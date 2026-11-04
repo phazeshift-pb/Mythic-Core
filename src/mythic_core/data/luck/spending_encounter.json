@@ -1,0 +1,17 @@
+{
+  "spending_encounter": {
+    "options": [
+      { "effect": "Reroll a Test", "bonus": 10 },
+      { "effect": "Halve One-Handing and Dual-Wielding penalties", "duration": "Full Action" },
+      { "effect": "Gain +20 to next Test", "declare_before_test": true },
+      { "effect": "Add +1 Degree of Success to a Test" },
+      { "effect": "Add +1 Degree of Failure or reduce -1 DoS to opponent in Opposed Test" },
+      { "effect": "Increase own Initiative by 5" },
+      { "effect": "Reduce one opponent's Initiative by 3 at start of combat" },
+      { "effect": "Count as rolling Special Damage on one Attack" },
+      { "effect": "Reduce Scatter Distance by half" },
+      { "effect": "Ignore first Reaction penalty for one Turn" }
+    ],
+    "citation": "Encounter Spending Options."
+  }
+}

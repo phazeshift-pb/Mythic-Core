@@ -1,0 +1,29 @@
+{
+  "movement_actions": {
+    "half_move": {
+      "type": "Half",
+      "rules": "May perform another non-movement Half Action at -20 penalty.",
+      "citation": "“Half Moving takes a Half Action… another non-movement Half Action at -20 Penalty.”"
+    },
+    "full_move": {
+      "type": "Full",
+      "rules": "May perform another non-movement action at -20 penalty.",
+      "citation": "“A Full Move takes a Full Action… another non-movement Half or Full Action at -20 Penalty.”"
+    },
+    "charge": {
+      "type": "Full",
+      "rules": "May perform non-movement, non-melee Half Action at -30 penalty.",
+      "citation": "“A Charge takes a Full Action… non-Movement and non-Melee Half Action at -30 Penalty.”"
+    },
+    "run": {
+      "type": "Full",
+      "rules": "May perform non-movement Half Action at -40 penalty.",
+      "citation": "“A Run takes a Full Action… non-movement Half Action at -40 Penalty.”"
+    },
+    "sprint": {
+      "type": "Full",
+      "rules": "Cannot perform any other actions; requires Blur Ability.",
+      "citation": "“Sprint… can only be taken using the Blur Ability.”"
+    }
+  }
+}

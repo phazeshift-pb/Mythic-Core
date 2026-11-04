@@ -1,0 +1,124 @@
+{
+  "melee_damage": {
+    "size_categories": [
+      {
+        "size": "Mini",
+        "reach": 0,
+        "punch_elbow_tendril": "1D10 -2",
+        "kick_knee": "2D10 -2",
+        "bite_claw_pincer": "1D5 -2",
+        "stomp_headbutt": "1D10 -2",
+        "melee_weapon_bonus": null
+      },
+      {
+        "size": "Small",
+        "reach": 1,
+        "punch_elbow_tendril": "1D10 -1",
+        "kick_knee": "2D10 -1",
+        "bite_claw_pincer": "1D5 -1",
+        "stomp_headbutt": "1D10 -1",
+        "melee_weapon_bonus": null
+      },
+      {
+        "size": "Normal",
+        "reach": 1,
+        "punch_elbow_tendril": "1D10",
+        "kick_knee": "2D10",
+        "bite_claw_pincer": "1D10",
+        "stomp_headbutt": "2D10",
+        "melee_weapon_bonus": null
+      },
+      {
+        "size": "Large",
+        "reach": 2,
+        "punch_elbow_tendril": "2D10 +1",
+        "kick_knee": "3D10 +1",
+        "bite_claw_pincer": "1D10 +1",
+        "stomp_headbutt": "2D10 +1",
+        "melee_weapon_bonus": null
+      },
+      {
+        "size": "Huge",
+        "reach": 3,
+        "punch_elbow_tendril": "2D10 +2",
+        "kick_knee": "3D10 +2",
+        "bite_claw_pincer": "1D10 +2",
+        "stomp_headbutt": "3D10 +2",
+        "melee_weapon_bonus": "+1 Damage Dice"
+      },
+      {
+        "size": "Hulking",
+        "reach": 3,
+        "punch_elbow_tendril": "3D10 +3",
+        "kick_knee": "3D10 +3",
+        "bite_claw_pincer": "2D10 +3",
+        "stomp_headbutt": "3D10 +3",
+        "melee_weapon_bonus": "+1 Damage Dice"
+      },
+      {
+        "size": "Giant",
+        "reach": 4,
+        "punch_elbow_tendril": "3D10 +4",
+        "kick_knee": "4D10 +4",
+        "bite_claw_pincer": "2D10 +4",
+        "stomp_headbutt": "4D10 +4",
+        "melee_weapon_bonus": "+2 Damage Dice"
+      },
+      {
+        "size": "Immense",
+        "reach": 4,
+        "punch_elbow_tendril": "4D10 +5",
+        "kick_knee": "4D10 +5",
+        "bite_claw_pincer": "3D10 +5",
+        "stomp_headbutt": "5D10 +5",
+        "melee_weapon_bonus": "+2 Damage Dice"
+      },
+      {
+        "size": "Massive",
+        "reach": 5,
+        "punch_elbow_tendril": "4D10 +6",
+        "kick_knee": "5D10 +6",
+        "bite_claw_pincer": "4D10 +6",
+        "stomp_headbutt": "6D10 +6",
+        "melee_weapon_bonus": "+3 Damage Dice"
+      },
+      {
+        "size": "Great",
+        "reach": 6,
+        "punch_elbow_tendril": "5D10 +7",
+        "kick_knee": "5D10 +7",
+        "bite_claw_pincer": "5D10 +7",
+        "stomp_headbutt": "7D10 +7",
+        "melee_weapon_bonus": "+3 Damage Dice"
+      },
+      {
+        "size": "Monumental",
+        "reach": 7,
+        "punch_elbow_tendril": "5D10 +8",
+        "kick_knee": "6D10 +8",
+        "bite_claw_pincer": "6D10 +8",
+        "stomp_headbutt": "8D10 +8",
+        "melee_weapon_bonus": "+4 Damage Dice"
+      },
+      {
+        "size": "Colossal",
+        "reach": 10,
+        "punch_elbow_tendril": "7D10 +9",
+        "kick_knee": "8D10 +9",
+        "bite_claw_pincer": "8D10 +9",
+        "stomp_headbutt": "10D10 +9",
+        "melee_weapon_bonus": "+5 Damage Dice"
+      },
+      {
+        "size": "Vast",
+        "reach": 25,
+        "punch_elbow_tendril": "9D10 +10",
+        "kick_knee": "10D10 +10",
+        "bite_claw_pincer": "10D10 +10",
+        "stomp_headbutt": "12D10 +10",
+        "melee_weapon_bonus": "+6 Damage Dice"
+      }
+    ],
+    "citation": "Melee Damage table by Size Category from Melee Combat chapter."
+  }
+}

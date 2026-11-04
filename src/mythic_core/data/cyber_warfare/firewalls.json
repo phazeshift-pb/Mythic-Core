@@ -1,0 +1,18 @@
+{
+  "firewalls": {
+    "tiers": [
+      { "tier": "Simple", "rating": 5, "requirement": null },
+      { "tier": "Civilian", "rating": 10, "requirement": "Cryptography Trained" },
+      { "tier": "Corporate", "rating": 20, "requirement": "Cryptography +10" },
+      { "tier": "Covenant", "rating": 25, "requirement": "Cryptography +10" },
+      { "tier": "Military", "rating": 30, "requirement": "Cryptography +20" },
+      { "tier": "Forerunner", "rating": 40, "requirement": "Cryptography +20, Computer Security Education +10" }
+    ],
+    "simple_firewall_rules": {
+      "no_upgrades": true,
+      "examples": ["Ammo counters", "Calculators"],
+      "hackable_only_by_physical_access": true
+    },
+    "citation": "Firewall tiers and rules."
+  }
+}

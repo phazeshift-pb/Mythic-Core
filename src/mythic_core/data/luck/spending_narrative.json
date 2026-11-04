@@ -1,0 +1,10 @@
+{
+  "spending_narrative": {
+    "options": [
+      { "effect": "Find a small-arms weapon with ammo" },
+      { "effect": "Shift NPC Disposition by 1–2 slots" },
+      { "effect": "Gain inspiration; ask GM one situational question" }
+    ],
+    "citation": "Narrative Spending Options."
+  }
+}

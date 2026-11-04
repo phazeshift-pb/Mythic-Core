@@ -1,0 +1,182 @@
+{
+  "special_damage": {
+    "rules": {
+      "trigger_conditions": [
+        "Attack reduces Wounds to 0 or below",
+        "Attack occurs at 0 or below Wounds",
+        "Damage Dice roll natural 10 (D10) or 5 (D5)"
+      ],
+      "blast_kill": "Strike multiple locations equal to number of Damage Dice",
+      "damage_before_resistance": true
+    },
+
+    "thresholds": {
+      "flesh": ["1-20", "21-30", "31-40", "41-50", "51+"],
+      "organ": ["1-25", "26-40", "41-50", "51-60", "61+"],
+      "joint": ["1-25", "26-40", "41-55", "56-70", "71+"],
+      "bone": ["1-30", "31-50", "51-65", "66-80", "81+"]
+    },
+
+    "head": {
+      "neck": [
+        { "range": "1-25", "effects": ["Whiplash (1)"] },
+        { "range": "26-40", "effects": ["Whiplash (2)"] },
+        { "range": "41-55", "effects": ["Whiplash (3)", "Bloodloss (1)"] },
+        { "range": "56-70", "effects": ["Whiplash (4)", "Bloodloss (2)", "Looming Death (20)"] },
+        { "range": "71+", "effects": ["Whiplash (4)", "Bloodloss (4)", "Looming Death (1D10)"] }
+      ],
+
+      "mouth": [
+        { "range": "1-20", "effects": ["Lockjaw (1)"] },
+        { "range": "21-30", "effects": ["Lockjaw (5)"] },
+        { "range": "31-40", "effects": ["Lockjaw (10)", "Lose 1D5 Teeth"] },
+        { "range": "41-50", "effects": ["Lockjaw (20)", "Whiplash (2)", "Lose 2D5 Teeth"] },
+        { "range": "51+", "effects": ["Lockjaw (Permanent)", "Whiplash (4)", "Lose 2D10 Teeth"] }
+      ],
+
+      "nose": [
+        { "range": "1-20", "effects": ["Lost (2)", "Nose Broken"] },
+        { "range": "21-30", "effects": ["Lost (4)", "Nose Broken"] },
+        { "range": "31-40", "effects": ["Gasping (2)", "Nose Broken"] },
+        { "range": "41-50", "effects": ["Gasping (3)", "Nose Broken"] },
+        { "range": "51+", "effects": ["Gasping (4)", "Nose Lost"] }
+      ],
+
+      "ear": [
+        { "range": "1-20", "effects": ["Tinnitus (1)"] },
+        { "range": "21-30", "effects": ["Tinnitus (3)"] },
+        { "range": "31-40", "effects": ["Tinnitus (5)", "Flinch (1)"] },
+        { "range": "41-50", "effects": ["Tinnitus (10)", "Flinch (2)", "Whiplash (1)"] },
+        { "range": "51+", "effects": ["Tinnitus (60)", "Concussed (3D5)", "Ear Lost"] }
+      ],
+
+      "eye": [
+        { "range": "1-20", "effects": ["Vision Loss (3)"] },
+        { "range": "21-30", "effects": ["Vision Loss (5)"] },
+        { "range": "31-40", "effects": ["Vision Loss (10)", "Flinch (1)"] },
+        { "range": "41-50", "effects": ["Vision Loss (10)", "Flinch (2)", "Whiplash (1)"] },
+        { "range": "51+", "effects": ["Vision Loss (60)", "Concussed (3D5)", "Eye Lost"] }
+      ],
+
+      "forehead": [
+        { "range": "1-30", "effects": ["Lost (2)"] },
+        { "range": "31-50", "effects": ["Lost (4)", "Shellshock (1)"] },
+        { "range": "51-65", "effects": ["Lost (6)", "Shellshock (2)"] },
+        { "range": "66-80", "effects": ["Lost (10)", "Shellshock (3D5)", "Looming Death (10)"] },
+        { "range": "81+", "effects": ["Instant Death", "Head Destroyed"] }
+      ]
+    },
+
+    "arms": {
+      "hand": [
+        { "range": "1-25", "effects": ["Flinch (1)"] },
+        { "range": "26-40", "effects": ["Flinch (1)", "Drop"] },
+        { "range": "41-55", "effects": ["Flinch (3)", "Drop (3)", "Bone Broken (Fracture)"] },
+        { "range": "56-70", "effects": ["Flinch (3)", "Drop (5)", "Bone Broken (Shatter)"] },
+        { "range": "71+", "effects": ["Flinch (5)", "Hand Lost"] }
+      ],
+
+      "forearm_bicep": [
+        { "range": "1-30", "effects": ["Flinch (1)"] },
+        { "range": "31-50", "effects": ["Flinch (2)", "Paralyzed (1)"] },
+        { "range": "51-65", "effects": ["Flinch (5)", "Bone Broken (Fracture)"] },
+        { "range": "66-80", "effects": ["Flinch (6)", "Bone Broken (Shatter)"] },
+        { "range": "81+", "effects": ["Looming Death (10)", "Arm Lost"] }
+      ],
+
+      "elbow_shoulder": [
+        { "range": "1-25", "effects": ["Weakened (1)"] },
+        { "range": "26-40", "effects": ["Weakened (2)", "Drop"] },
+        { "range": "41-55", "effects": ["Weakened (4)", "Drop (2)", "Bone Broken (Fracture)"] },
+        { "range": "56-70", "effects": ["Weakened (4)", "Paralyzed (2)", "Bone Broken (Shatter)"] },
+        { "range": "71+", "effects": ["Looming Death (9)", "Arm Lost"] }
+      ]
+    },
+
+    "legs": {
+      "foot": [
+        { "range": "1-25", "effects": ["Slowed (2)"] },
+        { "range": "26-40", "effects": ["Slowed (3)", "Knockdown"] },
+        { "range": "41-55", "effects": ["Slowed (5)", "Knockdown (2)", "Bone Broken (Fracture)"] },
+        { "range": "56-70", "effects": ["Slowed (6)", "Knockdown Prone (2)", "Bone Broken (Shatter)"] },
+        { "range": "71+", "effects": ["Slowed (10)", "Knockdown Prone (4)", "Foot Lost"] }
+      ],
+
+      "shin_thigh": [
+        { "range": "1-30", "effects": ["Slowed (1)"] },
+        { "range": "31-50", "effects": ["Slowed (3)"] },
+        { "range": "51-65", "effects": ["Slowed (6)", "Paralyzed (2)", "Bone Broken (Fracture)"] },
+        { "range": "66-80", "effects": ["Slowed (7)", "Paralyzed (3)", "Bone Broken (Shatter)"] },
+        { "range": "81+", "effects": ["Slowed (10)", "Paralyzed (4)", "Looming Death (8)", "Leg Lost"] }
+      ],
+
+      "knee_hip": [
+        { "range": "1-25", "effects": ["Knockdown"] },
+        { "range": "26-40", "effects": ["Knockdown (1)"] },
+        { "range": "41-55", "effects": ["Knockdown (2)", "Slowed (3)", "Bone Broken (Fracture)"] },
+        { "range": "56-70", "effects": ["Knockdown (3)", "Slowed (5)", "Bone Broken (Shatter)"] },
+        { "range": "71+", "effects": ["Knockdown (10)", "Slowed (10)", "Looming Death (8)", "Leg Lost"] }
+      ]
+    },
+
+    "torso": {
+      "pelvis": [
+        { "range": "1-25", "effects": ["Slowed (2)"] },
+        { "range": "26-40", "effects": ["Slowed (3)", "Tattered (2)"] },
+        { "range": "41-55", "effects": ["Slowed (4)", "Tattered (3)", "Bone Broken (Fracture)"] },
+        { "range": "56-70", "effects": ["Slowed (4)", "Tattered (5)", "Bone Broken (Shatter)"] },
+        { "range": "71+", "effects": ["Slowed (Permanent)", "Tattered (20)", "Bone Broken (Shatter)"] }
+      ],
+
+      "intestines": [
+        { "range": "1-25", "effects": ["Tattered (2)"] },
+        { "range": "26-40", "effects": ["Tattered (3)", "Weakened (2)"] },
+        { "range": "41-50", "effects": ["Tattered (4)", "Weakened (4)"] },
+        { "range": "51-60", "effects": ["Tattered (5)", "Weakened (5)", "Looming Death (15)"] },
+        { "range": "61+", "effects": ["Tattered (6)", "Weakened (5)", "Looming Death (1D10)"] }
+      ],
+
+      "spine": [
+        { "range": "1-25", "effects": ["Flinch (1)", "Drop", "Knockdown"] },
+        { "range": "26-40", "effects": ["Flinch (2)", "Drop (2)", "Knockdown (1)"] },
+        { "range": "41-55", "effects": ["Paralyzed (2)", "Knockdown (3)", "Bone Broken (Fracture)"] },
+        { "range": "56-70", "effects": ["Paralyzed (5)", "Knockdown Prone (5)", "Bone Broken (Shatter)"] },
+        { "range": "71+", "effects": ["Spine Destroyed", "Instant Death"] }
+      ],
+
+      "stomach_kidney_liver": [
+        { "range": "1-25", "effects": ["Gasping (1)"] },
+        { "range": "26-40", "effects": ["Gasping (2)", "Tattered (1)"] },
+        { "range": "41-50", "effects": ["Gasping (3)", "Tattered (2)"] },
+        { "range": "51-60", "effects": ["Gasping (4)", "Tattered (5)", "Looming Death (20)"] },
+        { "range": "61+", "effects": ["Gasping (5)", "Tattered (6)", "Looming Death (10)"] }
+      ],
+
+      "heart": [
+        { "range": "1-25", "effects": ["Winded (5)"] },
+        { "range": "26-40", "effects": ["Winded (10)", "Concussed (2D5)", "Looming Death (5D10)"] },
+        { "range": "41-50", "effects": ["Winded (10)", "Concussed (3D5)", "Looming Death (3D10)"] },
+        { "range": "51-60", "effects": ["Winded (Permanent)", "Concussed (3D5)", "Looming Death (1D10)"] },
+        { "range": "61+", "effects": ["Heart Destroyed", "Instant Death"] }
+      ],
+
+      "lungs": [
+        { "range": "1-25", "effects": ["Winded (2)", "Gasping (2)"] },
+        { "range": "26-40", "effects": ["Winded (3)", "Gasping (3)"] },
+        { "range": "41-50", "effects": ["Winded (4)", "Gasping (5)", "Looming Death (20)"] },
+        { "range": "51-60", "effects": ["Winded (5)", "Gasping (5)", "Looming Death (15)"] },
+        { "range": "61+", "effects": ["Winded (6)", "Gasping (5)", "Choking"] }
+      ],
+
+      "ribcage_no_organ": [
+        { "range": "1-30", "effects": ["Winded (1)", "Gasping (1)"] },
+        { "range": "31-50", "effects": ["Winded (2)", "Gasping (1)"] },
+        { "range": "51-65", "effects": ["Winded (3)", "Gasping (2)"] },
+        { "range": "66-80", "effects": ["Winded (4)", "Gasping (4)", "Bone Broken (Fracture)"] },
+        { "range": "81+", "effects": ["Winded (5)", "Gasping (4)", "Bone Broken (Shatter)"] }
+      ]
+    },
+
+    "citation": "Complete Special Damage rules and tables."
+  }
+}

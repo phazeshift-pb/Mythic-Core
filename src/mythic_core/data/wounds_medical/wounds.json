@@ -1,0 +1,40 @@
+{
+  "wounds": {
+    "rules": {
+      "wounds_definition": "Wounds represent how much harm a character can take before suffering effects or death.",
+      "damage_tracking": "Damage is tracked separately; when Damage exceeds Wounds, the character is in danger.",
+      "unconscious_at_zero": true,
+      "bleedout": {
+        "per_round": 5,
+        "death_at_negative_wounds": true
+      },
+      "stop_bleedout": {
+        "methods": ["Full Action Medical Test", "Biofoam", "Sealant Mesh"]
+      }
+    },
+    "natural_healing": {
+      "base_healing_per_day": 1,
+      "extended_medical_test": {
+        "healing_per_day": "Toughness Modifier",
+        "bonus_healing_once_per_day": true
+      }
+    },
+    "fatigue": {
+      "penalty_per_level": -5,
+      "coma_threshold": "Toughness Modifier × 2",
+      "coma_duration_per_level": "1 hour",
+      "coma_recovery": "1 Fatigue removed per hour"
+    },
+    "fatigue_removal": {
+      "rest_per_hour": 1,
+      "full_rest_8_hours": "Removes all Fatigue"
+    },
+    "unconsciousness": {
+      "duration": "10 minutes minus Toughness Modifier and Mythic Toughness (minimum 1)",
+      "increase_per_wound_taken": "1 minute",
+      "conditions": ["Unaware", "Helpless"],
+      "wake_condition": "Fatigue < Toughness Modifier"
+    },
+    "citation": "Wounds, Bleedout, Natural Healing, Fatigue, Unconsciousness."
+  }
+}

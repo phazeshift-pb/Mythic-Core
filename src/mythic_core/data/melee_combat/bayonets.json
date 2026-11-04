@@ -1,0 +1,10 @@
+{
+  "bayonets": {
+    "rules": {
+      "base_weapon": "Uses melee weapon profile for damage.",
+      "slow_rule": true,
+      "charge_bonus": "Adds +1D10 damage when used with Charge Attack."
+    },
+    "citation": "Bayonet rules."
+  }
+}

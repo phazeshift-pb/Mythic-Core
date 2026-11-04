@@ -1,0 +1,312 @@
+{
+  "difficulty_modifiers": [
+    { "difficulty": "Trivial", "modifier": 60 },
+    { "difficulty": "Elementary", "modifier": 50 },
+    { "difficulty": "Simple", "modifier": 40 },
+    { "difficulty": "Easy", "modifier": 30 },
+    { "difficulty": "Routine", "modifier": 20 },
+    { "difficulty": "Ordinary", "modifier": 10 },
+    { "difficulty": "Challenging", "modifier": 0 },
+    { "difficulty": "Difficult", "modifier": -10 },
+    { "difficulty": "Hard", "modifier": -20 },
+    { "difficulty": "Very Hard", "modifier": -30 },
+    { "difficulty": "Grueling", "modifier": -40 },
+    { "difficulty": "Punishing", "modifier": -50 },
+    { "difficulty": "Hellish", "modifier": -60 }
+  ],
+
+  "skills": [
+    {
+      "name": "Appeal",
+      "difficulty": "Basic",
+      "characteristics": ["Charisma"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Appeal is a talent of charm and social abilities used to sway reactions, alter opinions, and convince others.",
+      "opposed_by": ["Interrogation", "Deception"],
+      "modifiers": [
+        { "value": "+10", "example": "Target is part of the same squad or commanding unit." },
+        { "value": "-10", "example": "Target does not want to be bothered." },
+        { "value": "-20", "example": "Target is suspicious in nature." }
+      ],
+      "subsections": []
+    },
+    {
+      "name": "Command",
+      "difficulty": "Basic",
+      "characteristics": ["Leadership"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Command is the ability to effectively lead others and issue orders.",
+      "opposed_by": ["Command"],
+      "modifiers": [
+        { "value": "-60", "example": "Command is suicidal or clearly against the group's best interests." }
+      ],
+      "subsections": []
+    },
+    {
+      "name": "Deception",
+      "difficulty": "Basic",
+      "characteristics": ["Charisma", "Leadership"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Deception is used to lie, disguise items, distract opponents, or twist orders.",
+      "opposed_by": ["Investigation"],
+      "subsections": [
+        { "name": "Disguise Item", "text": "Trick someone into believing an item is something else." },
+        { "name": "Distract", "text": "Draw attention away from the real action." },
+        { "name": "Twist Orders", "text": "Alter the meaning of orders or lie about the situation." }
+      ]
+    },    {
+      "name": "Gambling",
+      "difficulty": "Basic",
+      "characteristics": ["Intellect", "Charisma"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Gambling covers games of chance, betting, and improving odds.",
+      "opposed_by": ["Gambling"],
+      "subsections": [
+        {
+          "name": "Cheating",
+          "text": "Opposed Gambling vs Investigation. Success grants +5 per Degree of Success to the Gambling Test."
+        }
+      ]
+    },
+    {
+      "name": "Interrogation",
+      "difficulty": "Basic",
+      "characteristics": ["Courage", "Intellect", "Leadership"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Interrogation extracts information through mental or physical pressure.",
+      "opposed_by": ["Courage", "Charisma"],
+      "subsections": [
+        {
+          "name": "Extended Attempts",
+          "text": "Failed attempts double the time required and impose a -10 penalty on the next attempt."
+        }
+      ]
+    },
+    {
+      "name": "Intimidation",
+      "difficulty": "Basic",
+      "characteristics": ["Strength", "Charisma", "Leadership", "Intellect"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Intimidation forces or scares opponents into compliance using physical presence, authority, or intellect.",
+      "opposed_by": ["Courage"],
+      "subsections": []
+    },
+    {
+      "name": "Negotiation",
+      "difficulty": "Basic",
+      "characteristics": ["Charisma"],
+      "type": ["Social"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Negotiation is used to strike deals, convince others, and resolve disputes.",
+      "opposed_by": ["Negotiation"],
+      "subsections": []
+    },
+    {
+      "name": "Athletics",
+      "difficulty": "Basic",
+      "characteristics": ["Agility", "Strength"],
+      "type": ["Movement"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Athletics covers climbing, swimming, balancing, jumping, falling safely, and acrobatic movement.",
+      "subsections": [
+        { "name": "Strength", "text": "Climbing, swimming, and strength-based movement." },
+        { "name": "Agility", "text": "Balancing, jumping, catching landings, falling safely." },
+        {
+          "name": "Move Silently",
+          "text": "Opposed Athletics (Agility) vs Investigation (hearing)."
+        }
+      ],
+      "modifiers": [
+        { "value": "+10", "example": "Target is part of the same squad." },
+        { "value": "-10", "example": "Target does not want to be bothered." },
+        { "value": "-20", "example": "Target is suspicious." }
+      ]
+    },
+    {
+      "name": "Evasion",
+      "difficulty": "Basic",
+      "characteristics": ["Agility", "Warfare Melee"],
+      "type": ["Movement"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Evasion allows dodging attacks, avoiding radius damage, and parrying melee or ranged attacks.",
+      "subsections": [
+        {
+          "name": "Evade Into Cover",
+          "text": "Move 2 meters per Degree of Success; limited by movement taken this round."
+        },
+        {
+          "name": "Evade Parry",
+          "text": "Use Warfare Melee instead of Agility to parry melee attacks."
+        },
+        {
+          "name": "Range Weapon Parry",
+          "text": "Opposed Strength/Agility/Warfare Melee; success imposes -20 To Hit on opponent."
+        }
+      ]
+    },
+    {
+      "name": "Stunting",
+      "difficulty": "Basic",
+      "characteristics": ["Agility"],
+      "type": ["Movement"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Stunting covers acrobatic maneuvers, flips, rolls, and cinematic movement.",
+      "subsections": []
+    },
+    {
+      "name": "Pilot",
+      "difficulty": "Either",
+      "characteristics": ["Agility", "Intellect"],
+      "type": ["Movement"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Pilot covers operation of vehicles, aircraft, and spacecraft.",
+      "subsections": []
+    },
+    {
+      "name": "Camouflage",
+      "difficulty": "Basic",
+      "characteristics": ["Intellect", "Perception"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Camouflage hides characters, equipment, vehicles, or weapons using environment and concealment techniques.",
+      "subsections": [
+        { "name": "Hiding", "text": "Opposed by Investigation. Size above Normal imposes -5 per category." },
+        { "name": "Vehicle Camouflage", "text": "Vehicles suffer -5 per Size Point." },
+        {
+          "name": "Weapon Concealing",
+          "text": "[DW] +20, [OH] +10, [TH] -20, [HW] impossible without modification."
+        }
+      ]
+    },
+    {
+      "name": "Cryptography",
+      "difficulty": "Advanced",
+      "characteristics": ["Intellect"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 300, "+10": 500, "+20": 700 },
+      "description": "Cryptography encrypts and decrypts codes, hacks systems, and bypasses security.",
+      "subsections": []
+    },
+    {
+      "name": "Demolition",
+      "difficulty": "Advanced",
+      "characteristics": ["Intellect"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 300, "+10": 500, "+20": 700 },
+      "description": "Demolition handles explosives, arming, disarming, structural analysis, and grenade cooking.",
+      "subsections": [
+        { "name": "Arming Explosives", "text": "Extended 10 Full Actions; failure requires redo." },
+        {
+          "name": "Disarming Explosives",
+          "text": "Must exceed Degrees of Success used to arm; armer gains +30 to disarm."
+        },
+        {
+          "name": "Structural Weakness",
+          "text": "Study structure for Pierce bonuses: +10% per DoS (1 Action), +25% per DoS (2 Actions)."
+        },
+        {
+          "name": "Grenade Cooking",
+          "text": "Trained +5, +10 gives +10, +20 gives +20."
+        }
+      ]
+    },
+    {
+      "name": "Medication",
+      "difficulty": "Advanced",
+      "characteristics": ["Intellect"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 300, "+10": 500, "+20": 700 },
+      "description": "Medication covers diagnosis, first aid, extended medical tests, alien biology, and removing special damage.",
+      "subsections": [
+        { "name": "Human Biology", "text": "Standard medical procedures." },
+        { "name": "Covenant Biology", "text": "Requires study to understand alien physiology." },
+        { "name": "Xenobiology", "text": "Used for Mgalekgolo, Huragok, and similar species." },
+        {
+          "name": "First Aid",
+          "text": "Full Action; +1 Wound/Fatigue per Degree of Success; stabilizes Bleedout."
+        },
+        {
+          "name": "Extended Medical Test",
+          "text": "4 hours; +2 Wounds per DoS; increases Natural Healing by 1; triple effect in medical facilities."
+        },
+        {
+          "name": "Removing Special Damage",
+          "text": "Extend test by 1 hour per effect removed."
+        },
+        {
+          "name": "Medical Assistance",
+          "text": "Assistants reduce time by 1 hour per successful Medication Test."
+        },
+        {
+          "name": "Diagnosis",
+          "text": "+20 bonus for known diseases; future diagnoses gain bonuses."
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "difficulty": "Basic",
+      "characteristics": ["Intellect", "Perception"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Navigation covers pathfinding, map reading, and spatial awareness.",
+      "subsections": []
+    },
+    {
+      "name": "Security",
+      "difficulty": "Advanced",
+      "characteristics": ["Intellect"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 300, "+10": 500, "+20": 700 },
+      "description": "Security handles locks, access systems, bypassing security devices, and intrusion detection.",
+      "subsections": []
+    },
+    {
+      "name": "Survival",
+      "difficulty": "Basic",
+      "characteristics": ["Intellect", "Perception"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Survival covers wilderness knowledge, tracking, foraging, and environmental awareness.",
+      "subsections": []
+    },
+    {
+      "name": "Technology",
+      "difficulty": "Advanced",
+      "characteristics": ["Intellect"],
+      "type": ["Fieldcraft"],
+      "cost": { "trained": 300, "+10": 500, "+20": 700 },
+      "description": "Technology covers repair, diagnostics, electronic systems, and advanced machinery.",
+      "subsections": []
+    },
+    {
+      "name": "Investigation",
+      "difficulty": "Basic",
+      "characteristics": ["Intellect", "Perception", "Charisma"],
+      "type": ["Social", "Fieldcraft"],
+      "cost": { "trained": 200, "+10": 400, "+20": 600 },
+      "description": "Investigation covers gathering information, reading intentions, and environmental awareness.",
+      "subsections": [
+        {
+          "name": "Social Investigation",
+          "text": "Gather information, ask questions, eavesdrop; opposed by Deception."
+        },
+        {
+          "name": "Insight",
+          "text": "Read intentions; opposed by Deception."
+        },
+        {
+          "name": "Fieldcraft Investigation",
+          "text": "Find hidden objects or characters; opposed by Camouflage."
+        }
+      ]
+    }
+  ]
+}
+

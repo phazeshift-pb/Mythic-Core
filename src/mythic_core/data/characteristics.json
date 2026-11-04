@@ -1,0 +1,94 @@
+{
+  "characteristics": [
+    {
+      "id": "str",
+      "name": "Strength",
+      "group": "Physicality",
+      "description": "Represents physical prowess used for climbing, lifting, pushing, and melee damage.",
+      "low_effect": "Struggles to lift, push, and oppose Strength Tests; unopposed Strength Tests take twice as long; gains Fatigue on failed opposed Strength Tests.",
+      "zero_effect": "Cannot lift, carry, push, or deal melee damage; cannot brace weapons; drops weapons after attacking.",
+      "citation": "“Strength is the physical prowess your Character possesses.”"
+    },
+    {
+      "id": "tou",
+      "name": "Toughness",
+      "group": "Physicality",
+      "description": "Represents resistance to damage and debilitating effects; determines Wounds.",
+      "low_effect": "Staggers when making Toughness Tests against negative effects, losing next Half Action.",
+      "zero_effect": "Character enters a coma until Toughness is restored.",
+      "citation": "“Toughness is the Character's resistance to Damage and debilitating effects.”"
+    },
+    {
+      "id": "agi",
+      "name": "Agility",
+      "group": "Physicality",
+      "description": "Represents speed, reflexes, movement, and evasion.",
+      "low_effect": "Must pass +15 Agility Test to Run or Sprint or fall Prone; cannot use Agility for Stunt.",
+      "zero_effect": "Cannot perform any Movement Actions.",
+      "citation": "“Agility measures the character's speed and reflexes.”"
+    },
+    {
+      "id": "wfr",
+      "name": "Warfare Range",
+      "group": "Combat",
+      "description": "Represents ability to use ranged weapons effectively.",
+      "low_effect": "Cannot make Called Shots or Aim Actions with ranged weapons.",
+      "zero_effect": "Cannot attack unless target is Helpless and Point Blank.",
+      "citation": "“Warfare Range is the measurement of the character's ability to use ranged-based weaponry.”"
+    },
+    {
+      "id": "wfm",
+      "name": "Warfare Melee",
+      "group": "Combat",
+      "description": "Represents ability to use melee weapons and hand-to-hand combat.",
+      "low_effect": "Cannot make Called Shots or Aim Actions with melee weapons.",
+      "zero_effect": "Cannot attack unless target is Helpless and Point Blank.",
+      "citation": "“Warfare Melee is the character's ability to use melee-based weaponry.”"
+    },
+    {
+      "id": "int",
+      "name": "Intellect",
+      "group": "Mentality",
+      "description": "Represents knowledge, reasoning, and wisdom.",
+      "low_effect": "Takes twice as long to solve problems even on successful Tests.",
+      "zero_effect": "Cannot make Actions; must be led; cannot respond or perform basic tasks.",
+      "citation": "“Intellect is the amount at which characters know and the wisdom the character owns.”"
+    },
+    {
+      "id": "per",
+      "name": "Perception",
+      "group": "Mentality",
+      "description": "Represents sensory awareness and determines Perceptive Range.",
+      "low_effect": "Cannot judge direction or distance of sounds; struggles to see beyond Perceptive Range.",
+      "zero_effect": "Cannot understand surroundings; suffers -40 to Attacks before other penalties.",
+      "citation": "“Perception describes the ability to survey their surroundings.”"
+    },
+    {
+      "id": "crg",
+      "name": "Courage",
+      "group": "Mentality",
+      "description": "Represents ability to withstand fear and maintain composure.",
+      "low_effect": "Flees for first Half Action when scared.",
+      "zero_effect": "Always panics; always last in Initiative; loses all Opposed Tests in melee.",
+      "citation": "“Courage reflects the character's ability to withstand horrors and fears.”"
+    },
+    {
+      "id": "cha",
+      "name": "Charisma",
+      "group": "Personality",
+      "description": "Represents social ability and understanding of cues.",
+      "low_effect": "Takes double time to speak or respond; struggles to understand speech.",
+      "zero_effect": "Cannot speak; struggles to understand speech.",
+      "citation": "“Charisma is the character's ability to interact with other characters.”"
+    },
+    {
+      "id": "ldr",
+      "name": "Leadership",
+      "group": "Personality",
+      "description": "Represents ability to give and understand orders.",
+      "low_effect": "Takes twice as long to give orders; takes a Full Action to understand orders.",
+      "zero_effect": "Cannot give or understand orders.",
+      "citation": "“Leadership is the character's ability to lead forces and to take orders.”"
+    }
+  ]
+}

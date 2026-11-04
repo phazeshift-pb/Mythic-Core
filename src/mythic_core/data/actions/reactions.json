@@ -1,0 +1,15 @@
+{
+  "reactions": {
+    "general_rules": {
+      "stacking_penalty": "-10 per additional Reaction",
+      "cannot_stack": "Reactions cannot be stacked with other Actions or Reactions.",
+      "reset": "Penalties reset at the beginning of the character's next turn.",
+      "citation": "“Reactions can't be Stacked with other Actions or Reactions.”"
+    },
+    "examples": [
+      "Evade",
+      "Snapshot",
+      "Catch Object"
+    ]
+  }
+}

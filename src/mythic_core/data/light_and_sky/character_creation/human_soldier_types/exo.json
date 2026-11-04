@@ -1,0 +1,61 @@
+{
+  "name": "Exo",
+  "experience_cost": 0,
+  "training": ["Any"],
+  "upbringing": "Any",
+
+  "base_characteristics": {
+    "STR": 25,
+    "TOU": 25,
+    "AGI": 25,
+    "WFR": 25,
+    "WFM": 25,
+    "INT": 25,
+    "PER": 25,
+    "CRG": 25,
+    "CHA": 25,
+    "LDR": 25
+  },
+
+  "mythic_characteristics": {},
+
+  "advancements": {
+    "STR": null,
+    "TOU": null,
+    "AGI": null,
+    "WFR": null,
+    "WFM": null,
+    "INT": null,
+    "PER": null,
+    "CRG": null,
+    "CHA": null,
+    "LDR": null
+  },
+
+  "physical_attributes": {
+    "height_cm": [130, 200],
+    "weight_kg": [55, 136],
+    "size": "Normal"
+  },
+
+  "traits": [
+    {
+      "name": "Robotic",
+      "effect": "The Character has placed their mind into a robotic body, either through necessity or desire. These Characters can't Drown, Suffocate, gain or gain Disease. The Character treats EMP (X) Special Rule as Flashbang (X). During the effects of EMP Special Rule, the Character gains a -20 Penalty on all Tests during the duration instead of shutting down. The Character is immune to Special Damage Effects that are not an Effect that would Damage, Destroy, or Remove Body Locations. When struck by Special Damage, they take an additional +1D10 Special Damage."
+    },
+    {
+      "name": "Reboot",
+      "effect": "Once every (X) decades, where (X) is the Character's Toughness Modifier, the Character must undergo a memory-wiping Reboot. Each reboot increases the number that appears at the end of an Exo's name by 6. This process is necessary. If the Character does not obtain a Reboot within a year of reaching their limit in decades, they will enter a reboot loop. This loop has them start up and eventually crash, only to reboot and restart the loop over endlessly. This renders the Character unplayable until a Reboot has been obtained. A Character who has received Reboots equal to their Toughness Modifier or higher receives a Mental Disorder, found in the Medical section of the Mythic Handbook. These Mental Disorders stack and do not go away with future Reboots. The Reboot process takes 1 hour to perform in a safe location. This will refund all Educations and Skills removed upon knowledge of other Characters and events."
+    }
+  ],
+
+  "optional_rules": {},
+
+  "insurrectionist_rules": {},
+
+  "special_rules": {},
+
+  "subclasses": {},
+
+  "equipment_sets": {}
+}

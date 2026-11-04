@@ -1,0 +1,45 @@
+{
+  "grappling_holds": [
+    {
+      "name": "Armlock / Leglock",
+      "action": "Full",
+      "perform": "Controller",
+      "effects": {
+        "damage_per_round": "Strength Mod + Mythic Strength (prone) or Half Strength Mod + Half Mythic Strength (standing)",
+        "fatigue_on_success_2": 1,
+        "dislocation_on_success_4": true,
+        "escape": "Opposed Strength or Warfare Melee"
+      }
+    },
+    {
+      "name": "Bearhug",
+      "action": "Full",
+      "perform": "Controller",
+      "effects": {
+        "damage_per_round": "Strength Mod + Mythic Strength",
+        "fatigue_every_2_rounds": 1,
+        "escape": "Opposed Strength or Warfare Melee",
+        "size_limit": "Cannot be used if opponent is 2+ sizes larger"
+      }
+    },
+    {
+      "name": "Chokehold",
+      "action": "Full",
+      "perform": "Controller",
+      "effects": {
+        "fatigue_on_fail": 1,
+        "unconscious_after_rounds": 5,
+        "escape": "Opposed Strength or Warfare Melee"
+      }
+    },
+    {
+      "name": "Neck Crank",
+      "action": "Full",
+      "perform": "Controller",
+      "effects": {
+        "fatigue_per_round": 1,
+        "escape": "Opposed Strength or Warfare Melee"
+      }
+    }
+  ]
+}

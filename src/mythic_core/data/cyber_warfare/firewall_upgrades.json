@@ -1,0 +1,33 @@
+{
+  "firewall_upgrades": {
+    "requirements": {
+      "cryptography": "+20",
+      "time": "10D10 hours",
+      "time_reduction": "Half Intellect Modifier",
+      "professional_cost": 200
+    },
+    "upgrades": [
+      {
+        "name": "Reactive",
+        "effect": "Deals 2 damage to attacker’s device firewall per degree of failure."
+      },
+      {
+        "name": "Scrambled",
+        "effect": "Increases lockout duration by 1 round per encryption tier."
+      },
+      {
+        "name": "Smart",
+        "effect": "Turns hack into Opposed Test using Firewall Rating ×2 as Cryptography."
+      },
+      {
+        "name": "Viral",
+        "effect": "Attacks intruding device each turn during lockout using Firewall Rating ×2."
+      },
+      {
+        "name": "Dead-End",
+        "effect": "If attacker’s firewall tier is lower, reduce damage taken by 1."
+      }
+    ],
+    "citation": "Specialized Firewall Upgrades."
+  }
+}

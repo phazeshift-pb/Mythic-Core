@@ -1,0 +1,223 @@
+{
+  "light_aspects": {
+    "arc": [
+      {
+        "name": "Amplify",
+        "experience_cost": 400,
+        "description": "Agility Modifier is increased by 1 when figuring Movement Speeds."
+      },
+      {
+        "name": "Blind",
+        "experience_cost": 800,
+        "description": "At the beginning of the User's Turn, choose an enemy within line of sight and within half of the User's Perceptive Range to be Blind until the beginning of the User's next Turn."
+      },
+      {
+        "name": "Jolt",
+        "experience_cost": 150,
+        "description": "The User takes 1 additional Damage to Wounds when struck, gaining a +3 to Damage on their next Attack."
+      },
+      {
+        "name": "Ionic Trace",
+        "experience_cost": 800,
+        "description": "Once per Turn, restore up to 5 missing Light Energy."
+      },
+      {
+        "name": "Bolt",
+        "experience_cost": 750,
+        "description": "Once per Turn, the first Attack made will cause a struck Target to only be able to make a Half Action for their next Turn."
+      }
+    ],
+    "solar": [
+      {
+        "name": "Scorch",
+        "experience_cost": 500,
+        "description": "One selected enemy within 3 meters away will take Flame (1) at the beginning of the User's Turn."
+      },
+      {
+        "name": "Ignite",
+        "experience_cost": 550,
+        "description": "Attacks that deal an Area of Effect of any kind (Blast, Spread Special Rule, etc.) will deal Flame (1)."
+      },
+      {
+        "name": "Radiant",
+        "experience_cost": 250,
+        "description": "For every 3 Strength Modifier the User has, all Attacks gain +1 Pierce."
+      },
+      {
+        "name": "Restoration",
+        "experience_cost": 750,
+        "description": "Once every 3 Turns in combat, the User heals 2 Wound at the beginning of their Turn."
+      },
+      {
+        "name": "Cure",
+        "experience_cost": 650,
+        "description": "Solar Light Abilities that deal Damage will heal the User 1 Wound, limited to 1 per Half Action."
+      },
+      {
+        "name": "Firesprite",
+        "experience_cost": 450,
+        "description": "When a Super is used, regain up to 5 lost Light Energy."
+      }
+    ],
+    "void": [
+      {
+        "name": "Volatile",
+        "experience_cost": 650,
+        "description": "Enemies that die within 5 meters of the User will deal the Damage of the Attack that killed them in Blast (2) to one other enemy."
+      },
+      {
+        "name": "Suppression",
+        "experience_cost": 950,
+        "description": "The first Target struck during the Character's Turn cannot use Abilities, Skills, Light Abilities, or Light Aspects until the beginning of the Attacking Character's next Turn."
+      },
+      {
+        "name": "Devour",
+        "experience_cost": 750,
+        "description": "Every Kill made by the User will heal the User 3 Wounds."
+      },
+      {
+        "name": "Weaken",
+        "experience_cost": 600,
+        "description": "The first Target struck during the Character's Turn will take an additional +4 Damage on the next Attack they receive until the beginning of the Attacking Character's next Turn."
+      },
+      {
+        "name": "Invisibility",
+        "experience_cost": 650,
+        "description": "Once every 4 Turns, the User gains the ability to activate a +40 to Camouflage that lasts until the beginning of their next Turn."
+      },
+      {
+        "name": "Overshield",
+        "experience_cost": 750,
+        "description": "Reduces the Damage from the first Attack that Damages the User by 3 each Turn."
+      },
+      {
+        "name": "Void Breach",
+        "experience_cost": 850,
+        "description": "Once every 4 Turns, the User spawns a Void Rift that regains up to 5 missing Light Energy for each ally within 1 meter."
+      }
+    ],
+    "terraform": [
+      {
+        "name": "Habitat",
+        "experience_cost": 150,
+        "description": "After killing an enemy, the User ignores Dangerous and Difficult Terrain Penalties for 10 Turns."
+      },
+      {
+        "name": "Atmosphere",
+        "experience_cost": 550,
+        "description": "Once every 5 Turns, the User creates an unmoving 10 meter radius of breathable atmosphere that lasts 5 Turns."
+      },
+      {
+        "name": "Fauna",
+        "experience_cost": 950,
+        "description": "The User has a Light Fauna that follows them and shares the same Characteristics. Allies who come into contact with the Fauna will be healed 2 Wounds per Half Action. The Light Fauna cannot be further than 20 meters from the User."
+      },
+      {
+        "name": "Affray",
+        "experience_cost": 750,
+        "description": "Strength Modifier is increased by 2 when figuring Melee Damage."
+      },
+      {
+        "name": "Sight",
+        "experience_cost": 800,
+        "description": "Once every 4 Turns, the User is able to multiply their Perceptive Range by 10 until the beginning of their next Turn."
+      }
+    ],
+    "resurrection": [
+      {
+        "name": "Resurrect",
+        "experience_cost": 950,
+        "description": "Once every 10 Turns, an Unconscious Character can be healed for up to 25 Wounds as a Half Action where physical contact must be made. The healed Character's Wounds cannot be brought up above 5 with this Aspect. The Character does not have to be a Guardian for this to work."
+      },
+      {
+        "name": "Rectify",
+        "experience_cost": 700,
+        "description": "Intellect Modifier is increased by 4 when figuring Wounds restored from healing."
+      },
+      {
+        "name": "Protect",
+        "experience_cost": 750,
+        "description": "At the beginning of the User's Turn, a selected ally within 10 meters is given +4 to their Damage Resistance that lasts until the beginning of the User's next Turn."
+      },
+      {
+        "name": "Reconnect",
+        "experience_cost": 950,
+        "description": "Once every 4 days, ignore the effects of the Dark Zone in a 20 meter radius of the User for 10 Turns."
+      },
+      {
+        "name": "Isolate",
+        "experience_cost": 850,
+        "description": "Enemies within 5 meters of the User cannot heal their Wounds in any way."
+      },
+      {
+        "name": "Transfer",
+        "experience_cost": 450,
+        "description": "At the beginning of the User's Turn, the User can sacrifice 5 Light Energy or 5 Super Energy. A selected ally within 30 meters will receive 10 Light Energy, or 15 Light Energy if Super Energy was sacrificed. If the Character sacrificed Light or Super Energy at the beginning of their Turn, they cannot receive Light by someone else using Transfer."
+      }
+    ],
+    "strand": [
+      {
+        "name": "Unravel",
+        "experience_cost": 800,
+        "description": "Once every Turn, a chosen enemy within 20 meters will take an additional 1D10 Damage from the first Attack received."
+      },
+      {
+        "name": "Sever",
+        "experience_cost": 750,
+        "description": "Once every Turn, a chosen enemy within 50 meters will have all their Attacks deal half of their first Attack made."
+      },
+      {
+        "name": "Suspend",
+        "experience_cost": 950,
+        "description": "Once every Turn, a chosen enemy within Melee Reach cannot move until the beginning of the User's next Turn."
+      },
+      {
+        "name": "Threadling",
+        "experience_cost": 950,
+        "description": "A creature of Strand will follow the User. It shares Characteristics of the User and can make a single Melee Attack per Turn. The creature cannot be further than 10 meters away from the User. The creature has 50 Wounds and no Armor. If destroyed, it takes 2 hours to reform."
+      },
+      {
+        "name": "Woven Mail",
+        "experience_cost": 550,
+        "description": "Once every 4 Turns, the User will gain +7 to their Damage Resistance until the beginning of their next Turn."
+      },
+      {
+        "name": "Tangle",
+        "experience_cost": 650,
+        "description": "A chosen enemy within Melee Reach of the User will have their Movement Speeds halved."
+      }
+    ],
+    "stasis": [
+      {
+        "name": "Slow",
+        "experience_cost": 800,
+        "description": "Enemies within Melee Reach of the User will not be able to make Charge or Run Actions."
+      },
+      {
+        "name": "Freeze",
+        "experience_cost": 750,
+        "description": "Once every 10 Turns, an enemy within 30 meters is trapped in stasis matter for 1 Turn, making them unable to move. Attacks against them deal an additional +4 Damage. The Character is trapped until the beginning of the User's next Turn."
+      },
+      {
+        "name": "Shatter",
+        "experience_cost": 650,
+        "description": "Enemies that die within 5 meters of the User will deal the Damage of the Attack that killed them in Blast (2) to one other enemy."
+      },
+      {
+        "name": "Stasis Crystal",
+        "experience_cost": 750,
+        "description": "Enemies within 3 meters of the User cannot make Charge or Run Actions. This does not count Movement Actions initiated outside of the 3 meter radius around the User."
+      },
+      {
+        "name": "Stasis Shard",
+        "experience_cost": 650,
+        "description": "Once every 2 Turns, creates a small shard that can be absorbed by the User or an ally. When absorbed, the next Melee Attack will deal +1D10 Damage. Only one can be absorbed at a time per Character."
+      },
+      {
+        "name": "Frost Armor",
+        "experience_cost": 750,
+        "description": "Once every 15 Turns, the User gives themselves Frost Armor. Each Attack received will give the Character a stacking +2 to their Damage Resistance. Frost Armor lasts for 5 Turns. When Frost Armor fades, all bonuses are lost."
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "grappling": {
+    "initiation": {
+      "half_action": "Opposed Strength or Warfare Melee",
+      "charge": "May initiate via Charge Attack",
+      "fail_penalty": {
+        "fail_2df": "Opponent may take control"
+      }
+    },
+    "mythic_strength": {
+      "bonus_per_level": 5,
+      "condition": "Only applies when using Strength"
+    },
+    "mythic_agility": {
+      "use_agility_in_opposed": true,
+      "ignore_opponent_mythic_strength_per_level": 1
+    },
+    "control": {
+      "definition": "Character in control has access to controller-only actions.",
+      "take_control": {
+        "action": "Free",
+        "timing": "Start of turn",
+        "test": "Opposed Strength, Agility, or Warfare Melee"
+      }
+    },
+    "citation": "Grappling basics."
+  }
+}

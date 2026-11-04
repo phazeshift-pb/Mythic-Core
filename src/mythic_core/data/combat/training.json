@@ -1,0 +1,14 @@
+{
+  "training": {
+    "faction_training": {
+      "penalty": -20,
+      "description": "Penalty to all Tests when using unfamiliar faction tech.",
+      "citation": "Faction Training rules."
+    },
+    "weapon_training": {
+      "penalty": -20,
+      "description": "Penalty To Hit when using unfamiliar weapons.",
+      "citation": "Weapon Training rules."
+    }
+  }
+}

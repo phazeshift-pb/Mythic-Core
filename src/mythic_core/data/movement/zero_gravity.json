@@ -1,0 +1,13 @@
+{
+  "zero_gravity": {
+    "movement_rules": "Movement requires surfaces, thrusters, or firing large weapons.",
+    "evasion_penalty": -30,
+    "equipment_to_avoid_penalty": [
+      "Thruster",
+      "Jetpack",
+      "Vacuum Suit",
+      "EVA Suit"
+    ],
+    "citation": "Zero Gravity Movement rules."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pierce": {
+    "description": "Reduces Damage Resistance, allowing more damage through.",
+    "pierce_through": {
+      "rule": "If Pierce >= DR or Cover Points, attack pierces through",
+      "damage_reduction": "Damage and Pierce reduced by DR/Cover each time",
+      "citation": "Pierce Through rules."
+    }
+  }
+}

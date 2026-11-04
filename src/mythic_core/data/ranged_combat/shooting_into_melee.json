@@ -1,0 +1,11 @@
+{
+  "shooting_into_melee": {
+    "penalty": -20,
+    "removal_conditions": ["Target is Stunned", "Target is Helpless", "Target is Unaware"],
+    "stray_hit_chance": {
+      "degrees_of_failure": 3,
+      "chance_percent": 50
+    },
+    "citation": "Shooting into melee rules."
+  }
+}

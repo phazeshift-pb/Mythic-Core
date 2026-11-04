@@ -1,0 +1,15 @@
+{
+  "ai_combat": {
+    "definition": "Non-physical hacking combat between AIs.",
+    "rules": {
+      "treated_like_melee": true,
+      "protocols_used_like_weapons": true
+    },
+    "damage_resistance": {
+      "firewall_as_armor": true,
+      "firewall_reduced_by_damage": true,
+      "pierce_temporary_reduction": true
+    },
+    "citation": "AI Combat rules."
+  }
+}

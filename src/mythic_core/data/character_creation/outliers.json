@@ -1,0 +1,73 @@
+{
+  "outliers": {
+    "rules": {
+      "cost": "Burn 1 Luck",
+      "max_per_outlier": "Varies per entry"
+    },
+    "list": [
+      {
+        "name": "Acumen",
+        "effect": "Triples Intellect Modifier for determining Educations and Languages."
+      },
+      {
+        "name": "Advocate",
+        "effect": "+2 Support Points at creation and each mission reward."
+      },
+      {
+        "name": "Aptitude",
+        "effect": "+5 to one chosen Characteristic.",
+        "max_times_per_characteristic": 2
+      },
+      {
+        "name": "Enduring",
+        "effect": "Ignore first 2 levels of Fatigue.",
+        "max_times": 2,
+        "second_rank_effect": "Ignore first 4 levels of Fatigue."
+      },
+      {
+        "name": "Forte",
+        "effect": "+1 Mythic Characteristic.",
+        "max_times_per_mythic": 2
+      },
+      {
+        "name": "Hard-Head",
+        "effect": "Keep half Toughness Modifier vs Headshot; +3 Damage to Headbutts."
+      },
+      {
+        "name": "Imposing",
+        "effect": "Increase height up to 20%; weight increases by height% × 2; count as one Size Category larger; +3 Strength and Toughness."
+      },
+      {
+        "name": "Olympian",
+        "effect": "Halve penalties from Difficult/Dangerous Terrain, Swimming, and Climbing."
+      },
+      {
+        "name": "Poised",
+        "effect": "Shift NPC Disposition up or down one slot during Social Tests."
+      },
+      {
+        "name": "Robust",
+        "effect": "+18 Wounds.",
+        "max_times": 2
+      },
+      {
+        "name": "Rugged",
+        "effect": "Half penalties and Fatigue from Extreme Temperatures and Cryo."
+      },
+      {
+        "name": "Strongman",
+        "effect": "Carry Weight uses full Strength + Toughness (no halving)."
+      },
+      {
+        "name": "Vigil",
+        "effect": "Perceptive Range multiplier increases by 2."
+      },
+      {
+        "name": "Vigorous",
+        "effect": "Double Natural Healing.",
+        "max_times": 2,
+        "second_rank_effect": "Triple Natural Healing."
+      }
+    ]
+  }
+}
