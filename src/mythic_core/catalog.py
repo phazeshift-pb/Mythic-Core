@@ -91,6 +91,12 @@ def _tokens(text: str) -> list[str]:
     ]
 
 
+@cache
+def _weapon_tokens() -> dict[str, list[str]]:
+    """Each weapon's name, nickname and type words, worked out once."""
+    return {w.id: _tokens(f"{w.name} {w.nickname} {w.weapon_type}") for w in weapons().values()}
+
+
 def match_weapons(text: str) -> WeaponMatch:
     """Find the catalog weapons an equipment line refers to.
 
@@ -119,10 +125,8 @@ def match_weapons(text: str) -> WeaponMatch:
     def search(needed: list[str]) -> list[Weapon]:
         if not needed:
             return []
-        found = [
-            w for w in weapons().values()
-            if fits(_tokens(f"{w.name} {w.nickname} {w.weapon_type}"), needed)
-        ]  # fmt: skip
+        catalog = weapons()
+        found = [catalog[i] for i, tokens in _weapon_tokens().items() if fits(tokens, needed)]
         # Fewest extra words first = the closest name.
         return sorted(found, key=lambda w: (len(_tokens(w.name)), w.name.casefold()))
 
