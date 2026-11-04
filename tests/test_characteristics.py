@@ -1,6 +1,6 @@
 import pytest
 
-from mythic_core.characteristics import MYTHIC_CHARACTERISTICS, Characteristic
+from mythic_core.characteristics import MYTHIC_CHARACTERISTICS, Characteristic, MythicScores
 
 
 def test_ten_characteristics_in_book_order() -> None:
@@ -33,3 +33,15 @@ def test_full_name() -> None:
 
 def test_mythic_characteristics() -> None:
     assert MYTHIC_CHARACTERISTICS == (Characteristic.STR, Characteristic.TOU, Characteristic.AGI)
+
+
+def test_mythic_scores_default_to_zero_and_add() -> None:
+    base = MythicScores(STR=5, AGI=3)
+    total = base + MythicScores(STR=2, AGI=2)
+    assert total == MythicScores(STR=7, TOU=0, AGI=5)
+    assert total.get(Characteristic.AGI) == 5
+    assert total.get(Characteristic.INT) == 0
+
+
+def test_mythic_scores_validate_from_json() -> None:
+    assert MythicScores.model_validate_json('{"STR": 5, "TOU": 4}') == MythicScores(STR=5, TOU=4)

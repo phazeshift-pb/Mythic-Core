@@ -2,6 +2,8 @@
 
 from enum import StrEnum
 
+from pydantic import BaseModel, ConfigDict
+
 
 class Characteristic(StrEnum):
     STR = "STR"
@@ -51,3 +53,24 @@ MYTHIC_CHARACTERISTICS: tuple[Characteristic, ...] = (
 
 #: A score for each characteristic, e.g. ``{Characteristic.AGI: 45, ...}``.
 type CharacteristicScores = dict[Characteristic, int]
+
+
+class MythicScores(BaseModel):
+    """Mythic Strength, Toughness and Agility. A missing score (``--`` in the books) is 0."""
+
+    model_config = ConfigDict(frozen=True)
+
+    STR: int = 0
+    TOU: int = 0
+    AGI: int = 0
+
+    def get(self, characteristic: Characteristic) -> int:
+        if characteristic not in MYTHIC_CHARACTERISTICS:
+            return 0
+        value: int = getattr(self, characteristic.value)
+        return value
+
+    def __add__(self, other: MythicScores) -> MythicScores:
+        return MythicScores(
+            STR=self.STR + other.STR, TOU=self.TOU + other.TOU, AGI=self.AGI + other.AGI
+        )

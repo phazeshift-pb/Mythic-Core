@@ -1,0 +1,24 @@
+401 weapons imported, 14 skipped
+
+line 11598: 'C-7 Foaming Explosive Sticky Bomb': no pierce
+line 11603: 'C-12 Shaped Demolitions Charge Demo Bomb': no damage dice
+line 11705: 'Military Shovel Shovel': no range/price
+line 11938: 'Magnetic Accelerator Cannon Mark 2547 Mini-Mac': no damage dice
+line 12037: 'Shockwave Missile Launcher Shockwave': unrecognised rule kept as text: 'Autoloader'
+line 12077: 'Mark 208 Carpet Bomb': unsupported column layout: RANGE RELOAD AMMUNITION PRICE
+line 12082: 'M/RODAS Delivery System': unsupported column layout: RANGE RELOAD AMMUNITION PRICE
+line 16248: 'Tufasumo - Plasma Caster Type-53 Plasma Bolt Launcher': no range/capacity
+line 16298: 'Mga’linsu - Assault Cannon Type-33c Anti-Material Wicked Grasp': no ammunition/price
+line 16371: '‘Liss Pattern Energy Garrote': no base damage
+line 16390: 'Akelus Workshop Gravity Hammer': unrecognised rule kept as text: 'Anyone behind'
+line 16595: 'Heavy Beam Cannon': no damage dice
+line 17850: 'Veporakk Workshop Stasis Field Grenade Stasis Grenade': unrecognised rule kept as text: 'A large grenade'
+line 17882: 'Halbashi Workshop Gravity Hammer': unrecognised rule kept as text: 'Anyone behind'
+line 17888: 'Halbashi Workshop Gravity Axe': unrecognised rule kept as text: 'Anyone behind'
+line 17894: "Sepulo'tez Workshop Gravity Mace": unrecognised rule kept as text: 'Anyone behind'
+line 18120: 'Boltshot Variation 1 Z-110 Directed Energy Pistol-Exotic Variation 1': no range/capacity
+line 18151: 'Light Rifle Variation 1 Z-250 Directed Energy Weapon Variation 1': no range/capacity
+line 18156: 'Light Rifle Variation 2 Z-250 Directed Energy Weapon Variation 2': no range/capacity
+line 18168: 'Splinter Turret Reactive Explosive': unsupported column layout: RANGE
+line 18236: 'Splinter Grenade Z-400 Pursuit Disruption Grid Generator': unrecognised rule kept as text: 'Each Splinter Shard'
+line 18285: 'Gravity Wrench': unrecognised rule kept as text: 'Characters will take'
