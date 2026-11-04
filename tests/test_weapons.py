@@ -148,3 +148,50 @@ def test_melee_printed_under_a_range_column() -> None:
 def test_catalog_ids_are_unique_and_valid() -> None:
     weapons = catalog.weapons()
     assert all(weapon_id == w.id for weapon_id, w in weapons.items())
+
+
+# --------------------------------------------------------------- loadout matching ---
+
+
+def test_parse_quantity() -> None:
+    from mythic_core.catalog import parse_quantity
+
+    assert parse_quantity("Two M9 Dual-Purpose Grenades") == (2, "M9 Dual-Purpose Grenades")
+    assert parse_quantity("3x Flashbang Grenade") == (3, "Flashbang Grenade")
+    assert parse_quantity("M1 Combat Knife") == (1, "M1 Combat Knife")
+    assert parse_quantity("Flashlight") == (1, "Flashlight")
+
+
+def test_match_exact_and_plural() -> None:
+    from mythic_core.catalog import match_weapons
+
+    knife = match_weapons("M1 Combat Knife")
+    assert knife.weapon is not None and knife.weapon.name.startswith("M1 Combat Knife")
+    nade = match_weapons("Two M9 Dual-Purpose Grenades")
+    assert nade.quantity == 2
+    assert nade.weapon is not None and nade.weapon.name.startswith("M9 High-Explosive")
+    assert match_weapons("Two Flashbang Grenades").weapon is not None
+    assert match_weapons("Model 52 Knife").weapon is not None
+
+
+def test_match_series_offers_every_model() -> None:
+    from mythic_core.catalog import match_weapons
+
+    ma5 = match_weapons("MA5 series Assault Rifle")
+    assert ma5.is_series and ma5.weapon is None
+    assert {w.name[:4] for w in ma5.candidates} >= {"MA5B", "MA5C", "MA5D"}
+    assert len(match_weapons("M6 series").candidates) >= 5
+
+
+def test_match_variant_falls_back_to_designation() -> None:
+    from mythic_core.catalog import match_weapons
+
+    m6i = match_weapons("M6I Carbine Variant")
+    assert m6i.weapon is not None and m6i.weapon.name.startswith("M6I")
+
+
+def test_match_ignores_non_weapon_gear() -> None:
+    from mythic_core.catalog import match_weapons
+
+    for text in ("Flashlight", "Hard Case", "Multi-Tool Kit", "Two Large Tactical Softcases"):
+        assert match_weapons(text).candidates == [], text
