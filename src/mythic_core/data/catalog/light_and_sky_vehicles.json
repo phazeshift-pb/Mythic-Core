@@ -1,0 +1,862 @@
+{
+ "source": "Light and Sky Vehicle Update",
+ "vehicles": [
+  {
+   "id": "guardian_sparrow",
+   "name": "GUARDIAN SPARROW",
+   "faction": "Guardian",
+   "cost": 320,
+   "defeat_experience": 65,
+   "movement": {
+    "accelerate": 75,
+    "brake": 50,
+    "top_speed": 360,
+    "top_speed_kmh": 220,
+    "maneuver": 75
+   },
+   "dimensions": {
+    "length_m": 3.3,
+    "width_m": 1.3,
+    "height_m": 1.0,
+    "weight_kg": 195.0
+   },
+   "size_points": 1,
+   "weapon_points": 2,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator --"
+   },
+   "breakpoints": {
+    "weapon": 30,
+    "mobility": 40,
+    "engine": 50,
+    "hull": 65
+   },
+   "armor": {
+    "front": 17,
+    "back": 15,
+    "side": 16,
+    "top": 16,
+    "bottom": 14
+   },
+   "special_rules": [
+    "Open-Top",
+    "Anti-Gravitational",
+    "Boost (5)"
+   ],
+   "armaments": [
+    {
+     "name": "Standard"
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 44
+  },
+  {
+   "id": "fallen_pike",
+   "name": "FALLEN PIKE",
+   "faction": "Fallen",
+   "cost": 380,
+   "defeat_experience": 80,
+   "movement": {
+    "accelerate": 50,
+    "brake": 50,
+    "top_speed": 360,
+    "top_speed_kmh": 220,
+    "maneuver": 65
+   },
+   "dimensions": {
+    "length_m": 3.3,
+    "width_m": 1.3,
+    "height_m": 1.0,
+    "weight_kg": 263.0
+   },
+   "size_points": 1,
+   "weapon_points": 2,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator --"
+   },
+   "breakpoints": {
+    "weapon": 30,
+    "mobility": 40,
+    "engine": 50,
+    "hull": 65
+   },
+   "armor": {
+    "front": 20,
+    "back": 18,
+    "side": 16,
+    "top": 16,
+    "bottom": 15
+   },
+   "special_rules": [
+    "Open-Top",
+    "Anti-Gravitational",
+    "Boost (3)"
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Two linked Shock Rifles",
+       "positions": [
+        "O"
+       ],
+       "quantity": 2,
+       "linked": true,
+       "weapon_id": "sicatt_workshop_shock_rifle",
+       "candidates": [
+        "sicatt_workshop_shock_rifle"
+       ]
+      }
+     ]
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 44
+  },
+  {
+   "id": "fallen_heavy_pike",
+   "name": "FALLEN HEAVY PIKE",
+   "faction": "Fallen",
+   "cost": 500,
+   "defeat_experience": 100,
+   "movement": {
+    "accelerate": 25,
+    "brake": 25,
+    "top_speed": 200,
+    "top_speed_kmh": 120,
+    "maneuver": 45
+   },
+   "dimensions": {
+    "length_m": 3.5,
+    "width_m": 1.5,
+    "height_m": 1.5,
+    "weight_kg": 755.0
+   },
+   "size_points": 1,
+   "weapon_points": 8,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator --"
+   },
+   "breakpoints": {
+    "weapon": 60,
+    "mobility": 80,
+    "engine": 100,
+    "hull": 100
+   },
+   "armor": {
+    "front": 23,
+    "back": 21,
+    "side": 20,
+    "top": 20,
+    "bottom": 24
+   },
+   "special_rules": [
+    "Open-Top",
+    "Anti-Gravitational",
+    "Boost (3)"
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Shock Cannon",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Can launch two Shock Grenades up to 50 meters",
+       "positions": [
+        "O"
+       ],
+       "weapon_id": "ali_50_110mm_autocannon_the_rotary",
+       "candidates": [
+        "ali_50_110mm_autocannon_the_rotary"
+       ]
+      }
+     ]
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 45
+  },
+  {
+   "id": "fallen_skiff",
+   "name": "FALLEN SKIFF",
+   "faction": "Fallen",
+   "cost": 1915,
+   "defeat_experience": 385,
+   "movement": {
+    "accelerate": 50,
+    "brake": 50,
+    "top_speed": 1000,
+    "top_speed_kmh": 600,
+    "maneuver": 35
+   },
+   "dimensions": {
+    "length_m": 27.8,
+    "width_m": 20.1,
+    "height_m": 11.8,
+    "weight_kg": 63000.0
+   },
+   "size_points": 10,
+   "weapon_points": 10,
+   "crew": {
+    "operators": 1,
+    "gunners": 2,
+    "passengers": 30,
+    "text": "1 Operator, 2 Gunners 30 Passengers Can carry 1 Vehicle of 6 Size Points or smaller using anti-gravity tethers."
+   },
+   "breakpoints": {
+    "weapon": 100,
+    "mobility": 160,
+    "engine": 180,
+    "optics": 150,
+    "hull": 180
+   },
+   "armor": {
+    "front": 41,
+    "back": 47,
+    "side": 55,
+    "top": 43,
+    "bottom": 41
+   },
+   "special_rules": [
+    "Flight",
+    "Heavy Plating"
+   ],
+   "mobility_systems": [
+    {
+     "kind": "jet",
+     "count": 2
+    }
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Two linked Shank Plasma Cannons with Blast (4), Kill (2).",
+       "positions": [
+        "G"
+       ],
+       "quantity": 2,
+       "linked": true
+      }
+     ]
+    }
+   ],
+   "information": "Able to become camouflaged as a Full Action, giving a -60 Penalty to spot it while Camouflaged. While Camouflaged, the Top Speeds are reduced to 300 MpT and the Maneuver is reduced to 5.",
+   "source": "Light and Sky Vehicle Update",
+   "page": 45
+  },
+  {
+   "id": "fallen_walker_tank",
+   "name": "FALLEN WALKER TANK",
+   "kind": "walker",
+   "faction": "Fallen",
+   "cost": 1250,
+   "defeat_experience": 250,
+   "dimensions": {
+    "length_m": 8.8,
+    "width_m": 4.0,
+    "height_m": 4.5,
+    "weight_kg": 22000.0
+   },
+   "size_points": 3,
+   "weapon_points": 12,
+   "crew": {
+    "operators": 1,
+    "gunners": 1,
+    "text": "1 Operator, 1 Gunner, or Servitor AI controlling both. --"
+   },
+   "breakpoints": {
+    "weapon": 120,
+    "mobility": 100,
+    "engine": 180,
+    "optics": 140,
+    "hull": 180
+   },
+   "walker_armor": {
+    "head": 48,
+    "arms": 45,
+    "chest": 50,
+    "legs": 50
+   },
+   "walker": {
+    "strength": 55,
+    "mythic_strength": 12,
+    "agility": 35,
+    "mythic_agility": 2,
+    "jump_m": 2.0,
+    "leap_m": 3.0,
+    "size_category": "Giant",
+    "reach": "+3",
+    "punch": "-- 4D10 + (Stomp), Slow Special Rule"
+   },
+   "mobility_systems": [
+    {
+     "kind": "leg",
+     "count": 6
+    }
+   ],
+   "armaments": [
+    {
+     "name": "WALKER ARMAMENT",
+     "weapons": [
+      {
+       "text": "Laser Cannon",
+       "positions": [
+        "O"
+       ],
+       "weapon_id": "m8c_grindell_galilean_nonlinear_cannon_laser_cannon",
+       "candidates": [
+        "m8c_grindell_galilean_nonlinear_cannon_laser_cannon"
+       ]
+      },
+      {
+       "text": "Missile Pod",
+       "positions": [
+        "G"
+       ],
+       "candidates": [
+        "annihilator_missile_pod",
+        "thrasher_missile_pod",
+        "anvil_ii_air_to_surface_missile_pod_the_anvil"
+       ]
+      },
+      {
+       "text": "Nose Repeater",
+       "positions": [
+        "G"
+       ]
+      }
+     ]
+    }
+   ],
+   "information": "Heavy Plating, 6 Legs Walker The Walker Tank has weak points on its legs and rear section that are at a Called Shot to strike. Attacks against these locations will bypass the Heavy Plating Special Rule. The GM may have the option to allow the Walker Tank to spawn a Shank once every 5 Turns. This increases Experience Payout by 15 Exp. The GM may also increase the amount of Shanks spawned by the Walker Tank, each additional one will add the same amount of Experience Payout of 15 Exp each.",
+   "source": "Light and Sky Vehicle Update",
+   "page": 46
+  },
+  {
+   "id": "fallen_brig",
+   "name": "FALLEN BRIG",
+   "kind": "walker",
+   "faction": "Fallen",
+   "cost": 1120,
+   "defeat_experience": 225,
+   "dimensions": {
+    "length_m": 2.8,
+    "width_m": 5.8,
+    "height_m": 5.7,
+    "weight_kg": 11200.0
+   },
+   "size_points": 3,
+   "weapon_points": 8,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator or Servitor AI --"
+   },
+   "breakpoints": {
+    "weapon": 60,
+    "mobility": 110,
+    "engine": 60,
+    "optics": 70,
+    "hull": 150
+   },
+   "walker_armor": {
+    "head": 40,
+    "arms": 38,
+    "chest": 40,
+    "legs": 38
+   },
+   "walker": {
+    "strength": 35,
+    "mythic_strength": 12,
+    "agility": 50,
+    "mythic_agility": 3,
+    "jump_m": 6.0,
+    "leap_m": 12.0,
+    "size_category": "Immense",
+    "reach": "+4",
+    "punch": "-- 4D10 + (Stomp), Slow Special Rule"
+   },
+   "special_rules": [
+    "Heavy Plating"
+   ],
+   "mobility_systems": [
+    {
+     "kind": "leg",
+     "count": 2
+    }
+   ],
+   "armaments": [
+    {
+     "name": "BRIG ARMAMENT",
+     "weapons": [
+      {
+       "text": "Death Cannon (Left Arm)",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Electrocution Bolt (Back-mounted)",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Spitfire (Right Arm)",
+       "positions": [
+        "O"
+       ]
+      }
+     ]
+    }
+   ],
+   "information": "The Brig has weak points on its legs and rear section that are at a Called Shot to strike. Attacks against these locations will bypass the Heavy Plating Special Rule. The Brig has Thruster Units allowing it to thrust 8 meters in a chosen direction, including straight up where it flies up to 10 meters into the air and hovers for up to 2 Turns. While hovering midair, the Brig can’t thrust until it lands. The Brig has a 2 Turn recharge between uses of the Thruster Unit.",
+   "source": "Light and Sky Vehicle Update",
+   "page": 46
+  },
+  {
+   "id": "fallen_factory_brig",
+   "name": "FALLEN FACTORY BRIG",
+   "kind": "walker",
+   "faction": "Fallen",
+   "cost": 2065,
+   "defeat_experience": 415,
+   "dimensions": {
+    "length_m": 5.4,
+    "width_m": 6.3,
+    "height_m": 10.7,
+    "weight_kg": 40000.0
+   },
+   "size_points": 3,
+   "weapon_points": 8,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator or Servitor AI --"
+   },
+   "breakpoints": {
+    "weapon": 150,
+    "mobility": 300,
+    "engine": 225,
+    "optics": 200,
+    "hull": 300
+   },
+   "walker_armor": {
+    "head": 45,
+    "arms": 48,
+    "chest": 50,
+    "legs": 40
+   },
+   "walker": {
+    "strength": 55,
+    "mythic_strength": 16,
+    "agility": 20,
+    "mythic_agility": 4,
+    "jump_m": 6.0,
+    "leap_m": 12.0,
+    "size_category": "Immense",
+    "reach": "+4",
+    "punch": "-- 6D10 + (Stomp), Slow Special Rule"
+   },
+   "special_rules": [
+    "Heavy Plating"
+   ],
+   "mobility_systems": [
+    {
+     "kind": "leg",
+     "count": 2
+    }
+   ],
+   "armaments": [
+    {
+     "name": "BRIG ARMAMENT",
+     "weapons": [
+      {
+       "text": "Death Cannon (Left Arm)",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Electrocution Bolt (Chest-mounted)",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Spitfire (Right Arm)",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Annihilation Blaster (Back-mounted)",
+       "positions": [
+        "O"
+       ]
+      }
+     ]
+    }
+   ],
+   "information": "The Brig has weak points on its legs and rear section that are at a Called Shot to strike. Attacks against these locations will bypass the Heavy Plating Special Rule. The Brig has Thruster Units allowing it to thrust 8 meters in a chosen direction, including straight up where it flies up to 10 meters into the air and hovers for up to 2 Turns. While hovering midair, the Brig can’t thrust until it lands. The Brig has a 2 Turn recharge between uses of the Thruster Unit.",
+   "source": "Light and Sky Vehicle Update",
+   "page": 47
+  },
+  {
+   "id": "cabal_harvester",
+   "name": "CABAL HARVESTER",
+   "faction": "Cabal",
+   "cost": 1260,
+   "defeat_experience": 250,
+   "movement": {
+    "accelerate": 50,
+    "brake": 50,
+    "top_speed": 1000,
+    "top_speed_kmh": 600,
+    "maneuver": 35
+   },
+   "dimensions": {
+    "length_m": 27.8,
+    "width_m": 20.1,
+    "height_m": 11.8,
+    "weight_kg": 63000.0
+   },
+   "size_points": 10,
+   "weapon_points": 10,
+   "crew": {
+    "operators": 1,
+    "gunners": 2,
+    "passengers": 12,
+    "text": "1 Operator, 2 Gunners 12 Passengers Can carry 1 Vehicle of 6 Size Points or smaller using anti-gravity tethers."
+   },
+   "breakpoints": {
+    "weapon": 100,
+    "mobility": 160,
+    "engine": 180,
+    "optics": 150,
+    "hull": 180
+   },
+   "armor": {
+    "front": 41,
+    "back": 47,
+    "side": 55,
+    "top": 43,
+    "bottom": 41
+   },
+   "special_rules": [
+    "Flight",
+    "Heavy Plating"
+   ],
+   "mobility_systems": [
+    {
+     "kind": "jet",
+     "count": 4
+    }
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Cabal Rocket Pod",
+       "positions": [
+        "G"
+       ]
+      },
+      {
+       "text": "Cabal Rocket Pod",
+       "positions": [
+        "G"
+       ]
+      }
+     ]
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 47
+  },
+  {
+   "id": "cabal_thresher",
+   "name": "CABAL THRESHER",
+   "faction": "Cabal",
+   "cost": 490,
+   "defeat_experience": 100,
+   "movement": {
+    "accelerate": 50,
+    "brake": 50,
+    "top_speed": 500,
+    "top_speed_kmh": 300,
+    "maneuver": 50
+   },
+   "dimensions": {
+    "length_m": 7.6,
+    "width_m": 4.8,
+    "height_m": 5.0,
+    "weight_kg": 8000.0
+   },
+   "size_points": 3,
+   "weapon_points": 8,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator --"
+   },
+   "breakpoints": {
+    "weapon": 50,
+    "mobility": 50,
+    "engine": 65,
+    "optics": 75,
+    "hull": 100
+   },
+   "armor": {
+    "front": 23,
+    "back": 28,
+    "side": 27,
+    "top": 22,
+    "bottom": 24
+   },
+   "special_rules": [
+    "Flight",
+    "Heavy Plating"
+   ],
+   "mobility_systems": [
+    {
+     "kind": "jet",
+     "count": 4
+    }
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Cabal Rocket Pod",
+       "positions": [
+        "G"
+       ]
+      }
+     ]
+    }
+   ],
+   "information": "The Thresher has weak points on its wings and rear section that are at a Called Shot to strike. Attacks against these locations will bypass the Heavy Plating Special Rule.",
+   "source": "Light and Sky Vehicle Update",
+   "page": 48
+  },
+  {
+   "id": "cabal_interceptor",
+   "name": "CABAL INTERCEPTOR",
+   "faction": "Cabal",
+   "cost": 480,
+   "defeat_experience": 95,
+   "movement": {
+    "accelerate": 20,
+    "brake": 20,
+    "top_speed": 200,
+    "top_speed_kmh": 120,
+    "maneuver": 30
+   },
+   "dimensions": {
+    "length_m": 4.6,
+    "width_m": 2.3,
+    "height_m": 1.9,
+    "weight_kg": 3700.0
+   },
+   "size_points": 1,
+   "weapon_points": 8,
+   "crew": {
+    "operators": 1,
+    "text": "1 Operator --"
+   },
+   "breakpoints": {
+    "weapon": 75,
+    "mobility": 95,
+    "engine": 120,
+    "hull": 120
+   },
+   "armor": {
+    "front": 30,
+    "back": 25,
+    "side": 28,
+    "top": 24,
+    "bottom": 30
+   },
+   "special_rules": [
+    "Open-Top",
+    "Anti-Gravitational",
+    "Boost (3)"
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Two Linked Cabal Light Rocket Pods",
+       "positions": [
+        "O"
+       ],
+       "quantity": 2,
+       "linked": true
+      }
+     ]
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 48
+  },
+  {
+   "id": "cabal_goliath",
+   "name": "CABAL GOLIATH",
+   "faction": "Cabal",
+   "cost": 1145,
+   "defeat_experience": 230,
+   "movement": {
+    "accelerate": 20,
+    "brake": 20,
+    "top_speed": 200,
+    "top_speed_kmh": 120,
+    "maneuver": 10
+   },
+   "dimensions": {
+    "length_m": 9.0,
+    "width_m": 6.8,
+    "height_m": 4.9,
+    "weight_kg": 33700.0
+   },
+   "size_points": 4,
+   "weapon_points": 12,
+   "crew": {
+    "operators": 1,
+    "gunners": 2,
+    "text": "1 Operator, 2 Gunner --"
+   },
+   "breakpoints": {
+    "weapon": 120,
+    "mobility": 100,
+    "engine": 180,
+    "optics": 140,
+    "hull": 180
+   },
+   "armor": {
+    "front": 45,
+    "back": 35,
+    "side": 38,
+    "top": 38,
+    "bottom": 30
+   },
+   "special_rules": [
+    "Heavy Plating",
+    "Anti-Gravitational",
+    "Boost (2)"
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Cabal Main Cannon",
+       "positions": [
+        "G"
+       ]
+      },
+      {
+       "text": "Cabal Slug Repeater",
+       "positions": [
+        "O"
+       ]
+      },
+      {
+       "text": "Cabal Missile Swarm",
+       "positions": [
+        "G"
+       ]
+      }
+     ]
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 49
+  },
+  {
+   "id": "hive_tombship",
+   "name": "HIVE TOMBSHIP",
+   "faction": "Hive",
+   "cost": 1225,
+   "defeat_experience": 245,
+   "movement": {
+    "accelerate": 100,
+    "brake": 100,
+    "top_speed": 1000,
+    "top_speed_kmh": 600,
+    "maneuver": 20
+   },
+   "dimensions": {
+    "length_m": 27.8,
+    "width_m": 11.8,
+    "height_m": 20.1,
+    "weight_kg": 63000.0
+   },
+   "size_points": 10,
+   "weapon_points": 10,
+   "crew": {
+    "operators": 1,
+    "gunners": 2,
+    "passengers": 20,
+    "text": "1 Operator, 2 Gunners 20 Passengers Can carry 1 Vehicle of 6 Size Points or smaller using anti-gravity tethers."
+   },
+   "breakpoints": {
+    "weapon": 100,
+    "mobility": 160,
+    "engine": 180,
+    "optics": 150,
+    "hull": 180
+   },
+   "armor": {
+    "front": 47,
+    "back": 41,
+    "side": 55,
+    "top": 40,
+    "bottom": 45
+   },
+   "special_rules": [
+    "Flight",
+    "Heavy Plating"
+   ],
+   "mobility_systems": [
+    {
+     "kind": "jet",
+     "count": 4
+    }
+   ],
+   "armaments": [
+    {
+     "name": "Standard",
+     "weapons": [
+      {
+       "text": "Hive Energy Cannon",
+       "positions": [
+        "G"
+       ]
+      },
+      {
+       "text": "Hive Energy Cannon",
+       "positions": [
+        "G"
+       ]
+      }
+     ]
+    }
+   ],
+   "source": "Light and Sky Vehicle Update",
+   "page": 49
+  }
+ ]
+}

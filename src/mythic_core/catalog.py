@@ -1,6 +1,8 @@
-"""The weapon catalog: every weapon from ``data/catalog/*weapons*.json``, by ID.
+"""The catalogs: weapons (``data/catalog/*weapons*.json``) and vehicles
+(``data/catalog/*vehicles*.json``), by ID.
 
-Built from the rulebook by ``tools/import_weapons.py``. Loaded once and cached.
+Built from the rulebooks by ``tools/import_weapons.py`` and ``tools/import_vehicles.py``.
+Loaded once and cached.
 """
 
 import re
@@ -8,6 +10,7 @@ from functools import cache
 from typing import NamedTuple
 
 from mythic_core.data import data_path, load_json
+from mythic_core.models.vehicles import Vehicle, VehicleKind
 from mythic_core.models.weapons import Weapon
 
 
@@ -139,3 +142,42 @@ def match_weapons(text: str) -> WeaponMatch:
     if candidates and all(w in _GENERIC for w in wanted):
         candidates = []
     return WeaponMatch(text.strip(), quantity, candidates, is_series)
+
+
+# ------------------------------------------------------------------ vehicles ---
+
+
+@cache
+def vehicles() -> dict[str, Vehicle]:
+    catalog: dict[str, Vehicle] = {}
+    for path in sorted(data_path("catalog").glob("*vehicles*.json")):
+        for record in load_json("catalog", path.name)["vehicles"]:
+            item = Vehicle.model_validate(record)
+            if item.id in catalog:
+                raise ValueError(f"Duplicate vehicle id {item.id!r} in {path.name}")
+            catalog[item.id] = item
+    return catalog
+
+
+def vehicle(vehicle_id: str) -> Vehicle:
+    try:
+        return vehicles()[vehicle_id]
+    except KeyError:
+        raise KeyError(f"No vehicle with id {vehicle_id!r}") from None
+
+
+def find_vehicles(
+    query: str = "", *, faction: str | None = None, kind: VehicleKind | None = None
+) -> list[Vehicle]:
+    """Vehicles whose name or category contains every word of ``query`` (any case)."""
+    words = query.casefold().split()
+    found = []
+    for item in vehicles().values():
+        if faction is not None and item.faction.casefold() != faction.casefold():
+            continue
+        if kind is not None and item.kind is not kind:
+            continue
+        haystack = f"{item.name} {item.category}".casefold()
+        if all(word in haystack for word in words):
+            found.append(item)
+    return sorted(found, key=lambda v: v.name.casefold())

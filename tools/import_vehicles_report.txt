@@ -1,0 +1,5 @@
+Mythic 7.0 CU1: 193 records {'turret': 29, 'vehicle': 142, 'walker': 22}
+Light and Sky Vehicle Update: 12 records {'vehicle': 9, 'walker': 3}
+Armament weapon lines matching catalog weapons: 416 of 464
+
+PROBLEMS

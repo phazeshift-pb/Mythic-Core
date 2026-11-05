@@ -1,6 +1,24 @@
 """Shared Pydantic models."""
 
 from mythic_core.models.protection import ArmorLocation, ArmorRating, EnergyShield
+from mythic_core.models.vehicles import (
+    ArmamentVariant,
+    ArmamentWeapon,
+    ArmorFacing,
+    Breakpoints,
+    Component,
+    Crew,
+    Dimensions,
+    MobilityKind,
+    MobilitySystem,
+    Movement,
+    Vehicle,
+    VehicleArmor,
+    VehicleKind,
+    VehicleSection,
+    WalkerStats,
+    WeaponPosition,
+)
 from mythic_core.models.weapons import (
     Capacity,
     CapacityKind,
@@ -13,15 +31,31 @@ from mythic_core.models.weapons import (
 )
 
 __all__ = [
+    "ArmamentVariant",
+    "ArmamentWeapon",
+    "ArmorFacing",
     "ArmorLocation",
     "ArmorRating",
+    "Breakpoints",
     "Capacity",
     "CapacityKind",
+    "Component",
+    "Crew",
+    "Dimensions",
     "EnergyShield",
     "EquipmentItem",
     "FiringMode",
+    "MobilityKind",
+    "MobilitySystem",
+    "Movement",
     "RangeBand",
     "SpecialRule",
     "StrengthBonus",
+    "Vehicle",
+    "VehicleArmor",
+    "VehicleKind",
+    "VehicleSection",
+    "WalkerStats",
     "Weapon",
+    "WeaponPosition",
 ]

@@ -8,8 +8,8 @@ Mythic DM Tools. No Qt dependency, so every app and its tests can use it.
 |--------|--------------|
 | `mythic_core.characteristics` | `Characteristic` enum (STR … LDR), full names, `Characteristic.parse("Agility")` |
 | `mythic_core.dice` | `DiceRoll` (`"4D10+12"` ↔ model, validates straight from JSON), rolling, Special Damage max-face count |
-| `mythic_core.models` | Shared Pydantic models: `ArmorRating`, `EnergyShield`, `Weapon` (+ `FiringMode`, `RangeBand`, `Capacity`, `SpecialRule`), `EquipmentItem` |
-| `mythic_core.catalog` | The weapon catalog: `weapons()`, `weapon(id)`, `find_weapons("plasma pistol", faction="Covenant")` |
+| `mythic_core.models` | Shared Pydantic models: `ArmorRating`, `EnergyShield`, `Weapon` (+ `FiringMode`, `RangeBand`, `Capacity`, `SpecialRule`), `EquipmentItem`, `Vehicle` (+ `Breakpoints`, `VehicleArmor`, `Movement`, `Crew`, `ArmamentVariant`, `WalkerStats`) |
+| `mythic_core.catalog` | The catalogs: `weapons()`, `weapon(id)`, `find_weapons("plasma pistol", faction="Covenant")`, `match_weapons(text)`; `vehicles()`, `vehicle(id)`, `find_vehicles("scorpion", kind=VehicleKind.WALKER)` |
 | `mythic_core.rules` | Pure rule functions: characteristic modifier, max wounds, fatigue, initiative bonus |
 | `mythic_core.data` | The rules JSON (`data_root()`, `load_json(...)`); layout in `docs/data_schema.md` |
 
@@ -44,6 +44,34 @@ Known limitations:
 - Weapons printed inside bestiary entries are not in the catalog; they belong to those entries.
 - Conditional or prose rules (e.g. "+5 Base Damage per Half Action charged") stay in
   `description`; only plain Special Rules are structured.
+
+## Vehicle catalog
+
+`src/mythic_core/data/catalog/core_vehicles.json` and `light_and_sky_vehicles.json` are
+generated the same way, by `tools/import_vehicles.py`:
+
+```powershell
+uv run python tools/import_vehicles.py "path\to\Mythic 7.0 CU1.txt" "path\to\Light and Sky.txt"
+```
+
+205 records (core: 142 vehicles, 22 walkers, 29 automated turrets and gun pods; Light and
+Sky: 9 vehicles, 3 walkers), each validated against `Vehicle`. A record holds cost and Defeat
+Experience, movement (MpT), dimensions, Size/Weapon points, crew and passengers, Breakpoints
+per component, directional armor (or Head/Arms/Chest/Legs for walkers), energy shield,
+walker characteristics and melee, special rules (checked against the book's Vehicle Special
+Rules), mobility systems ("4 Wheel Vehicle" -> 4 wheels), named rules sections, and every
+armament variant with its weapons (position tags `[O]`/`[G]`/`[C]`, count, linked, and the
+matching catalog weapon when there is exactly one). `tools/import_vehicles_report.txt` lists
+anything it couldn't read (currently nothing).
+
+Known limitations:
+
+- Variant descriptions (e.g. the Warthog GT's "250 MpT Top Speed, 18 Armor") stay as text in
+  the variant's `notes`; the vehicle's base numbers aren't changed.
+- About 50 armament weapon lines have no catalog weapon yet (Light and Sky's own vehicle
+  weapons, and the weapons the weapon importer skips).
+- Vehicle *weapons* printed in Light and Sky's "unique vehicle weapons" tables aren't
+  imported yet.
 
 ## Using it from an app
 
