@@ -1,5 +1,9 @@
 # Mythic Core
 
+> **This repository has moved.** Since 2026-11-05 it lives in the private Mythic Suite monorepo,
+> [phazeshift-pb/Mythic-Suite](https://github.com/phazeshift-pb/Mythic-Suite), in `packages/mythic-core/`,
+> with its full history. This repository is archived (read-only); don't make changes here.
+
 Shared rules data, types and pure rule functions for Mythic TTRPG tools: the
 [character manager](https://github.com/phazeshift-pb/Mythic-TTRPG-Character-Gen) and
 Mythic DM Tools. No Qt dependency, so every app and its tests can use it.
